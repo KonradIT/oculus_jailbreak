@@ -103,3 +103,15 @@ https://twitter.com/arobertlong/status/1320782260753199104
 "Sources suggest the first reported Oculus Quest 2 jailbreak is almost certainly not real."
 https://twitter.com/UploadVR/status/1326933213701345282
 
+### Public firmware sources
+
+"Want the new Quest 2 90hz update now? Skip the wait! Sideload it!"
+https://www.reddit.com/r/OculusQuest/comments/jtrrsc/want_the_new_quest_2_90hz_update_now_skip_the/
+
+https://drive.google.com/file/d/1cE-tkpoy7IDY4hfMPbhh6Q4ORZvZ18qr/view
+https://drive.google.com/file/d/1DtnQp-Bz2y6OpGghLeRBQqPbnQVeRRxg/view
+
+Payload Dumper can extract the payload.bin within the update files. 
+payload_dumper_tool_by_ius.zip - https://drive.google.com/file/d/1QpsywAbNroDKEDz4TytQl8UlK6v2gJSi/view
+
+
