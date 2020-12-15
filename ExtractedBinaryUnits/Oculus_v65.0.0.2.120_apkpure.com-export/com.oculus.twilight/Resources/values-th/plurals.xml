@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">เหลืออีก %1$d ภาพ</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s และรายการอื่นๆ อีก %2$d รายการ</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">การสนทนายังไม่ได้อ่าน %1$s รายการ</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">สมาชิก %1$d คน</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">ให้คะแนน %1$d ดาว</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d การแจ้งเตือน</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s, %2$d รายการใหม่</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%1$d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d เดือน</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d สัปดาห์</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">อีก %1$d วัน</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">อีก %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">อีก %1$d นาที</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">อีก %1$d เดือน</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">อีก %1$d วินาที</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">อีก %1$d สัปดาห์</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">อีก %1$d ปี</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d ปี</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d ชม.</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="other">%1$d ชม.</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d ชม.</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">%1$d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">%1$d ชั่วโมงจากนี้</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">%1$d นาทีจากนี้</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">%1$d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">%1$d เดือนที่แล้ว</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">%1$d วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">%1$d สัปดาห์ที่แล้ว</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="other">เหลืออีก %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="other">เหลืออีก %1$d นาที</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">%1$d ปีที่แล้ว</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">คุณเข้าใช้งานเมื่อ %1$d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">คุณเข้าใช้งานเมื่อ %1$d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">คุณเข้าใช้งานเมื่อ %1$d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">คุณเข้าใช้งานเมื่อ %1$d เดือนที่แล้ว</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">คุณเข้าใช้งานเมื่อ %1$d สัปดาห์ที่แล้ว</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">คุณเข้าใช้งานเมื่อ %1$d ปีที่แล้ว</item>
+    </plurals>
+</resources>

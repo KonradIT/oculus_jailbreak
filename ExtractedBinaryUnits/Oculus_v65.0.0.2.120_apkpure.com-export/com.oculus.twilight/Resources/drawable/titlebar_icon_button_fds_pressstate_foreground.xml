@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/titlebar_icon_button_fds_pressstate_foreground" android:shape="1">
+    <solid android:color="@color/fds_gray_30"/>
+    <size android:height="44.0dp" android:width="44.0dp"/>
+</shape>

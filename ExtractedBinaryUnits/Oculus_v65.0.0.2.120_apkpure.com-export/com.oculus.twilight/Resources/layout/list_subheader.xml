@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/title" android:layout_width="-1" android:layout_height="48.0dp" style="?com.oculus.twilight:attr/listSubHeaderStyle"/>

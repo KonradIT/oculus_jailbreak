@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x11" android:orientation="1" android:padding="10.0dp" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/dsm_money_jar" android:layout_width="100.0dp" android:layout_height="100.0dp" android:layout_margin="12.0dp" android:src="@drawable/dsm_money_jar" android:scaleType="1"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textStyle="0x1" android:textColor="@color/dsm_dark_text" android:gravity="0x11" android:id="@id/lite_as_dsm_headline" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="7.0dp" android:layout_marginRight="7.0dp" android:layout_marginBottom="18.0dp" android:text="@string/lite_as_dsm_headline"/>
+        <com.facebook.resources.ui.FbButton android:id="@id/switch_now_button" android:layout_width="-1" android:layout_height="0.0dp" android:layout_margin="8.0dp" android:text="@string/switch_now_button_text" android:layout_weight="0.5" android:textAllCaps="true" style="?com.oculus.twilight:attr/buttonPrimaryLarge"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:gravity="0x11" android:id="@id/switch_back_message" android:paddingBottom="15.0dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="6.0dp" android:layout_marginRight="6.0dp" android:text="@string/lite_as_dsm_mode_switch_back_text"/>
+    </LinearLayout>
+    <View android:background="@android:color/darker_gray" android:layout_width="-1" android:layout_height="6.0dp"/>
+    <include android:id="@id/embedded_dsm_settings" layout="@layout/dsm_settings_header"/>
+</LinearLayout>

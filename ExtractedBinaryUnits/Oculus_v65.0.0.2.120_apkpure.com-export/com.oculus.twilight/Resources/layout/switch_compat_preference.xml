@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.widget.SwitchCompat xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/checkbox" android:paddingLeft="2.0dp" android:paddingRight="2.0dp" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" style="?com.oculus.twilight:attr/switchCompatStyle"/>

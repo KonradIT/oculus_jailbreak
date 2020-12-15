@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="0">
+    <solid android:color="@color/rap_background_color"/>
+</shape>

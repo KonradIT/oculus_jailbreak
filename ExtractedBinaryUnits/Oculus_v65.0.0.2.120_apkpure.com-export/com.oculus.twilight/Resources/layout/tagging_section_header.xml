@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@color/fig_usage_mobile_wash" android:paddingLeft="@dimen/mentions_item_horizontal_padding" android:paddingTop="@dimen/mentions_item_vertical_padding" android:paddingRight="@dimen/mentions_item_horizontal_padding" android:paddingBottom="@dimen/mentions_item_vertical_padding" android:layout_width="-1" android:layout_height="@dimen/mentions_header_height">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="0x1" android:textColor="?com.oculus.twilight:attr/fds_usage_secondary_text" android:id="@id/title" android:layout_width="-2" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_tiny" android:textColor="@drawable/blue_text_color" android:id="@id/subtitle" android:layout_width="-2" android:layout_height="-2"/>
+</LinearLayout>

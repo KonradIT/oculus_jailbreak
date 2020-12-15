@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:ellipsize="4" android:gravity="0x10" android:id="@id/fb_fork_text1" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="48.0dp" style="?com.oculus.twilight:attr/alertDialogListItemStyle"/>

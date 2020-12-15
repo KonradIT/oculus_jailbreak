@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false" android:constantSize="true">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/fbui_pressed_list_item_dark_bg"/>
+            <corners android:radius="@dimen/fbui_button_corner_radius"/>
+            <padding android:left="12.0dp" android:top="12.0dp" android:right="12.0dp" android:bottom="12.0dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#00000000"/>
+            <padding android:left="12.0dp" android:top="12.0dp" android:right="12.0dp" android:bottom="12.0dp"/>
+        </shape>
+    </item>
+</selector>

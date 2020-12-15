@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d biedri</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d dienas</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d dienas</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">Pirms %1$d h</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">Pirms %1$d min</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">Pirms %1$d sek.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.appcompat.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:ellipsize="3" android:layout_gravity="0x800003" android:id="@id/title" android:paddingLeft="?com.oculus.twilight:attr/dialogPreferredPadding" android:paddingTop="@dimen/abc_dialog_padding_top_material" android:paddingRight="?com.oculus.twilight:attr/dialogPreferredPadding" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:textAlignment="5" style="?android:attr/windowTitleStyle"/>
+    <include android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" layout="@layout/abc_screen_content_include"/>
+</androidx.appcompat.widget.FitWindowsLinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d படம் மீதமுள்ளது</item>
+        <item quantity="other">%1$d படங்கள் மீதமுள்ளது</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s மற்றும் வேறு 1</item>
+        <item quantity="other">%1$s மற்றும் %2$d ஆகியவை</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 படிக்காத உரையாடல்</item>
+        <item quantity="other">%1$s படிக்காத உரையாடல்கள்</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 உறுப்பினர்</item>
+        <item quantity="other">%1$d உறுப்பினர்கள்</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">ஒரு நட்சத்திரத்தை மதிப்பிடவும்</item>
+        <item quantity="other">%1$d நட்சத்திரங்களை மதிப்பிடவும்</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d அறிவிப்பு</item>
+        <item quantity="other">%1$d அறிவிப்புகள்</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 புதியது</item>
+        <item quantity="other">%1$s, %2$d புதிது</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 நாள் முன்பு</item>
+        <item quantity="other">%1$d நாட்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 நாள்</item>
+        <item quantity="other">%1$d நாட்கள்</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 நாள்</item>
+        <item quantity="other">%1$d நாட்கள்</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 மணிநேரம்</item>
+        <item quantity="other">%1$d மணிநேரம்</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 நிமிடம்</item>
+        <item quantity="other">%1$d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 மாதம்</item>
+        <item quantity="other">%1$d மாதங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 வினாடி</item>
+        <item quantity="other">%1$d வினாடிகள்</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 வாரம்</item>
+        <item quantity="other">%1$d வாரங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">மேலும் 1 நாள்</item>
+        <item quantity="other">மேலும் %1$d நாட்கள்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">மேலும் 1 மணிநேரம்</item>
+        <item quantity="other">மேலும் %1$d மணிநேரம்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">மேலும் 1 நிமிடம்</item>
+        <item quantity="other">மேலும் %1$d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">மேலும் 1 மாதம்</item>
+        <item quantity="other">மேலும் %1$d மாதங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">மேலும் 1 நொடி</item>
+        <item quantity="other">மேலும் %1$d நொடிகள்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">மேலும் 1 வாரம்</item>
+        <item quantity="other">மேலும் %1$d வாரங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">மேலும் 1 வருடம்</item>
+        <item quantity="other">மேலும் %1$d வருடங்கள்</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 வருடம்</item>
+        <item quantity="other">%1$d ஆண்டுகள்</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">ஒரு மணிநேரத்திற்கு முன்பு</item>
+        <item quantity="other">%1$d மணிநேரத்திற்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">ஒரு மநே</item>
+        <item quantity="other">%1$d மணிநேரம்</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1மநே</item>
+        <item quantity="other">%1$dமநே</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 ம.நே.</item>
+        <item quantity="other">%1$d மணிநேரம்</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 மணிநேரத்திற்கு முன்பு</item>
+        <item quantity="other">%1$d மணிநேரத்திற்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">ஒரு மணிநேரம் உள்ளது</item>
+        <item quantity="other">%1$d மணிநேரம் உள்ளன</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">ஒரு நிமிடம் உள்ளது</item>
+        <item quantity="other">%1$d நிமிடங்கள் உள்ளன</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 நிமிடத்திற்கு முன்பு</item>
+        <item quantity="other">%1$d நிமிடங்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">ஒரு நிமிடத்திற்கு முன்பு</item>
+        <item quantity="other">%1$d நிமிடங்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">ஒரு நிமிடம்</item>
+        <item quantity="other">%1$d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1நி</item>
+        <item quantity="other">%1$dநி</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 மாதம் முன்பு</item>
+        <item quantity="other">%1$d மாதங்கள் முன்பு</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">ஒரு வினாடி</item>
+        <item quantity="other">%1$d வினாடிகளுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 வாரத்திற்கு முன்பு</item>
+        <item quantity="other">%1$d வாரங்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 ம.நே மீதமுள்ளது</item>
+        <item quantity="other">%1$d மணி நேரம் இன்னும் இருக்கிறது</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 நிமிடம் மீதமுள்ளது</item>
+        <item quantity="other">%1$d நிமிடங்கள் இன்னும் இருக்கின்றன</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 வருடத்திற்கு முன்பு</item>
+        <item quantity="other">%1$d வருடங்களுக்கு முன்பு</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">நேற்று பார்த்துள்ளீர்கள்</item>
+        <item quantity="other">%1$d நாட்களுக்கு முன்பு பார்த்துள்ளீர்கள்</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">1 மணிநேரத்திற்கு முன்பு பார்த்துள்ளீர்கள்</item>
+        <item quantity="other">%1$d மணிநேரத்திற்கு முன்பு பார்த்துள்ளீர்கள்</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">1 நிமிடத்திற்கு முன்பு பார்த்துள்ளீர்கள்</item>
+        <item quantity="other">%1$d நிமிடத்திற்கு முன்பு பார்த்துள்ளீர்கள்</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">1 மாதத்திற்கு முன்பு பார்த்துள்ளீர்கள்</item>
+        <item quantity="other">%1$d மாதங்களுக்கு முன்பு பார்த்துள்ளீர்கள்</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">1 வாரத்திற்கு முன்பு வருகை பார்த்துள்ளீர்கள்</item>
+        <item quantity="other">%1$d வாரங்களுக்கு முன்பு பார்த்துள்ளீர்கள்</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">1 வருடத்திற்கு முன்பு பார்த்துள்ளீர்கள்</item>
+        <item quantity="other">%1$d ஆண்டுகளுக்கு முன்பு பார்த்துள்ளீர்கள்</item>
+    </plurals>
+</resources>

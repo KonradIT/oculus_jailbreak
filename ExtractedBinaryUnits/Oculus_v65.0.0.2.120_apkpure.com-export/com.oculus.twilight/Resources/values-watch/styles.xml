@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <style name="Base.Theme.AppCompat.Dialog">
+        <enum name="android:attr/windowIsFloating" value="false" />
+        <enum name="android:attr/windowElevation" value="0.0dp" />
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+        <enum name="android:attr/windowIsFloating" value="false" />
+        <enum name="android:attr/windowElevation" value="0.0dp" />
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog">
+        <enum name="android:attr/windowIsFloating" value="false" />
+        <enum name="android:attr/windowElevation" value="0.0dp" />
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="4.0dp" android:end="4.0dp">
+        <bitmap android:gravity="0x800015" android:src="@drawable/fbui_spinner_nub" android:antialias="true" android:tileMode="-1"/>
+    </item>
+    <item android:drawable="@drawable/fbui_spinner_base_pressed"/>
+</layer-list>

@@ -1,0 +1,2 @@
+.root_relative
+classes2.dex acd840a5b675bf3a77cb1d4410976bcfb204ce7e secondary.dex01.Canary

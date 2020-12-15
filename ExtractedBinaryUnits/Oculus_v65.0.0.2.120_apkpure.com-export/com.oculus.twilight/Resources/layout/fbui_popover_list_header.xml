@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/fbui_popover_list_item_view_horizontal_padding" android:paddingRight="@dimen/fbui_popover_list_item_view_horizontal_padding" android:layout_width="-1" android:layout_height="@dimen/fbui_popover_list_header_height" style="?com.oculus.twilight:attr/popoverMenuWindowHeaderStyle"/>

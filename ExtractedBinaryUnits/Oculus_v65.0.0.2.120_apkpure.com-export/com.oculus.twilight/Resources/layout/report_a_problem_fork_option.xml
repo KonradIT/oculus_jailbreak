@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/fork_item_text_view" style="@style/ReportAProblem.ListViewItem"/>

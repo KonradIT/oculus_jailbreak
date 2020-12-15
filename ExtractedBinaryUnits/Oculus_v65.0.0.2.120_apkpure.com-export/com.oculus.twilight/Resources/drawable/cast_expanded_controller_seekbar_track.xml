@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@drawable/cast_abc_scrubber_primary_mtrl_alpha"/>
+    <item android:id="@android:id/secondaryProgress">
+        <scale android:drawable="@drawable/cast_abc_scrubber_primary_mtrl_alpha" android:scaleWidth="100%"/>
+    </item>
+    <item android:id="@android:id/progress">
+        <scale android:drawable="@drawable/cast_abc_scrubber_primary_mtrl_alpha" android:scaleWidth="100%"/>
+    </item>
+</layer-list>

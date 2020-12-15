@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <style name="Base.Theme.AppCompat"></style>
+    <style name="Base.Theme.AppCompat.Light"></style>
+    <style name="Base.V28.Theme.AppCompat">
+        <enum name="com.oculus.twilight:attr/dialogCornerRadius" value="?android:attr/dialogCornerRadius" />
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light">
+        <enum name="com.oculus.twilight:attr/dialogCornerRadius" value="?android:attr/dialogCornerRadius" />
+    </style>
+</resources>

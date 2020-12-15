@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textAppearance="@style/TextAppearance.MediaRouter.Title" android:ellipsize="3" android:gravity="0x10" android:id="@id/mr_chooser_title" android:paddingLeft="24.0dp" android:paddingRight="24.0dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="64.0dp" android:text="@string/mr_chooser_title" android:singleLine="true"/>
+    <ListView android:id="@id/mr_chooser_list" android:layout_width="-1" android:layout_height="-2" android:divider="@android:color/transparent" android:dividerHeight="0.0dp"/>
+    <LinearLayout android:orientation="1" android:id="@android:id/empty" android:paddingLeft="16.0dp" android:paddingTop="90.0dp" android:paddingRight="16.0dp" android:visibility="2" android:layout_width="-1" android:layout_height="240.0dp">
+        <TextView android:textAppearance="@style/TextAppearance.MediaRouter.SecondaryText" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="@string/mr_chooser_searching"/>
+        <ProgressBar android:layout_gravity="0x11" android:layout_width="150.0dp" android:layout_height="-2" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal"/>
+    </LinearLayout>
+</LinearLayout>

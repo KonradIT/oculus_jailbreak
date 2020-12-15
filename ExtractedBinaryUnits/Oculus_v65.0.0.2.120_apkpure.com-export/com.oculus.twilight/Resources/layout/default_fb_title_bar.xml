@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="0" android:background="@drawable/title_bar_background" android:layout_width="-1" android:layout_height="-2">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fds_white" android:id="@id/title_text_view" android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="-2" android:layout_weight="1.0"/>
+    <ImageButton android:id="@id/image_button" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fds_white" android:id="@id/text_button" android:background="@color/fds_transparent" android:padding="10.0dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+</LinearLayout>

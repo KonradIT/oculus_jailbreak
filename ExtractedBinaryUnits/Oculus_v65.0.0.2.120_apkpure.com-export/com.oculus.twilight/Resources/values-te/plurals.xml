@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d చిత్రం మిగిలి ఉంది</item>
+        <item quantity="other">%1$d చిత్రాలు మిగిలి ఉన్నాయి</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s మరియు మరో 1 ఇతరం</item>
+        <item quantity="other">%1$s మరియు మరో %2$d ఇతరం</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 చదవని సంభాషణ</item>
+        <item quantity="other">%1$s చదవని సంభాషణలు</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 సభ్యుడు</item>
+        <item quantity="other">%1$d మంది సభ్యులు</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">ఒక నక్షత్రంతో రేట్ చేసారు</item>
+        <item quantity="other">%1$d నక్షత్రాలతో రేట్ చేయండి</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d నోటిఫికేషన్</item>
+        <item quantity="other">%1$d నోటిఫికేషన్‌లు</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 కొత్తది</item>
+        <item quantity="other">%1$s, %2$d కొత్తవి</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 రోజు క్రితం</item>
+        <item quantity="other">%1$d రోజుల క్రితం</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 రోజు</item>
+        <item quantity="other">%1$d రోజులు</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 రోజు</item>
+        <item quantity="other">%1$d రోజులు</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 గంట</item>
+        <item quantity="other">%1$d గంటలు</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 నిమిషం</item>
+        <item quantity="other">%1$d నిమిషాలు</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 నెల</item>
+        <item quantity="other">%1$d నెలలు</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 సెకను</item>
+        <item quantity="other">%1$d సెకన్లు</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 వారం</item>
+        <item quantity="other">%1$d వారాలు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">మరి 1 రోజు</item>
+        <item quantity="other">మరో %1$d రోజులు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">మరి 1 గంట</item>
+        <item quantity="other">మరో %1$d గంటలు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">మరి 1 నిమిషం</item>
+        <item quantity="other">మరో %1$d నిమిషాలు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">మరి 1 నెల</item>
+        <item quantity="other">మరో %1$d నెలలు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">మరి 1 సెకను</item>
+        <item quantity="other">మరో %1$d సెకన్లు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">మరి 1 వారం</item>
+        <item quantity="other">మరో %1$d వారాలు</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">మరి 1 సంవత్సరం</item>
+        <item quantity="other">మరో %1$d సంవత్సరాలు</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 సంవత్సరం</item>
+        <item quantity="other">%1$d సంవత్సరాలు</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 గంట క్రితం</item>
+        <item quantity="other">%1$d గంటల క్రితం</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 గం</item>
+        <item quantity="other">%1$d గంటలు</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1గం</item>
+        <item quantity="other">%1$dగం</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 గం</item>
+        <item quantity="other">%1$d గం.</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 గం క్రితం</item>
+        <item quantity="other">%1$d గం క్రితం</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">ఇప్పటి నుండి 1 గంట</item>
+        <item quantity="other">ఇప్పటి నుండి %1$d గంటలు</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">ఇప్పటి నుండి 1 నిమిషం</item>
+        <item quantity="other">ఇప్పటి నుండి %1$d నిమిషాలు</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 నిమి క్రితం</item>
+        <item quantity="other">%1$d నిమి క్రితం</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 నిమిషం క్రితం</item>
+        <item quantity="other">%1$d నిమిషాల క్రితం</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 నిమి</item>
+        <item quantity="other">%1$d నిమిషాలు</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1ని</item>
+        <item quantity="other">%1$dనిమి</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 నెల క్రితం</item>
+        <item quantity="other">%1$d నెలల క్రితం</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 సెకను</item>
+        <item quantity="other">%1$d సెకనుల క్రితం</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 వారం క్రితం</item>
+        <item quantity="other">%1$d వారాల క్రితం</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 గంట మిగిలి ఉంది</item>
+        <item quantity="other">%1$d గంటలు మిగిలి ఉన్నాయి</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 నిమిషం మిగిలి ఉంది</item>
+        <item quantity="other">%1$d నిమిషాలు మిగిలి ఉన్నాయి</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 సంవత్సరం క్రితం</item>
+        <item quantity="other">%1$d సంవత్సరాల క్రితం</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">మీరు 1 రోజు క్రితం సందర్శించారు</item>
+        <item quantity="other">మీరు %1$d రోజుల క్రితం సందర్శించారు</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">మీరు 1 గంట క్రితం సందర్శించారు</item>
+        <item quantity="other">మీరు %1$d గంటల క్రితం సందర్శించారు</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">మీరు 1 నిమిషం క్రితం సందర్శించారు</item>
+        <item quantity="other">మీరు %1$d నిమిషాల క్రితం సందర్శించారు</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">మీరు 1 నెల క్రితం సందర్శించారు</item>
+        <item quantity="other">మీరు %1$d నెలల క్రితం సందర్శించారు</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">మీరు 1 వారం క్రితం సందర్శించారు</item>
+        <item quantity="other">మీరు %1$d వారాల క్రితం సందర్శించారు</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">మీరు 1 సంవత్సరం క్రితం సందర్శించారు</item>
+        <item quantity="other">మీరు %1$d సంవత్సరాల క్రితం సందర్శించారు</item>
+    </plurals>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">%1$d foto tersisa</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s dan %2$d lainnya</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">%1$s percakapan belum dibaca</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d anggota</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">Beri peringkat %1$d bintang</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d Notifikasi</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s, %2$d baru</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%1$d hari yang lalu</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d bulan</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d detik</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d minggu</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">%1$d hari lagi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">%1$d jam lagi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">%1$d menit lagi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">%1$d bulan lagi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">%1$d detik lagi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">%1$d minggu lagi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">%1$d tahun lagi</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d tahun</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d jam yang lalu</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">%1$d jam yang lalu</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">%1$d jam dari sekarang</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">%1$d menit dari sekarang</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">%1$d menit yang lalu</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d menit yang lalu</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d mnt</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">%1$d bulan yang lalu</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">%1$d detik yang lalu</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">%1$d minggu yang lalu</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="other">Tersisa %1$d jam</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="other">Tersisa %1$d minat</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">%1$d tahun yang lalu</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">Terakhir kali Anda berkunjung %1$d hari lalu</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">Terakhir kali Anda berkunjung %1$d jam lalu</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">Terakhir kali Anda berkunjung %1$d menit lalu</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">Terakhir kali Anda berkunjung %1$d bulan lalu</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">Terakhir kali Anda berkunjung %1$d minggu lalu</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">Terakhir kali Anda berkunjung %1$d tahun lalu</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x30" android:background="@android:color/transparent" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/blue_banner"/>
+</LinearLayout>

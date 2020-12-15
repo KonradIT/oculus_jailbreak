@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 წევრი</item>
+        <item quantity="other">%1$d წევრი</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 ახალი</item>
+        <item quantity="other">%1$s, %2$d new</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 დღე</item>
+        <item quantity="other">%1$d დღე</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 დღე</item>
+        <item quantity="other">%1$d დღე</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 საათი</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 month</item>
+        <item quantity="other">%1$d თვე</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 კვირა</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 საათის წინ</item>
+        <item quantity="other">%1$d საათის წინ</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 საათი</item>
+        <item quantity="other">%1$d სთ</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 სთ</item>
+        <item quantity="other">%1$d სთ</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 minute ago</item>
+        <item quantity="other">%1$d წუთის წინ</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 წთ</item>
+        <item quantity="other">%1$d წთ</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 second</item>
+        <item quantity="other">%1$d წამის წინ</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 წლის წინ</item>
+        <item quantity="other">%1$d წლის წინ</item>
+    </plurals>
+</resources>

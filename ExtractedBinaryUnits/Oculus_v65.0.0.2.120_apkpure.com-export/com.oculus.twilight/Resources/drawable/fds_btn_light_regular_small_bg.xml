@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="?com.oculus.twilight:attr/fds_usage_non_media_pressed"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_regular_stroke_pressed"/>
+            <corners android:radius="@dimen/fbui_button_corner_radius"/>
+            <padding android:left="@dimen/fbui_button_padding_left_small" android:top="@dimen/fbui_button_padding_top_small" android:right="@dimen/fbui_button_padding_right_small" android:bottom="@dimen/fbui_button_padding_bottom_small"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="?com.oculus.twilight:attr/fds_usage_secondary_button_background"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_regular_stroke_default"/>
+            <corners android:radius="@dimen/fbui_button_corner_radius"/>
+            <padding android:left="@dimen/fbui_button_padding_left_small" android:top="@dimen/fbui_button_padding_top_small" android:right="@dimen/fbui_button_padding_right_small" android:bottom="@dimen/fbui_button_padding_bottom_small"/>
+        </shape>
+    </item>
+</selector>

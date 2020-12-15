@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">នៅ​សល់​រូបថត %1$d</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s និង %2$d ទៀត</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">ការ​សន្ទនា​មិន​ទាន់​អាន %1$s</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">សមាជិក %1$d នាក់</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">វាយតម្លៃ​ដោយ​ផ្កាយ %1$d</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">ការជូនដំណឹង %1$d</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s, %2$d ថ្មី</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%1$d ថ្ងៃមុន</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d នាទី</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d ខែ</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d វិនាទី</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d សប្ដាហ៍</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">%1$d ថ្ងៃទៀត</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">%1$d ម៉ោង​ទៀត</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">%1$d នាទី​ទៀត</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">%1$d ខែ​ទៀត</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">%1$d វិនាទី​ទៀត</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">%1$d សប្ដាហ៍​ទៀត</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">%1$d ឆ្នាំ​ទៀត</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d ឆ្នាំ</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d ម៉ោងមុន</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="other">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">%1$d ម៉ោង​មុន</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">%1$d ម៉ោង​ពីពេល​ឥឡូវ</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">%1$d នាទី​ពីពេល​នេះ</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">%1$d នាទី​មុន</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d នាទីមុន</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d នាទី</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="other">%1$d នាទី</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">%1$d ខែ​មុន</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">%1$d វិនាទីមុន</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">%1$d សប្ដាហ៍​មុន</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="other">នៅ​សល់ %1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="other">នៅ​សល់ %1$d នាទី</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">%1$d ឆ្នាំ​មុន</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">អ្នកបានចូលមើល %1$d ថ្ងៃកន្លងទៅ</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">អ្នកបានចូលមើល %1$d កន្លងទៅ</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">អ្នកបានចូលមើល %1$d នាទីកន្លងទៅ</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">អ្នកបានចូលមើល %1$d ខែកន្លងទៅ</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">អ្នកបានចូលមើល %1$d សប្តាហ៍កន្លងទៅ</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">អ្នកបានចូលមើល %1$d ឆ្នាំកន្លងទៅ</item>
+    </plurals>
+</resources>

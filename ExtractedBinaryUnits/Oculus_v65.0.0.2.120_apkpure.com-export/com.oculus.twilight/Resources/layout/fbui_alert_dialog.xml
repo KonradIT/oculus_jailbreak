@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/parentPanel" android:background="?com.oculus.twilight:attr/alertDialogBackgroundColor" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/topImage" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="6"/>
+    <LinearLayout android:orientation="1" android:id="@id/topPanel" android:paddingLeft="@dimen/fbui_dialog_horizontal_padding" android:paddingTop="@dimen/fbui_dialog_vertical_padding" android:paddingRight="@dimen/fbui_dialog_horizontal_padding" android:paddingBottom="0.0dp" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:ellipsize="3" android:id="@id/alertTitle" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" style="?com.oculus.twilight:attr/alertDialogWindowTitleStyle"/>
+    </LinearLayout>
+    <FrameLayout android:orientation="1" android:id="@id/contentPanel" android:layout_width="-1" android:layout_height="-2" android:minHeight="48.0dp" android:layout_weight="1.0">
+        <View android:layout_gravity="0x30" android:id="@id/scrollIndicatorUp" android:background="?com.oculus.twilight:attr/alertDividerHorizontalDrawable" android:visibility="2" android:layout_width="-1" android:layout_height="1.0px"/>
+        <ScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="2">
+            <LinearLayout android:orientation="1" android:id="@id/scroll_content" android:layout_width="-1" android:layout_height="-2">
+                <com.facebook.resources.ui.FbTextView android:id="@id/message" android:paddingLeft="@dimen/fbui_dialog_horizontal_padding" android:paddingTop="@dimen/fbui_dialog_content_vertical_padding" android:paddingRight="@dimen/fbui_dialog_horizontal_padding" android:paddingBottom="0.0dp" android:layout_width="-1" android:layout_height="-2" style="?com.oculus.twilight:attr/alertDialogMessageStyle"/>
+                <com.facebook.resources.ui.FbTextView android:id="@id/disclaimer" android:paddingLeft="@dimen/fbui_dialog_horizontal_padding" android:paddingTop="@dimen/fbui_dialog_content_vertical_padding" android:paddingRight="@dimen/fbui_dialog_horizontal_padding" android:paddingBottom="0.0dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="?com.oculus.twilight:attr/alertDialogDisclaimerStyle"/>
+                <View android:id="@id/textSpacerNoButtons" android:visibility="2" android:layout_width="0.0dp" android:layout_height="@dimen/fbui_dialog_vertical_padding"/>
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_gravity="0x50" android:id="@id/scrollIndicatorDown" android:background="@drawable/fbui_divider_horizontal" android:visibility="2" android:layout_width="-1" android:layout_height="1.0px"/>
+    </FrameLayout>
+    <FrameLayout android:id="@id/customPanel" android:layout_width="-1" android:layout_height="-2" android:minHeight="48.0dp" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/custom" android:padding="8.0dp" android:layout_width="-1" android:layout_height="-2"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="1" android:id="@id/buttonPanel" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.fbui.dialog.DialogButtonBar android:id="@id/buttonBar" android:layout_width="-1" android:layout_height="-2" style="?com.oculus.twilight:attr/alertDialogButtonBarStyle">
+            <com.facebook.resources.ui.FbButton android:id="@id/button3" android:layout_width="-2" android:layout_height="-2" style="?com.oculus.twilight:attr/alertDialogButtonStyle"/>
+            <com.facebook.resources.ui.FbButton android:id="@id/button2" android:layout_width="-2" android:layout_height="-2" style="?com.oculus.twilight:attr/alertDialogButtonStyle"/>
+            <com.facebook.resources.ui.FbButton android:id="@id/button1" android:layout_width="-2" android:layout_height="-2" style="?com.oculus.twilight:attr/alertDialogPrimaryButtonStyle"/>
+        </com.facebook.fbui.dialog.DialogButtonBar>
+    </LinearLayout>
+</LinearLayout>

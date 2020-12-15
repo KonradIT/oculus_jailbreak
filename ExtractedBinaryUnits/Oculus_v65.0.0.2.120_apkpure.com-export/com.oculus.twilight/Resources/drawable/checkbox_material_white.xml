@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/checkbox_material_white_on"/>
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/checkbox_material_white_off"/>
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/checkbox_material_disabled_on"/>
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/checkbox_material_disabled_off"/>
+</selector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/fig_usage_list_cell_pressed"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/fds_transparent"/>
+        </shape>
+    </item>
+</selector>

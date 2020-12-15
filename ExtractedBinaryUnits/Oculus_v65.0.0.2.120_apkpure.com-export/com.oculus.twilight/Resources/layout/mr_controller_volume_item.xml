@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@id/volume_item_container" android:paddingLeft="24.0dp" android:paddingRight="60.0dp" android:paddingBottom="8.0dp" android:layout_width="-1" android:layout_height="@dimen/mr_controller_volume_group_list_item_height" android:paddingStart="24.0dp" android:paddingEnd="60.0dp">
+        <TextView android:textAppearance="@style/TextAppearance.MediaRouter.SecondaryText" android:gravity="0x800003" android:id="@id/mr_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:textAlignment="5"/>
+        <LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/mr_volume_item_icon" android:layout_width="@dimen/mr_controller_volume_group_list_item_icon_size" android:layout_height="@dimen/mr_controller_volume_group_list_item_icon_size" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:src="?com.oculus.twilight:attr/mediaRouteAudioTrackDrawable" android:scaleType="3"/>
+            <androidx.mediarouter.app.MediaRouteVolumeSlider android:id="@id/mr_volume_slider" android:layout_width="-1" android:layout_height="40.0dp" android:maxHeight="40.0dp" android:minHeight="40.0dp" android:contentDescription="@string/mr_controller_volume_slider"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

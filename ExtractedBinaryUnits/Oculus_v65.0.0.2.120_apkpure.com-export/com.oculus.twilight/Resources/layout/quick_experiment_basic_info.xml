@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="8.0dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="64.0dp">
+    <com.facebook.resources.ui.FbTextView android:textSize="18.0sp" android:textStyle="0x1" android:id="@id/experiment_name" android:paddingBottom="4.0dp" android:layout_width="-1" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbTextView android:id="@id/not_in_experiment_notice" android:layout_width="-1" android:layout_height="-2" android:text="You are not currently in this experiment."/>
+    <com.facebook.resources.ui.FbTextView android:id="@id/not_in_any_group_notice" android:layout_width="-1" android:layout_height="-2" android:text="You are not currently in any group."/>
+    <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:id="@id/experiment_group" android:paddingTop="4.0dp" android:layout_width="-1" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbTextView android:id="@id/must_be_in_targeting_gk_warning" android:layout_width="-1" android:layout_height="-2" android:text="Make sure you pass this experiment&#39;s targeting GK (if it has one)!"/>
+</LinearLayout>

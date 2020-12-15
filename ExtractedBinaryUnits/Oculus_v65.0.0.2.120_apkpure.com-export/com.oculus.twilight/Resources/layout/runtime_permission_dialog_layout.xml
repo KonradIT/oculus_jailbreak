@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/runtime_permissions_dialog_content" android:paddingLeft="?com.oculus.twilight:attr/alertDialogPaddingHorizontal" android:paddingTop="?com.oculus.twilight:attr/alertDialogPaddingVertical" android:paddingRight="?com.oculus.twilight:attr/alertDialogPaddingHorizontal" android:layout_width="-1" android:layout_height="-2"/>
+</ScrollView>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/fbui_text_size_large" android:textColor="?com.oculus.twilight:attr/fds_usage_primary_text" android:gravity="0x800003" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/runtime_permissions_body_top_margin"/>

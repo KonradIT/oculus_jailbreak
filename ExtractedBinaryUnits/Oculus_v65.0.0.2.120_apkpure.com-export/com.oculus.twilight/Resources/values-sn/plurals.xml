@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">Nhengo 1</item>
+        <item quantity="other">Nhengo %1$d</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">Awa 1 rapfuura</item>
+        <item quantity="other">Maawa %1$d adarika</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">awa 1</item>
+        <item quantity="other">%1$d hrs</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">awa 1</item>
+        <item quantity="other">maawa %1$d</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 minute ago</item>
+        <item quantity="other">Maminitsi %1$d adarika</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbCheckBox android:id="@id/zero_balance_dialog_checkbox" android:layout_width="-2" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small_medium" android:textColor="@color/fds_gray_30" android:layout_gravity="0x10" android:id="@id/primary_text" android:layout_width="-2" android:layout_height="-2"/>
+</merge>

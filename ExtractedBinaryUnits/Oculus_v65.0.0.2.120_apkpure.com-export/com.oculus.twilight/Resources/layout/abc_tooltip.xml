@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Tooltip" android:textColor="?com.oculus.twilight:attr/tooltipForegroundColor" android:ellipsize="3" android:id="@id/message" android:background="?com.oculus.twilight:attr/tooltipFrameBackground" android:paddingLeft="@dimen/tooltip_horizontal_padding" android:paddingTop="@dimen/tooltip_vertical_padding" android:paddingRight="@dimen/tooltip_horizontal_padding" android:paddingBottom="@dimen/tooltip_vertical_padding" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@dimen/tooltip_margin" android:maxWidth="256.0dp" android:maxLines="3" android:paddingStart="@dimen/tooltip_horizontal_padding" android:paddingEnd="@dimen/tooltip_horizontal_padding"/>
+</LinearLayout>

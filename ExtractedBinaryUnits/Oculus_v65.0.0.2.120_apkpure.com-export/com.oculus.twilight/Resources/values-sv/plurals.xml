@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d foto kvar</item>
+        <item quantity="other">%1$d foton kvar</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s och 1 till</item>
+        <item quantity="other">%1$s och %2$d till</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 oläst konversation</item>
+        <item quantity="other">%1$s olästa konversationer</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 medlem</item>
+        <item quantity="other">%1$d medlemmar</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Ge en stjärna</item>
+        <item quantity="other">Betygsätt med %1$d stjärnor</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d avisering</item>
+        <item quantity="other">%1$d aviseringar</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 nytt</item>
+        <item quantity="other">%1$s, %2$d nya</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">För 1 dag sedan</item>
+        <item quantity="other">För %1$d dagar sedan</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 dag</item>
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 dag</item>
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 timme</item>
+        <item quantity="other">%1$d timmar</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other">%1$d minuter</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 månad</item>
+        <item quantity="other">%1$d månader</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 sekund</item>
+        <item quantity="other">%1$d sekunder</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 vecka</item>
+        <item quantity="other">%1$d veckor</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 dag till</item>
+        <item quantity="other">%1$d dagar till</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">1 timme till</item>
+        <item quantity="other">%1$d timmar till</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">1 minut till</item>
+        <item quantity="other">%1$d minuter till</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">1 månad till</item>
+        <item quantity="other">%1$d månader till</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">1 sekund till</item>
+        <item quantity="other">%1$d sekunder till</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">1 vecka till</item>
+        <item quantity="other">%1$d veckor till</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">1 år till</item>
+        <item quantity="other">%1$d år till</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 år</item>
+        <item quantity="other">%1$d år</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">för 1 timme sedan</item>
+        <item quantity="other">för %1$d timmar sedan</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1 tim</item>
+        <item quantity="other">%1$d tim</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 h</item>
+        <item quantity="other">%1$d tim</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">För 1 timme sedan</item>
+        <item quantity="other">%1$d timmar sedan</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">om 1 timme</item>
+        <item quantity="other">om %1$d timmar</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">om 1 minut</item>
+        <item quantity="other">om %1$d minuter</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">för 1 min. sedan</item>
+        <item quantity="other">för %1$d min. sedan</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">för en minut sedan</item>
+        <item quantity="other">För %1$d minuter sedan</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 min.</item>
+        <item quantity="other">%1$d min.</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">För 1 månad sedan</item>
+        <item quantity="other">För %1$d månader sedan</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 sekund</item>
+        <item quantity="other">för %1$d sekunder sedan</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">För 1 vecka sedan</item>
+        <item quantity="other">För %1$d veckor sedan</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 tim. kvar</item>
+        <item quantity="other">%1$d tim. kvar</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 min. kvar</item>
+        <item quantity="other">%1$d min. kvar</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">För 1 år sedan</item>
+        <item quantity="other">För %1$d år sedan</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">Du besökte detta för 1 dag sedan</item>
+        <item quantity="other">Du besökte %1$d dagar sedan</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">Du besökte detta för 1 timme sedan</item>
+        <item quantity="other">Du besökte detta för %1$d timmar sedan</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">Du besökte detta för 1 minut sedan</item>
+        <item quantity="other">Du besökte detta för %1$d minuter sedan</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">Du besökte detta för 1 månad sedan</item>
+        <item quantity="other">Du besökte för %1$d månader sedan</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">Du besökte för 1 år sedan</item>
+        <item quantity="other">Du besökte detta för %1$d veckor sedan</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">Du besökte för 1 år sedan</item>
+        <item quantity="other">Du besökte detta för %1$d år sedan</item>
+    </plurals>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="14.0sp" android:textColor="#efefef" android:padding="12.0dp" android:layout_width="-1" android:layout_height="-1"/>

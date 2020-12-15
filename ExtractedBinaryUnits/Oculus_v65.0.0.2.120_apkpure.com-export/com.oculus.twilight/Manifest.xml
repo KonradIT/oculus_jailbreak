@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="225224763" android:versionName="65.0.0.2.120" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.oculus.twilight" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.facebook.katana.provider.ACCESS"/>
+    <uses-permission android:name="com.facebook.wakizashi.provider.ACCESS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <permission android:name="com.oculus.twilight.permission.CROSS_PROCESS_BROADCAST_MANAGER" android:protectionLevel="0x2"/>
+    <uses-permission android:name="com.oculus.twilight.permission.CROSS_PROCESS_BROADCAST_MANAGER"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="com.facebook.receiver.permission.ACCESS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <application android:label="@string/twilight_app_name" android:icon="@drawable/launcher_icon" android:name="com.oculus.twilight.TwilightAppShell" android:debuggable="false" android:allowBackup="false" android:supportsRtl="true" android:resizeableActivity="false" android:networkSecurityConfig="@xml/fb_network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <meta-data android:name="com.facebook.build_rule" android:value="twilight_prod_armv7_release_fbsign"/>
+        <meta-data android:name="com.facebook.package_type" android:value="release"/>
+        <meta-data android:name="com.facebook.build_time" android:value="1592848420000L"/>
+        <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"/>
+        <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:theme="@style/Theme.Start" android:name="com.oculus.twilight.crossapp.activity.XOCLoginActivity" android:launchMode="2" android:screenOrientation="1" android:windowSoftInputMode="0x10">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.facebook.catalyst.LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="oculus"/>
+                <data android:scheme="oculus.store"/>
+                <data android:path="/google_oauth2"/>
+                <data android:path="/dropbox_oauth2"/>
+                <data android:path="/account_linking"/>
+                <data android:pathPrefix="/link"/>
+                <data android:pathPrefix="/view"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="oculus.com"/>
+                <data android:host="*.oculus.com"/>
+                <data android:pathPrefix="/deeplink"/>
+                <data android:pathPrefix="/experiences/rift"/>
+                <data android:pathPrefix="/experiences/go"/>
+                <data android:pathPrefix="/experiences/quest"/>
+                <data android:pathPrefix="/experiences/app"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Start" android:name="com.oculus.twilight.crossapp.activity.XOCMainActivity" android:enabled="false" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x480" android:windowSoftInputMode="0x10"/>
+        <service android:name="com.oculus.twilight.ota.TwilightUpdateService" android:exported="false"/>
+        <service android:name="com.oculus.twilight.TwilightGcmListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <category android:name="com.oculus.twilight"/>
+            </intent-filter>
+            <meta-data android:name="coldpretos.whitelisted" android:value="true"/>
+        </service>
+        <service android:name="com.oculus.twilight.GcmIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.twilight.GcmRegistrationIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.twilight.GcmRegistrationService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="fb1517832211847102"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.oculus.twilight.apkfileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.oculus.twilight.lifecycle-process"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:enabled="true" android:exported="false" android:authorities="com.oculus.twilight.firebaseinitprovider" android:initOrder="100"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:enabled="true" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:enabled="true" android:exported="false">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" android:exported="false"/>
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" android:exported="false"/>
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" android:exported="false"/>
+        <activity android:theme="@style/com_facebook_activity_theme" android:name="com.facebook.FacebookActivity" android:enabled="false" android:configChanges="0x5b0"/>
+        <activity android:name="com.facebook.CustomTabMainActivity" android:enabled="false"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="fbconnect" android:host="cct.com.oculus.twilight"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.oculus.twilight.FacebookInitProvider"/>
+        <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.facebook.abtest.qe.db.QuickExperimentContentProvider" android:permission="com.oculus.twilight.provider.ACCESS" android:enabled="false" android:authorities="com.oculus.twilight.experiments"/>
+        <activity android:name="com.facebook.abtest.qe.settings.QuickExperimentListActivity" android:exported="false" android:configChanges="0x4b0"/>
+        <activity android:name="com.facebook.abtest.qe.settings.QuickExperimentViewActivity" android:exported="false" android:configChanges="0x4b0"/>
+        <service android:name="com.facebook.account.twofac.protocol.LoginApprovalNotificationService" android:enabled="false"/>
+        <activity android:name="com.facebook.analytics.reporters.AppStateFADFeedbackActivity" android:exported="false" android:launchMode="2" android:screenOrientation="5"/>
+        <receiver android:name="com.facebook.analytics.appstatelogger.AppStateBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWEROFF"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.analytics.appstatelogger.AppStateIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":fwkstartlog"/>
+        <service android:name="com.facebook.analytics2.logger.LollipopUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.AlarmBasedUploadService" android:exported="false"/>
+        <receiver android:name="com.facebook.analytics2.logger.HighPriUploadRetryReceiver" android:exported="false"/>
+        <service android:name="com.facebook.analytics2.logger.GooglePlayUploadService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+            <meta-data android:name="default-state" android:value="false"/>
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.facebook.appcomponentmanager.AppComponentManagerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":pretosproc">
+            <meta-data android:name="coldpretos.whitelisted" android:value="true"/>
+        </service>
+        <receiver android:name="com.facebook.appcomponentmanager.testreceivers.AppComponentManagerTestingReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.appcomponentmanager.ACTION_TEST"/>
+                <action android:name="com.facebook.appcomponentmanager.ACTION_PRINT_COMPONENTS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.appcomponentmanager.testreceivers.FirstEnableStageTestReceiver" android:exported="true">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+        </receiver>
+        <receiver android:name="com.facebook.appcomponentmanager.testreceivers.SecondEnableStageTestReceiver" android:enabled="false" android:exported="true">
+            <meta-data android:name="enable-stage" android:value="enable-warm-pretos"/>
+        </receiver>
+        <activity android:name="com.facebook.appupdate.WaitForInitActivity" android:exported="false"/>
+        <service android:name="com.facebook.appupdate.AppUpdateService" android:exported="false"/>
+        <service android:name="com.facebook.appupdate.DownloadCompleteService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <receiver android:name="com.facebook.appupdate.DownloadNotificationClickReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.appupdate.DownloadCompleteReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.catalyst.appcomponentmanager.CatalystAppComponentReceiver" android:exported="true" android:process=":pretosproc">
+            <meta-data android:name="enable-stage" android:value="enable-cold-pretos"/>
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" android:value="com.facebook.catalyst.modules.chromecast.CastOptionsProvider"/>
+        <activity android:name="com.facebook.catalyst.shell.CatalystDevFBSettingsActivity" android:enabled="false"/>
+        <activity android:name="com.facebook.common.init.DefaultSplashScreenActivity" android:enabled="false"/>
+        <service android:name="com.facebook.conditionalworker.ConditionalWorkerService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false"/>
+        <receiver android:name="com.facebook.conditionalworker.ConditionalWorkerServiceReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.FOR_CONDITIONAL_WORKER_SERVICE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.facebook.conditionalworker.LollipopConditionalWorkerService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false" android:exported="true">
+            <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/job_scheduler_conditionalworker_alljobs"/>
+            <meta-data android:name="enable-stage" android:value="enable-warm-pretos"/>
+        </service>
+        <service android:name="com.facebook.conditionalworker.GooglePlayConditionalWorkerService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+            <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/job_scheduler_conditionalworker_alljobs"/>
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.facebook.delayedworker.DelayedWorkerService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false"/>
+        <receiver android:name="com.facebook.delayedworker.DelayedWorkerServiceReceiver" android:permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.intent.action.prod.FOR_DELAYED_WORKER_SERVICE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.device_id.UniqueIdSupplier" android:permission="com.facebook.receiver.permission.ACCESS" android:enabled="false">
+            <intent-filter>
+                <action android:name="com.facebook.GET_UNIQUE_ID"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.facebook.device_id.DefaultPhoneIdRequestReceiver" android:enabled="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.facebook.GET_PHONE_ID"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.facebook.device_id.DefaultPhoneIdProvider" android:enabled="false" android:exported="true" android:authorities="com.oculus.twilight.provider.phoneid"/>
+        <activity android:name="com.facebook.dialtone.activity.DialtoneWifiInterstitialActivity" android:enabled="false" android:launchMode="1" android:configChanges="0x4a0" android:windowSoftInputMode="0x3"/>
+        <activity android:name="com.facebook.dialtone.activity.DialtoneUnsupportedCarrierInterstitialActivity" android:enabled="false" android:launchMode="1" android:configChanges="0x4a0" android:windowSoftInputMode="0x3"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.dialtone.activity.DialtoneIntentInterstitialActivity" android:enabled="false" android:configChanges="0x4a0" android:windowSoftInputMode="0x3"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.dialtone.activity.DialtoneUriIntentHandlerActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="3"/>
+        <service android:name="com.facebook.fbservice.service.BlueService" android:exported="false">
+            <meta-data android:name="enable-stage" android:value="enable-warm-pretos"/>
+        </service>
+        <service android:name="com.facebook.fbservice.service.BlueServiceJobIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+            <meta-data android:name="enable-stage" android:value="enable-warm-pretos"/>
+        </service>
+        <service android:name="com.facebook.graphql.executor.offlinemutations.OfflineMutationsRetryJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+            <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/jobscheduler_offline_mutations_retry_ids"/>
+        </service>
+        <service android:name="com.facebook.graphql.executor.offlinemutations.OfflineMutationsRetryGCMTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+            <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/jobscheduler_offline_mutations_retry_ids"/>
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.facebook.quicklog.module.QPLRecorderDumpActivity" android:exported="false"/>
+        <activity android:name="com.facebook.quicklog.module.QPLEventFlushActivity" android:exported="false"/>
+        <service android:name="com.facebook.reportaproblem.base.bugreport.BugReportUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.oculus.localmedia.server.OculusMediaService" android:enabled="false"/>
+        <activity android:name="com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity" android:enabled="false" android:exported="true"/>
+    </application>
+</manifest>

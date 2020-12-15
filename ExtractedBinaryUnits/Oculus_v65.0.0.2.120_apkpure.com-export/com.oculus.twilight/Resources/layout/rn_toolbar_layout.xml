@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/container" android:layout_width="-1" android:layout_height="-1">
+    <androidx.appcompat.widget.Toolbar android:id="@id/rn_toolbar" android:layout_width="-1" android:layout_height="-2">
+        <ViewStub android:layout_gravity="0x800005" android:id="@id/toolbar_right_button_stub" android:layout="@layout/toolbar_right_button_layout" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8.0dp" android:layout_marginEnd="8.0dp" style="?android:attr/borderlessButtonStyle"/>
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

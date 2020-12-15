@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <com.facebook.picassolike.PicassoLikeViewStub android:id="@id/zero_balance_logo" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/zero_balance_dialog_text_size" android:textColor="@color/dark_gray_text_color" android:id="@id/zero_balance_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/zero_balance_dialog_text_margin_top"/>
+    </LinearLayout>
+    <ImageView android:id="@id/cross_icon" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <string name="appupdate_notif_title_download_in_progress">Mampidina fanavaozana</string>
+    <string name="appupdate_renable_download_manager">Velomy ny app Mpitantana Fampidinan-davitra azafady. Tsindrio Hiverina hiverenana any aoriana.</string>
+    <string name="dialog_checkbox_dont_warn">Aza anontaniana intsony</string>
+    <string name="dialog_use_data_and_not_warn">Ampiasao ny lazafototra ary aza mampitandrina ahy intsony</string>
+    <string name="dialtone_upgrade_button">Hampiasa Data</string>
+    <string name="fallback_fbs2_paid_data">Data Andoavam-bola</string>
+    <string name="iorg_dialog_cancel">Foano</string>
+    <string name="iorg_dialog_continue">Hanohy</string>
+    <string name="upsell_back_button">Hiverina</string>
+    <string name="upsell_buy_a_new_data_pack_button_text">Hividy Pake Vaovao</string>
+    <string name="upsell_confirm_button">Hanamafy</string>
+    <string name="upsell_did_not_receive_promo_text">Tsy nety ny fividiananao. Raha tsy ampy ny ambim-bolanao, dia ampio azafady ary andramo indray rehefa avy eo.</string>
+    <string name="upsell_error_title">Tsy Afaka Namita ilay Fividianana</string>
+    <string name="upsell_go_back_button">Hiverina</string>
+    <string name="upsell_plan_selected_title">Nofantenanao:</string>
+    <string name="zero_external_url_dialog_content">Hiala amin'i %1$s ianao izao. Mety hihatra ny saran'ny data mahazatra.</string>
+    <string name="zero_generic_extra_data_charges_dialog_title">Saran'ny Data Mahazatra</string>
+</resources>

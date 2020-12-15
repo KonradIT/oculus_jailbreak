@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/zero_indicator_bar"/>
+    <include layout="@layout/dialtone_switcher_bar_stub"/>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:layout_width="-1" android:layout_height="@dimen/harrison_title_bar_height">
+            <include layout="@layout/harrison_plus_button_left"/>
+            <include layout="@layout/composer_title_menu"/>
+            <include layout="@layout/harrison_plus_button_right"/>
+        </LinearLayout>
+        <View android:background="?com.oculus.twilight:attr/fds_usage_wash" android:layout_width="-1" android:layout_height="@dimen/one_px"/>
+    </LinearLayout>
+</merge>

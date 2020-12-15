@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dp</dimen>
+    <dimen name="abc_dialog_fixed_height_major">60.000004%</dimen>
+    <dimen name="abc_dialog_fixed_height_minor">90.0%</dimen>
+    <dimen name="abc_dialog_fixed_width_major">60.000004%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">90.0%</dimen>
+    <dimen name="abc_dialog_min_width_major">55.000008%</dimen>
+    <dimen name="abc_dialog_min_width_minor">79.99999%</dimen>
+    <dimen name="dialtone_fb_logo_margin_bottom">88.0dp</dimen>
+    <dimen name="dialtone_fb_logo_margin_top">60.0dp</dimen>
+    <dimen name="dialtone_interstitial_line_view_paddings">24.0dp</dimen>
+    <dimen name="dialtone_interstitial_side_padding">24.0dp</dimen>
+    <dimen name="dialtone_interstitial_top_bottom_padding">24.0dp</dimen>
+    <dimen name="dialtone_optin_bottom_padding">32.0dp</dimen>
+    <dimen name="dialtone_optin_button_primary_height">48.0dp</dimen>
+    <dimen name="dialtone_optin_button_section_between_component_margin">28.0dp</dimen>
+    <dimen name="dialtone_optin_content_section_between_component_margin">16.0dp</dimen>
+    <dimen name="dialtone_optin_content_section_bottom_margin">12.0dp</dimen>
+    <dimen name="dialtone_optin_facepile_size">48.0dp</dimen>
+    <dimen name="dialtone_optin_header_section_between_component_margin">12.0dp</dimen>
+    <dimen name="dialtone_optin_header_section_bottom_margin">44.0dp</dimen>
+    <dimen name="dialtone_optin_left_padding">32.0dp</dimen>
+    <dimen name="dialtone_optin_right_padding">32.0dp</dimen>
+    <dimen name="dialtone_optin_top_padding">36.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_bottom">56.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_side">24.0dp</dimen>
+    <dimen name="lightswitch_optin_header_description_top_margin">32.0dp</dimen>
+    <dimen name="lightswitch_optin_header_section_description_text_size">@com.oculus.twilight:dimen/fbui_text_size_large</dimen>
+    <dimen name="lightswitch_optin_header_section_title_text_size">@com.oculus.twilight:dimen/fbui_text_size_xxxlarge_3</dimen>
+    <dimen name="messenger_optin_header_section_image_bottom_margin">64.0dp</dimen>
+    <dimen name="messenger_optin_header_section_image_top_margin">88.0dp</dimen>
+</resources>

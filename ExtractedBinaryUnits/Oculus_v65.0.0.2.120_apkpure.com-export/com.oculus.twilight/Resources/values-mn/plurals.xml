@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 гишүүн</item>
+        <item quantity="other">%1$d гишүүнтэй</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 өдрийн өмнө</item>
+        <item quantity="other">%1$d өдрийн өмнө</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 хоног</item>
+        <item quantity="other">%1$d хоног</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 хоног</item>
+        <item quantity="other">%1$d хоног</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 цаг</item>
+        <item quantity="other">%1$d цаг</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 минут</item>
+        <item quantity="other">%1$d минут</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 сар</item>
+        <item quantity="other">%1$d сар</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 секунд</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 долоо хоног</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 more day</item>
+        <item quantity="other">%1$d хоног үлдсэн</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 жил</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 цагийн өмнө</item>
+        <item quantity="other">%1$d цагийн өмнө</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 цаг</item>
+        <item quantity="other">%1$d цаг</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1h</item>
+        <item quantity="other">%1$dц</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 цаг</item>
+        <item quantity="other">%1$d цаг</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 минутын өмнө</item>
+        <item quantity="other">%1$d минутын өмнө</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 мин</item>
+        <item quantity="other">%1$d мин</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1м</item>
+        <item quantity="other">%1$dm</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 сарын өмнө</item>
+        <item quantity="other">%1$d сарын өмнө</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 секунд</item>
+        <item quantity="other">%1$d секундийн өмнө</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 цаг үлдлээ</item>
+        <item quantity="other">%1$d hrs left</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 минут үлдлээ</item>
+        <item quantity="other">%1$d mins left</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 жилийн өмнө</item>
+        <item quantity="other">%1$d жилийн өмнө</item>
+    </plurals>
+</resources>

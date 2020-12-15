@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.appcompat.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800033" android:orientation="1" android:id="@id/parentPanel" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@layout/abc_alert_dialog_title_material"/>
+    <FrameLayout android:id="@id/contentPanel" android:layout_width="-1" android:layout_height="-2" android:minHeight="48.0dp">
+        <View android:layout_gravity="0x30" android:id="@id/scrollIndicatorUp" android:background="?com.oculus.twilight:attr/colorControlHighlight" android:visibility="2" android:layout_width="-1" android:layout_height="1.0dp"/>
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <android.widget.Space android:id="@id/textSpacerNoTitle" android:visibility="2" android:layout_width="-1" android:layout_height="@dimen/abc_dialog_padding_top_material"/>
+                <TextView android:id="@android:id/message" android:paddingLeft="?com.oculus.twilight:attr/dialogPreferredPadding" android:paddingRight="?com.oculus.twilight:attr/dialogPreferredPadding" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.AppCompat.Subhead"/>
+                <android.widget.Space android:id="@id/textSpacerNoButtons" android:visibility="2" android:layout_width="-1" android:layout_height="@dimen/abc_dialog_padding_top_material"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_gravity="0x50" android:id="@id/scrollIndicatorDown" android:background="?com.oculus.twilight:attr/colorControlHighlight" android:visibility="2" android:layout_width="-1" android:layout_height="1.0dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@id/customPanel" android:layout_width="-1" android:layout_height="-2" android:minHeight="48.0dp">
+        <FrameLayout android:id="@id/custom" android:layout_width="-1" android:layout_height="-2"/>
+    </FrameLayout>
+    <include android:layout_width="-1" android:layout_height="-2" layout="@layout/abc_alert_dialog_button_bar_material"/>
+</androidx.appcompat.widget.AlertDialogLayout>

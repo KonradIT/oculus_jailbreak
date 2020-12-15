@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d छायाचित्र शिल्लक</item>
+        <item quantity="other">%1$d छायाचित्रे शिल्लक</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s आणि 1 अन्‍य</item>
+        <item quantity="other">%1$s आणि %2$d अन्‍य</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 न वाचलेले संभाषण</item>
+        <item quantity="other">%1$s न वाचलेली संभाषणे</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 सदस्य</item>
+        <item quantity="other">%1$d सदस्य</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">एक तारा रेट करा</item>
+        <item quantity="other">%1$d तार्‍यांसह रेट करा</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d सूचना</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 नवीन</item>
+        <item quantity="other">%1$s, %2$d नवीन</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 दिवसापूर्वी</item>
+        <item quantity="other">%1$d दिवसांपूर्वी</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 दिवस</item>
+        <item quantity="other">%1$d दिवस</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 दिवस</item>
+        <item quantity="other">%1$d दिवस</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 तास</item>
+        <item quantity="other">%1$d तास</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 मिनिट</item>
+        <item quantity="other">%1$d मिनिटे</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 महिना</item>
+        <item quantity="other">%1$d महिने</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 सेकंद</item>
+        <item quantity="other">%1$d सेकंद</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 आठवडा</item>
+        <item quantity="other">%1$d आठवडे</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">अधिक 1 दिवस</item>
+        <item quantity="other">अधिक %1$d‍ दिवस</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">1 अधिक तास</item>
+        <item quantity="other">%1$d अधिक तास</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">1 अधिक मिनिट</item>
+        <item quantity="other">%1$d अधिक मिनिटे</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">1 अधिक महिना</item>
+        <item quantity="other">%1$d अधिक महिने</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">1 अधिक सेकंद</item>
+        <item quantity="other">%1$d अधिक सेकंद</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">1 अधिक आठवडा</item>
+        <item quantity="other">%1$d अधिक आठवडे</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">1 अधिक वर्ष</item>
+        <item quantity="other">%1$d अधिक वर्षे</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 वर्ष</item>
+        <item quantity="other">%1$d वर्षे</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 तासापूर्वी</item>
+        <item quantity="other">%1$d तासांपूर्वी</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 तास</item>
+        <item quantity="other">%1$d तास</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1तास</item>
+        <item quantity="other">%1$dता</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 तास</item>
+        <item quantity="other">%1$d तास</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 तासापूर्वी</item>
+        <item quantity="other">%1$d तासांपूर्वी</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">आतापासून 1 तास</item>
+        <item quantity="other">आतापासून %1$d तास</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">आतापासून 1 मिनिट</item>
+        <item quantity="other">आतापासून %1$d मिनिटे</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 मिनिटापूर्वी</item>
+        <item quantity="other">%1$d मिनिटांपूर्वी</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 मिनिटापूर्वी</item>
+        <item quantity="other">%1$d मिनिटांपूर्वी</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 मिनिट</item>
+        <item quantity="other">%1$d मिनिटे</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1मि</item>
+        <item quantity="other">%1$dमि</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 महिन्यापूर्वी</item>
+        <item quantity="other">%1$d महिन्यांपूर्वी</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 सेकंद</item>
+        <item quantity="other">%1$d सेकंदांपूर्वी</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 आठवड्यापूर्वी</item>
+        <item quantity="other">%1$d आठवड्यापूर्वी</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 तास शिल्लक</item>
+        <item quantity="other">%1$d तास शिल्लक आहेत</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 मिनिट शिल्लक आहे</item>
+        <item quantity="other">%1$d मिनिटे शिल्लक आहेत</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 वर्षापूर्वी</item>
+        <item quantity="other">%1$d वर्षांपूर्वी</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">तुम्ही 1 दिवसापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %1$d दिवसांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">तुम्ही 1 तासापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %1$d तासांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">तुम्ही 1 मिनिटापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %1$d मिनिटांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">तुम्ही 1 महिन्यापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %1$d महिन्यांंपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">तुम्ही 1 आठवड्यापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %1$d आठवड्यांपूर्वी भेट दिली</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">तुम्ही 1 वर्षापूर्वी भेट दिली</item>
+        <item quantity="other">तुम्ही %1$d वर्षांपूर्वी भेट दिली</item>
+    </plurals>
+</resources>

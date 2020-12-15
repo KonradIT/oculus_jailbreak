@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dp</dimen>
+    <dimen name="cast_expanded_controller_ad_background_layout_height">200.0dp</dimen>
+    <dimen name="cast_expanded_controller_ad_background_layout_width">240.0dp</dimen>
+    <dimen name="cast_expanded_controller_ad_layout_height">200.0dp</dimen>
+    <dimen name="cast_expanded_controller_ad_layout_width">240.0dp</dimen>
+    <dimen name="cast_expanded_controller_margin_between_seek_bar_and_control_buttons">8.0dp</dimen>
+    <dimen name="cast_expanded_controller_margin_between_status_text_and_seek_bar">8.0dp</dimen>
+    <dimen name="dialtone_fb_logo_margin_bottom">16.0dp</dimen>
+    <dimen name="dialtone_fb_logo_margin_top">16.0dp</dimen>
+    <dimen name="dialtone_interstitial_layout_padding">8.0dp</dimen>
+    <dimen name="dialtone_interstitial_line_view_paddings">14.0dp</dimen>
+    <dimen name="dialtone_interstitial_side_padding">28.0dp</dimen>
+    <dimen name="dialtone_interstitial_text_padding">16.0dp</dimen>
+    <dimen name="dialtone_interstitial_top_bottom_padding">6.0dp</dimen>
+    <dimen name="dialtone_optin_bottom_padding">12.0dp</dimen>
+    <dimen name="dialtone_optin_button_primary_height">40.0dp</dimen>
+    <dimen name="dialtone_optin_button_section_between_component_margin">12.0dp</dimen>
+    <dimen name="dialtone_optin_content_section_between_component_margin">4.0dp</dimen>
+    <dimen name="dialtone_optin_content_section_bottom_margin">8.0dp</dimen>
+    <dimen name="dialtone_optin_facepile_size">36.0dp</dimen>
+    <dimen name="dialtone_optin_header_section_between_component_margin">8.0dp</dimen>
+    <dimen name="dialtone_optin_header_section_bottom_margin">8.0dp</dimen>
+    <dimen name="dialtone_optin_left_padding">16.0dp</dimen>
+    <dimen name="dialtone_optin_right_padding">16.0dp</dimen>
+    <dimen name="dialtone_optin_top_padding">4.0dp</dimen>
+    <dimen name="dialtone_switcher_top_banner_height">40.0sp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_bottom">12.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_side">32.0dp</dimen>
+    <dimen name="lightswitch_optin_header_description_top_margin">16.0dp</dimen>
+    <dimen name="lightswitch_optin_header_section_image_top_margin">24.0dp</dimen>
+    <dimen name="messenger_optin_header_section_between_component_margin">0.0dp</dimen>
+    <dimen name="messenger_optin_header_section_button_top_margin">4.0dp</dimen>
+    <dimen name="messenger_optin_header_section_image_bottom_margin">4.0dp</dimen>
+    <dimen name="messenger_optin_header_section_image_top_margin">12.0dp</dimen>
+    <dimen name="messenger_optin_header_section_title_text_size">@com.oculus.twilight:dimen/fbui_text_size_xxlarge</dimen>
+    <dimen name="mr_controller_volume_group_list_item_height">61.0dp</dimen>
+    <dimen name="mr_controller_volume_group_list_item_icon_size">18.0dp</dimen>
+    <dimen name="mr_controller_volume_group_list_max_height">132.0dp</dimen>
+    <dimen name="tab_bar_height">40.0dp</dimen>
+    <dimen name="title_bar_height">48.0dp</dimen>
+</resources>

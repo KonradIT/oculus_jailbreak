@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:textColor="?android:attr/textColorSecondary" android:gravity="0x800013" android:paddingLeft="?com.oculus.twilight:attr/listPreferredItemPaddingLeft" android:paddingRight="?com.oculus.twilight:attr/listPreferredItemPaddingRight" android:layout_width="-1" android:layout_height="?com.oculus.twilight:attr/listPreferredItemHeightSmall" android:maxLines="1"/>

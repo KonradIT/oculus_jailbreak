@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/select_dialog_listview" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:scrollbars="0x200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@ResourceId_0x00000000" android:overScrollMode="1" android:textAlignment="5" style="?com.oculus.twilight:attr/alertDialogListViewStyle"/>

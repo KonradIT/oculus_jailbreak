@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <item type="drawable" name="audio_player_timer_text_left_normal_neue">@com.oculus.twilight:color/orca_convo_bubble_normal</item>
+    <item type="drawable" name="audio_player_timer_text_left_selected_neue">@com.oculus.twilight:color/orca_convo_bubble_normal</item>
+    <item type="drawable" name="audio_player_timer_text_right_normal_neue">#1787fb</item>
+    <item type="drawable" name="audio_player_timer_text_right_selected_neue">#0d5eaf</item>
+    <item type="drawable" name="blue_text_color">#6085b8</item>
+    <item type="drawable" name="dark_gray_text_color">#7d7d7d</item>
+    <item type="drawable" name="gray_wash_color">#88555555</item>
+    <item type="drawable" name="multipicker_cover_color">#c0eceef1</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="thread_item_unread_background_color">#e4e9f2</item>
+</resources>

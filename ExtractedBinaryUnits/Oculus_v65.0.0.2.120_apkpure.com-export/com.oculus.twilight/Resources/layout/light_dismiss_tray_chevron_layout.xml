@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:orientation="0" android:id="@id/chevron_container" android:background="@color/fds_transparent" android:layout_width="-1" android:layout_height="@dimen/chevron_tap_effect_container_size">
+    <com.facebook.fbui.widget.glyph.GlyphView android:id="@id/chevron" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/chevron_down_circle" fb:glyphColor="@color/fbui_bg_light" style="@style/InspirationSelectableItemBackground"/>
+</LinearLayout>

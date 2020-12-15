@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s আৰু 1-টা অন্য</item>
+        <item quantity="other">%1$s আৰু %2$d অন্যান্য</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 গৰাকী সদস্য</item>
+        <item quantity="other">%1$d গৰাকী সদস্য</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d সূচনা</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 দিন আগেয়ে</item>
+        <item quantity="other">%1$d দিন আগেয়ে</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 দিন</item>
+        <item quantity="other">%1$d দিন</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 দিন</item>
+        <item quantity="other">%1$d দিন</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 ঘণ্টা</item>
+        <item quantity="other">%1$d ঘণ্টা</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other">%1$d মিনিট</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 মাহ</item>
+        <item quantity="other">%1$d মাহ</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 চেকেণ্ড</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 সপ্তাহ</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 টা অধিক দিন</item>
+        <item quantity="other">%1$dটা অধিক দিন</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 বছৰ</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">১ ঘণ্টা আগত</item>
+        <item quantity="other">%1$d ঘণ্টা আগতে</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 ঘণ্টা</item>
+        <item quantity="other">%1$d hrs</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1h</item>
+        <item quantity="other">%1$d ঘণ্টা</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 hr</item>
+        <item quantity="other">%1$d ঘণ্টা</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 minute ago</item>
+        <item quantity="other">%1$d মিনিট আগতে</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 মিনিট</item>
+        <item quantity="other">%1$d mins</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 চেকেণ্ড</item>
+        <item quantity="other">%1$d চেকেণ্ড আগেয়ে</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">১ বছৰ আগতে</item>
+        <item quantity="other">%1$d বছৰ আগতে</item>
+    </plurals>
+</resources>

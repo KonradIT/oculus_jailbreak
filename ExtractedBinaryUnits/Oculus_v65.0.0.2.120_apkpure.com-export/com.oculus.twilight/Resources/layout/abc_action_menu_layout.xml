@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.appcompat.widget.ActionMenuView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:layout_width="-2" android:layout_height="-2" app:divider="?com.oculus.twilight:attr/actionBarDivider" app:dividerPadding="12.0dp"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?com.oculus.twilight:attr/fds_usage_popover_background"/>
+    <corners android:radius="2.0dp"/>
+    <padding android:left="0.0dp" android:top="8.0dp" android:right="0.0dp" android:bottom="8.0dp"/>
+</shape>

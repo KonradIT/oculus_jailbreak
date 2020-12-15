@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d учасників</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Поставити %1$d зірку</item>
+        <item quantity="few">Поставити %1$d зірки</item>
+        <item quantity="other">Поставити %1$d зірок</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d дн.</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d год</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d хв</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d год тому</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d год</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d год.</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d хв тому</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d хв</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">%1$d місяць тому</item>
+        <item quantity="few">%1$d місяці тому</item>
+        <item quantity="other">%1$d місяців тому</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">%1$d с тому</item>
+    </plurals>
+</resources>

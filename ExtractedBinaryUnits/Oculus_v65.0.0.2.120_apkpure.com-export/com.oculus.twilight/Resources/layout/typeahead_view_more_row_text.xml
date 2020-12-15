@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:orientation="1" android:background="?com.oculus.twilight:attr/tokenizedTypeaheadItemBackgroundColor" android:layout_width="-1" android:layout_height="-2">
+    <View style="@style/typeahead_divider_fig"/>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="?com.oculus.twilight:attr/tokenizedTypeaheadItemTitleColor" android:gravity="0x10" android:layout_width="-1" android:layout_height="48.0dp" android:layout_marginLeft="84.0dp" android:text="@string/typeahead_view_more_text" android:contentDescription="@string/typeahead_view_more_description" android:layout_marginStart="84.0dp"/>
+    <View style="@style/typeahead_divider_fig_header"/>
+</LinearLayout>

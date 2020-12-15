@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ReportAProblem.Dialog">
+    <TextView android:text="@string/report_a_problem_fork_title" style="@style/ReportAProblem.DialogTitle"/>
+    <com.facebook.reportaproblem.base.ui.ReportAProblemForkListView android:id="@id/report_a_problem_fork" style="@style/ReportAProblem.ListView"/>
+    <Button android:id="@id/report_a_problem_fork_cancel" android:text="@android:string/cancel" style="@style/ReportAProblem.DialogButton"/>
+</LinearLayout>

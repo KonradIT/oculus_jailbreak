@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">%1$d myndir eftir</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s og %2$d önnur</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">%1$s ólesin samtöl</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d meðlimir</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">Gefðu einkunn með %1$d stjörnum</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s, %2$d nýtt</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d klst.</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d mínútur</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d mánuðir</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d sekúndur</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d vikur</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">%1$d fleiri dagar</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">%1$d klst. til viðbótar</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">%1$d mínútur til viðbótar</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">%1$d fleiri mánuðir</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">%1$d sekúndur til viðbótar</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">%1$d vikum til viðbótar</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">fyrir %1$d fleiri árum síðan</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d ár</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d klst. síðan</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d klst.</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d klst.</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">fyrir %1$d klst. síðan</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">eftir %1$d klst</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">fyrir %1$d mínútum</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">Fyrir %1$d mín síðan</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">Fyrir %1$d mínútum síðan</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d mín</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">fyrir %1$d mánuðum síðan</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">fyrir %1$d sekúndum síðan</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">fyrir %1$d vikum síðan</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">fyrir %1$d árum síðan</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">Þú heimsóttir fyrir %1$d dögum síðan</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">Þú heimsóttir fyrir %1$d klst. síðan</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">Þú heimsóttir fyrir %1$d mínútum síðan</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">Þú heimsóttir fyrir %1$d mánuðum síðan</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">Þú heimsóttir fyrir %1$d vikum síðan</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">Þú fórst inn fyrir %1$d árum síðan</item>
+    </plurals>
+</resources>

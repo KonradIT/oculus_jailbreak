@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">۱ عضو</item>
+        <item quantity="other">%1$d عضو</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">یک ستار رتبه بدهید</item>
+        <item quantity="other">با %1$d ستاره رتبه‌ بدهید</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 day ago</item>
+        <item quantity="other">%1$d روز پيش</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">۱ روز</item>
+        <item quantity="other">%1$d روز</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">۱ روز</item>
+        <item quantity="other">%1$d روز</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">۱ ساعت</item>
+        <item quantity="other">%1$d ساعت</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">۱ دقیقه</item>
+        <item quantity="other">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">۱ ماه</item>
+        <item quantity="other">%1$d ماه</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">۱ هفته</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">۱ سال</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">۱ ساعت پیش</item>
+        <item quantity="other">%1$d ساعت پیش</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">۱ ساعت</item>
+        <item quantity="other">%1$d ساعت</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1h</item>
+        <item quantity="other">%1$d ساعت</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">۱ ساعت</item>
+        <item quantity="other">%1$d ساعت پیش</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">۱ دقیقه پیش</item>
+        <item quantity="other">%1$d دقیقهٔ پیش</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">۱ دقیقه</item>
+        <item quantity="other">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1m</item>
+        <item quantity="other">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">۱ ماه پیش</item>
+        <item quantity="other">%1$d ماه پیش</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 second</item>
+        <item quantity="other">%1$d ثانیه پیش</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">۱ ساعت باقی مانده است</item>
+        <item quantity="other">%1$d hrs left</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">۱ دقیقه باقی‌ مانده است</item>
+        <item quantity="other">%1$d mins left</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">یک سال پیش</item>
+        <item quantity="other">%1$d سال پیش</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ReportAProblem.Dialog">
+    <TextView android:text="@string/bug_report_category_chooser_title" style="@style/ReportAProblem.DialogTitle"/>
+    <View android:background="@color/rap_divider_color" android:layout_width="-1" android:layout_height="@dimen/rap_divider_height"/>
+    <com.facebook.reportaproblem.base.ui.BugReportCategoryChooserListView android:id="@id/bug_report_category_chooser_list_view" style="@style/ReportAProblem.ListView"/>
+    <View android:background="@color/rap_divider_color" android:layout_width="-1" android:layout_height="@dimen/rap_divider_height"/>
+    <TextView android:textColor="@color/rap_text_grey_light" android:id="@id/bug_report_additional_info" android:padding="@dimen/rap_padding_standard" android:layout_width="-1" android:layout_height="-2" android:lineSpacingMultiplier="1.2"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ViewStub xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/dialtone_switcher_bar_stub" android:layout="@layout/dialtone_switcher_bar_wrapper" android:layout_width="-1" android:layout_height="-2"/>

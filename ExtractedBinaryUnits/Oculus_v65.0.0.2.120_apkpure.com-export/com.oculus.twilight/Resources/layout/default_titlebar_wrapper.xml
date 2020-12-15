@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.widget.titlebar.DefaultFbTitleBar xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/titlebar" android:layout_width="-1" android:layout_height="-2"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Debugging" android:key="pref_key_catalyst_debug">
+        <EditTextPreference android:title="Sandbox server host subdomain" android:key="sandbox_subdomain" android:summary="Dev server to use for facebook.com communication, empty for production server. Changes require an app restart." android:defaultValue=""/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="React Native Feed Settings" android:key="pref_key_react_native_feed">
+        <SwitchPreference android:title="Use FBLite mode" android:key="fblite_mode" android:summary="Toggles between FBLite mode and FB4a mode in react native feed. Requires app restart." android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/empty" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:layout_width="-1" android:layout_height="-1">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:gravity="0x11" android:id="@id/list_empty_text" android:visibility="2" android:layout_width="-1" android:layout_height="-1"/>
+    <LinearLayout android:layout_gravity="0x11" android:id="@id/list_empty_progress" android:layout_width="-2" android:layout_height="-2">
+        <ProgressBar android:layout_gravity="0x10" android:id="@id/empty_layout" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dp" android:indeterminate="true" android:layout_marginEnd="10.0dp" style="@style/Widget.ProgressBar.FBUi"/>
+    </LinearLayout>
+</FrameLayout>

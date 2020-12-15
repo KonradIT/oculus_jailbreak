@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="dialer_hint_text_size">30.0sp</dimen>
+    <dimen name="dialer_large_suggestion_height">160.0dp</dimen>
+    <dimen name="dialer_large_suggestion_name_text_size">25.0sp</dimen>
+    <dimen name="dialer_large_suggestion_other_text_size">15.0sp</dimen>
+    <dimen name="dialer_large_suggestion_profile_pic_size">58.0dp</dimen>
+    <dimen name="dialer_large_suggestion_width">188.0dp</dimen>
+    <dimen name="dialer_small_suggestion_height">35.0dp</dimen>
+    <dimen name="one_dp_or_px">1.0px</dimen>
+    <dimen name="orca_reg_text_size_small">@com.oculus.twilight:dimen/fbui_text_size_medium</dimen>
+</resources>

@@ -1,0 +1,21 @@
+{
+  "$generated": "@generated SignedSource<<26993f358d65c63b8d7294ccbc6e1839>>",
+  "OCFeedScreenQuery": {
+    "id": "2897521733692388",
+    "variables": [
+      "size",
+      "twoUpSize",
+      "threeUpSize",
+      "stackedThreeUpSize",
+      "encode",
+      "platform",
+      "selectedPlatform",
+      "squareSize",
+      "triggerName",
+      "source",
+      "DEVICE_SERIAL",
+      "SELECTED_DEVICE_SERIAL",
+      "LIBRARY_INFO_LAST_ACTIVE_WINDOW"
+    ]
+  }
+}

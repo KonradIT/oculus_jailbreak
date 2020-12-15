@@ -1,0 +1,41 @@
+ELF metadata
+
+- Comment:
+
+  + GCC: (GNU) 4.9.x 20150123 (prerelease)
+  + Facebook clang version 7.0.0 (llvm: 01e32d318d4d924d3f2d544b1e7c6e331eb536aa, cfe: 39ae206ef43c3d2b65acfed1c25986546a3f0809, compiler-rt: e915953ed2c7c0744e7bf47eee1481400173ea0f, lld: 56bc2e20de73e19025ebdba9455860b4b71f72dc 39ae206ef43c3d2b65acfed1c25986546a3f0809) (ssh://git-ro.vip.facebook.com/data/gitrepos/osmeta/external/llvm 01e32d318d4d924d3f2d544b1e7c6e331eb536aa) (based on LLVM 7.0.0)
+
+- Notes:
+
+  + Owner: Android
+    - type: 1
+    - description: Android API version:14 - NDK version:r17c - NDK build number:4988734
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=85D8772C31C41C1331C9BCB0A7B0A73E7BF90C48
+
+  + Owner: GNU
+    - type: NT_GNU_GOLD_VERSION (gold linker version)
+    - description: gold 1.12
+
+
+- ARM specific attributes:
+
+  + Vendor 'aeabi' (public attributes):
+    Tag_CPU_name: ARM v7
+    Tag_CPU_arch: v7
+    Tag_CPU_arch_profile: Application
+    Tag_ARM_ISA_use: Permitted
+    Tag_THUMB_ISA_use: Thumb-2
+    Tag_FP_arch: VFPv3-D16
+    Tag_ABI_PCS_GOT_use: GOT-Indirect
+    Tag_ABI_PCS_wchar_t: 4-byte
+    Tag_ABI_FP_denormal: IEEE-754
+    Tag_ABI_FP_exceptions: IEEE-754
+    Tag_ABI_FP_number_model: IEEE-754
+    Tag_ABI_align_needed: 8-byte alignment
+    Tag_ABI_enum_size: Int32
+    Tag_ABI_optimization_goals: Aggressive Speed
+    Tag_CPU_unaligned_access: v6-style
+    Tag_ABI_FP_16bit_format: IEEE-754

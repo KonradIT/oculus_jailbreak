@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/orca_login_background" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x11" android:orientation="1" android:id="@id/login_splash" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/login_logo1_splash" android:layout_width="-2" android:layout_height="-2"/>
+        <ImageView android:id="@id/login_logo2_splash" android:layout_width="-2" android:layout_height="-2"/>
+    </LinearLayout>
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/login_root" android:visibility="1" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="0x11" android:orientation="1" android:id="@id/login_logo_container" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:layout_above="@id/login_main_group" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/login_logo1" android:layout_width="-2" android:layout_height="-2"/>
+            <ImageView android:id="@id/login_logo2" android:layout_width="-2" android:layout_height="-2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="0x31" android:orientation="1" android:id="@id/login_main_group" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="-1" android:layout_height="-2" android:layout_centerInParent="true">
+            <com.facebook.resources.ui.FbButton android:textSize="@dimen/fbui_text_size_large" android:textStyle="0x1" android:textColor="@color/fds_white" android:id="@id/login" android:background="@drawable/orca_login_button_background" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp"/>
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fds_white" android:textColorLink="@color/fds_white" android:gravity="0x11" android:linksClickable="true" android:id="@id/login_sso_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@id/login_bottom_group" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/login_main_group" android:layout_alignParentBottom="true">
+            <include layout="@layout/orca_login_help_button"/>
+        </FrameLayout>
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</FrameLayout>

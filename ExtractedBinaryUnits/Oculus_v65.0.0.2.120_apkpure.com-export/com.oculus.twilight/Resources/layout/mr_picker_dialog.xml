@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x800003" android:orientation="0" android:paddingLeft="16.0dp" android:layout_width="-1" android:layout_height="@dimen/mr_dynamic_dialog_row_height" android:paddingStart="16.0dp">
+        <ImageButton android:layout_gravity="0x10" android:id="@id/mr_picker_close_button" android:background="?com.oculus.twilight:attr/selectableItemBackgroundBorderless" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="?com.oculus.twilight:attr/mediaRouteCloseDrawable" android:contentDescription="@string/mr_controller_close_description"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mr_picker_list" android:layout_width="-1" android:layout_height="-1"/>
+</LinearLayout>

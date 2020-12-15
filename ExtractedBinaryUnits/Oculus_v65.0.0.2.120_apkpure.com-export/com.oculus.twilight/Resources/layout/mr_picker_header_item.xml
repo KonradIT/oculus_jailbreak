@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="?com.oculus.twilight:attr/mediaRouteHeaderTextAppearance" android:gravity="0x800003" android:id="@id/mr_picker_header_name" android:paddingLeft="16.0dp" android:paddingTop="8.0dp" android:paddingRight="16.0dp" android:paddingBottom="8.0dp" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ReportAProblem.Dialog">
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:padding="@dimen/rap_padding_small" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/rap_margin_large">
+        <TextView android:textSize="@dimen/rap_title_text_size" android:textStyle="0x1" android:textColor="@color/rap_text_dark" android:layout_width="-2" android:layout_height="-2" android:text="@string/bug_report_composer_title" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+    <ScrollView android:paddingLeft="@dimen/rap_padding_small" android:paddingRight="@dimen/rap_padding_small" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/rap_margin_large" android:layout_marginRight="@dimen/rap_margin_large" android:layout_weight="1.0" android:isScrollContainer="true" android:layout_marginStart="@dimen/rap_margin_large" android:layout_marginEnd="@dimen/rap_margin_large">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.facebook.reportaproblem.base.ui.BugReportComposerEditText android:id="@id/bug_report_composer_edit_text" android:background="@color/fds_transparent" android:hint="@string/bug_report_composer_hint" style="@style/ReportAProblem.Composer"/>
+            <HorizontalScrollView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/rap_margin_standard" android:layout_marginBottom="@dimen/rap_margin_large">
+                <LinearLayout android:gravity="0x31" android:orientation="0" android:id="@id/bug_report_image_view_container" android:layout_width="-2" android:layout_height="@dimen/rap_thumbnail_height">
+                    <TextView android:textSize="@dimen/rap_add_thumbnail_text_size" android:textColor="@color/rap_blue" android:gravity="0x11" android:id="@id/bug_report_add_screenshot" android:background="@drawable/composer_add_photo_background" android:layout_width="@dimen/rap_add_thumbnail_button_width" android:layout_height="-1" android:layout_marginTop="@dimen/rap_padding_standard" android:text="@string/plus_icon"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/divider" android:background="@color/rap_divider_color" android:layout_width="-1" android:layout_height="1.0dp"/>
+    <Button android:id="@id/bug_report_send_button" android:text="@string/bug_report_composer_send_button" style="@style/ReportAProblem.DialogButton.Disabled"/>
+</LinearLayout>

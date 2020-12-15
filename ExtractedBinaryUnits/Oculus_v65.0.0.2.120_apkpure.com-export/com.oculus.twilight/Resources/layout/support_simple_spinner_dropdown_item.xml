@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:ellipsize="4" android:id="@android:id/text1" android:layout_width="-1" android:layout_height="?com.oculus.twilight:attr/dropdownListPreferredItemHeight" android:singleLine="true" style="?com.oculus.twilight:attr/spinnerDropDownItemStyle"/>

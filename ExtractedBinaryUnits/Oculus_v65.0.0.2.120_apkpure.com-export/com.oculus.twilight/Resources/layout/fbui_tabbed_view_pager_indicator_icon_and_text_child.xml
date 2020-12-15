@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.fbui.widget.pagerindicator.ColoredTabProgressListenerBadgeTextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/icon_and_text_child_text" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="?com.oculus.twilight:attr/iconAndTextTabbedViewPagerIndicatorChildStyle"/>

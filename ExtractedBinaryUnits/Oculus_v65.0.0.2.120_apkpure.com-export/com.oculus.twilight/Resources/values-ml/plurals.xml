@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d ഫോട്ടോ ശേഷിക്കുന്നു</item>
+        <item quantity="other">%1$d ഫോട്ടോകൾ ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s എന്നിവയും മറ്റൊരെണ്ണവും</item>
+        <item quantity="other">%1$s എന്നിവയും മറ്റ് %2$d പേരും</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">വായിക്കാതൊരു സംഭാഷണം</item>
+        <item quantity="other">%1$s വായിക്കാത്ത സംഭാഷണങ്ങൾ</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">ഒരു അംഗം</item>
+        <item quantity="other">%1$d അംഗങ്ങള്‍</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">ഒരു നക്ഷത്രമിട്ട് റേറ്റുചെയ്യുക</item>
+        <item quantity="other">%1$d നക്ഷത്രമിട്ട് റേറ്റുചെയ്യുക</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d അറിയിപ്പ്</item>
+        <item quantity="other">%1$d അറിയിപ്പുകള്‍</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, ഒരു പുതിയത്</item>
+        <item quantity="other">%1$s, %2$d പുതിയത്</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 ദിവസം മുമ്പ്</item>
+        <item quantity="other">%1$d ദിവസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 ദിവസം</item>
+        <item quantity="other">%1$d ദിവസം</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 ദിവസം</item>
+        <item quantity="other">%1$d ദിവസങ്ങൾക്കുള്ളിൽ</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 മണിക്കൂര്‍</item>
+        <item quantity="other">%1$d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 മിനിറ്റ്</item>
+        <item quantity="other">%1$d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 മാസം</item>
+        <item quantity="other">%1$d മാസം</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 സെക്കൻഡ്</item>
+        <item quantity="other">%1$d സെക്കൻഡ്</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 ആഴ്‌ച</item>
+        <item quantity="other">%1$d ആഴ്‌ച</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 ദിവസം കൂടി</item>
+        <item quantity="other">%1$d ദിവസങ്ങൾ കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">1 മണിക്കൂർ കൂടി</item>
+        <item quantity="other">%1$d മണിക്കൂറുകൾ കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">1 മിനിറ്റ് കൂടി</item>
+        <item quantity="other">%1$d മിനിറ്റുകൾ കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">1 മാസം കൂടി</item>
+        <item quantity="other">%1$d മാസങ്ങൾ കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">1 സെക്കൻഡ് കൂടി</item>
+        <item quantity="other">%1$d സെക്കൻഡുകൾ കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">1 ആഴ്‌ച കൂടി</item>
+        <item quantity="other">%1$d ആഴ്‌ചകൾ കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">1 വർഷം കൂടി</item>
+        <item quantity="other">%1$d വർഷങ്ങൾക്കൂടി</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 വര്‍ഷം</item>
+        <item quantity="other">%1$d വർഷം</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 മണിക്കൂര്‍ മുമ്പ്</item>
+        <item quantity="other">%1$d മണിക്കൂര്‍ മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 മണിക്കൂര്‍</item>
+        <item quantity="other">%1$d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">ഒരു മണിക്കൂർ</item>
+        <item quantity="other">%1$dമണിക്കൂർ</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 മണിക്കൂര്‍</item>
+        <item quantity="other">%1$d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="other">%1$d മണിക്കൂർ മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">ഇപ്പോള്‍ മുതല്‍ 1 മണിക്കൂര്‍</item>
+        <item quantity="other">ഇപ്പോള്‍ മുതല്‍ %1$d മണിക്കൂര്‍</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">ഇപ്പോള്‍ മുതല്‍ 1 മിനിറ്റ്</item>
+        <item quantity="other">ഇപ്പോള്‍ മുതല്‍ %1$d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="other">%1$d മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="other">%1$d മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 മിനിറ്റ്</item>
+        <item quantity="other">%1$d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">ഒരു മിനിറ്റ്</item>
+        <item quantity="other">%1$dമിനിറ്റ്</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">ഒരു മാസം മുമ്പ്</item>
+        <item quantity="other">%1$d മാസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">ഒരു സെക്കന്റ്</item>
+        <item quantity="other">%1$d സെക്കന്‍ഡ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 ആഴ്‌ച മുമ്പ്</item>
+        <item quantity="other">%1$d ആഴ്‌ച മുമ്പ്</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">ഒരു മണിക്കൂർ ശേഷിക്കുന്നു</item>
+        <item quantity="other">%1$d മണിക്കൂർ ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">ഒരു മിനിറ്റ് ശേഷിക്കുന്നു</item>
+        <item quantity="other">%1$d മിനിറ്റ് അവശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">ഒരു വർഷം മുമ്പ്</item>
+        <item quantity="other">%1$d വർഷം മുമ്പ്</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">നിങ്ങൾ ഒരു ദിവസം മുമ്പ് സന്ദർശിച്ചു</item>
+        <item quantity="other">നിങ്ങൾ %1$d ദിവസം മുമ്പ് സന്ദർശിച്ചു</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">നിങ്ങൾ ഒരു മണിക്കൂർ മുമ്പ് സന്ദർശിച്ചു</item>
+        <item quantity="other">നിങ്ങൾ %1$d മണിക്കൂർ മുമ്പ് സന്ദർശിച്ചു</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">നിങ്ങൾ ഒരു മിനിറ്റ് മുമ്പ് സന്ദർശിച്ചു</item>
+        <item quantity="other">നിങ്ങൾ %1$d മിനിറ്റ് മുമ്പ് സന്ദർശിച്ചു</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">നിങ്ങൾ ഒരു മാസം മുമ്പ് സന്ദർശിച്ചു</item>
+        <item quantity="other">നിങ്ങൾ %1$d മാസം മുമ്പ് സന്ദർശിച്ചു</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">നിങ്ങൾ ഒരാഴ്‌ച മുമ്പ് സന്ദർശിച്ചു</item>
+        <item quantity="other">നിങ്ങൾ %1$d ആഴ്‌ച മുമ്പ് സന്ദർശിച്ചു</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">നിങ്ങൾ ഒരു വർഷം മുമ്പ് സന്ദർശിച്ചു</item>
+        <item quantity="other">നിങ്ങൾ %1$d വർഷം മുമ്പ് സന്ദർശിച്ചു</item>
+    </plurals>
+</resources>

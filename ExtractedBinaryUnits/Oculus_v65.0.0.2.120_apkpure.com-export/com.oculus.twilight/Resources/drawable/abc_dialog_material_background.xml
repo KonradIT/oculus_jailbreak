@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="16.0dp" android:insetRight="16.0dp" android:insetTop="16.0dp" android:insetBottom="16.0dp">
+    <shape android:shape="0">
+        <corners android:radius="?com.oculus.twilight:attr/dialogCornerRadius"/>
+        <solid android:color="@android:color/white"/>
+    </shape>
+</inset>

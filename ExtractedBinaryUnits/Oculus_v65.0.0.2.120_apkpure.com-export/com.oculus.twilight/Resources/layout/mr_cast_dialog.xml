@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@layout/mr_cast_media_metadata"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mr_cast_list" android:layout_width="-1" android:layout_height="-1"/>
+</LinearLayout>

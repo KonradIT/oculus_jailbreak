@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">Picha %1$d zimesalia</item>
+        <item quantity="other">Picha %1$d imesalia</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s na mwingine 1</item>
+        <item quantity="other">%1$s na wengine %2$d</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">Mazungumzo 1 hayajasomwa</item>
+        <item quantity="other">Mazungumzo %1$s hayajasomwa</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">Mwanachama 1</item>
+        <item quantity="other">Wanachama %1$d</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Kadiria nyota moja</item>
+        <item quantity="other">Kadiria na nyota %1$d</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">Taarifa %1$d</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 mpya</item>
+        <item quantity="other">%1$s, %2$d mpya</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">Siku 1 iliyopita</item>
+        <item quantity="other">Siku %1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">Siku 1</item>
+        <item quantity="other">Siku %1$d</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">Siku 1</item>
+        <item quantity="other">Siku %1$d</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">Saa 1</item>
+        <item quantity="other">Saa %1$d</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">Dakika 1</item>
+        <item quantity="other">Dakika %1$d</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">Mwezi 1</item>
+        <item quantity="other">Miezi %1$d</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">Sekunde 1</item>
+        <item quantity="other">Sekunde %1$d</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">Wiki 1</item>
+        <item quantity="other">Wiki %1$d</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">Siku 1 zaidi</item>
+        <item quantity="other">Siku %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">Saa 1 zaidi</item>
+        <item quantity="other">Saa %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">Dakika 1 zaidi</item>
+        <item quantity="other">Dakika %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">Mwezi 1 zaidi</item>
+        <item quantity="other">Miezi %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">Sekunde 1 zaidi</item>
+        <item quantity="other">Sekunde %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">Wiki 1 zaidi</item>
+        <item quantity="other">Wiki %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">Mwaka 1 zaidi</item>
+        <item quantity="other">Miaka %1$d zaidi</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">Mwaka 1</item>
+        <item quantity="other">Miaka %1$d</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">Saa 1 iliyopita</item>
+        <item quantity="other">Saa %1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">Saa 1</item>
+        <item quantity="other">saa %1$d</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">Saa 1</item>
+        <item quantity="other">Saa %1$d</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">Saa 1</item>
+        <item quantity="other">Saa %1$d</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">Saa 1 iliyopita</item>
+        <item quantity="other">Saa %1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">Saa 1 kutoka sasa</item>
+        <item quantity="other">Saaa %1$d kuanzia sasa</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">Dakika 1 kuanzia sasa</item>
+        <item quantity="other">Dakika %1$d kuanzia sasa</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other">Dakika %1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other">Dakika %1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">Dakika 1</item>
+        <item quantity="other">Dakika %1$d</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">Dakika 1</item>
+        <item quantity="other">Dakika %1$d</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">Mwezi 1 uliopita</item>
+        <item quantity="other">Miezi %1$d iliyopita</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">Sekunde 1</item>
+        <item quantity="other">Sekunde%1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">Wiki 1 iliyopita</item>
+        <item quantity="other">Wiki %1$d zilizopita</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">Inasalia saa 1</item>
+        <item quantity="other">Zimesalia saa %1$d</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">Inasalia dakika 1</item>
+        <item quantity="other">Zimesalia dakika %1$d</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">Mwaka 1 uliopita</item>
+        <item quantity="other">Miaka %1$d iliyopita</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">Ulitembelea siku 1 iliyopita</item>
+        <item quantity="other">Ulitembelea siku %1$d zilizopita</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">Ulitembelea saa 1 iliyopita</item>
+        <item quantity="other">Ulitembelea saa %1$d zilizopita</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">Ulitembelea dakika 1 iliyopita</item>
+        <item quantity="other">Ulitembelea dakika %1$d zilizopita</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">Tembelea mwezi 1 uliopita</item>
+        <item quantity="other">Ulitembelea miezi %1$d iliyopita</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">Ulitembelea wiki 1 iliyopita</item>
+        <item quantity="other">Ulitembelea wiki %1$d zilizopita</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">Ulitembelea mwaka 1 uliopita</item>
+        <item quantity="other">Ulitembelea miaka %1$d iliyopita</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Rate with one star</item>
+        <item quantity="other">Rate with %1$d stars</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d notification</item>
+        <item quantity="other">%1$d notifications</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1 hr</item>
+        <item quantity="other">%1$d hrs</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 min.</item>
+        <item quantity="other">%1$d mins</item>
+    </plurals>
+</resources>

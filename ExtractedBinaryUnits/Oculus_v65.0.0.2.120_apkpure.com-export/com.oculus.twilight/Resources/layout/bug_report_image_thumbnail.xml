@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bug_report_thumbnail" android:paddingTop="@dimen/rap_padding_standard" android:paddingRight="@dimen/rap_padding_standard" android:layout_width="-2" android:layout_height="@dimen/rap_thumbnail_height" android:adjustViewBounds="true"/>
+    <ImageView android:layout_gravity="0x35" android:id="@id/bug_report_remove_button" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/thumbnail_remove_icon"/>
+</merge>

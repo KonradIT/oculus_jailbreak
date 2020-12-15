@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:id="@id/action0" android:layout_width="48.0dp" android:layout_height="-1" android:layout_marginLeft="2.0dp" android:layout_marginRight="2.0dp" android:layout_weight="1.0" style="?android:attr/borderlessButtonStyle"/>

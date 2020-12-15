@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">Còn %1$d ảnh</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">%1$s cuộc trò chuyện chưa đọc</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d thành viên</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">Xếp hạng %1$d sao</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d thông báo</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s, %2$d mục mới</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%1$d ngày trước</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d tháng</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d giây</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d tuần</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">%1$d ngày nữa</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">%1$d giờ nữa</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">%1$d phút nữa</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">%1$d tháng nữa</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">%1$d giây nữa</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">%1$d tuần nữa</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">%1$d năm nữa</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d năm</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d giờ trước</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">%1$d giờ trước</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">%1$d giờ từ bây giờ</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">%1$d phút từ bây giờ</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">%1$d phút trước</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d phút trước</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">%1$d tháng trước</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">%1$d giây trước</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">%1$d tuần trước</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="other">Còn %1$d giờ</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="other">Còn %1$d phút</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">%1$d năm trước</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">Bạn đã truy cập %1$d ngày trước</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">Bạn đã truy cập %1$d giờ trước</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">Bạn đã truy cập %1$d phút trước</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">Bạn đã truy cập %1$d tháng trước</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">Bạn đã truy cập %1$d tuần trước</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">Bạn đã truy cập %1$d năm trước</item>
+    </plurals>
+</resources>

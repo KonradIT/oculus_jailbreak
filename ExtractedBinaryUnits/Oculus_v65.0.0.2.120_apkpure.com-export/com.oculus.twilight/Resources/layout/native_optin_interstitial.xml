@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto" android:background="@drawable/native_optin_interstitial_background" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="@id/optin_button_group" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <com.facebook.resources.ui.FbButton android:id="@id/optin_cancel_button" android:layout_width="0.0dp" android:layout_height="48.0dp" android:layout_marginRight="8.0dp" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" style="?com.oculus.twilight:attr/buttonRegularMedium"/>
+        <com.facebook.resources.ui.FbButton android:id="@id/optin_confirm_button" android:layout_width="0.0dp" android:layout_height="48.0dp" android:layout_weight="1.0" style="?com.oculus.twilight:attr/buttonSpecialMedium"/>
+    </LinearLayout>
+    <ProgressBar android:id="@id/optin_progress_spinner" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminateOnly="true" android:layout_centerInParent="true"/>
+    <ScrollView android:id="@id/optin_main_body_scrollview" android:paddingLeft="20.0dp" android:paddingTop="20.0dp" android:paddingRight="20.0dp" android:paddingBottom="18.0dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_above="@id/optin_button_group" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xxlarge" android:textStyle="0x1" android:textColor="?com.oculus.twilight:attr/fds_usage_primary_text" android:gravity="0x1" android:id="@id/optin_title_text_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20.0dp"/>
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small_medium" android:textColor="#7f7f7f" android:gravity="0x11" android:id="@id/optin_description_text_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20.0dp"/>
+            <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="0x11" android:id="@id/optin_logo_image_view" android:focusable="true" android:clickable="false" android:layout_width="180.0dp" android:layout_height="80.0dp" android:layout_marginBottom="20.0dp" orca:actualImageScaleType="2" orca:placeholderImage="@drawable/zero_optin_celltower"/>
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="#898f9b" android:gravity="0x1" android:id="@id/optin_friends_message_text_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12.0dp"/>
+            <com.facebook.fbui.widget.facepile.FacepileView android:gravity="0x1" android:id="@id/optin_facepile_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="12.0dp" orca:faceSize="50.0dp" orca:horizontalPadding="6.0dp"/>
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="#898f9b" android:gravity="0x11" android:id="@id/optin_disclaimer_text_view" android:layout_width="-1" android:layout_height="-2"/>
+        </LinearLayout>
+    </ScrollView>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

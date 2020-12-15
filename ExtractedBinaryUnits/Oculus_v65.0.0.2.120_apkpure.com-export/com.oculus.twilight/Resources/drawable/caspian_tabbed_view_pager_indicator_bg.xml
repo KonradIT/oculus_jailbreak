@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-2.0px" android:top="-2.0px" android:right="-2.0px">
+        <shape>
+            <solid android:color="?com.oculus.twilight:attr/fds_usage_surface_background"/>
+            <stroke android:width="2.0px" android:color="?com.oculus.twilight:attr/fds_usage_divider"/>
+        </shape>
+    </item>
+</layer-list>

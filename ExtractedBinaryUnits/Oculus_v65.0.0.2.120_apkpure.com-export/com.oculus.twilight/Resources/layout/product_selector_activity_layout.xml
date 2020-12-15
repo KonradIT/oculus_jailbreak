@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/products_selector_layout" android:layout_width="-1" android:layout_height="-1">
+    <com.facebook.ui.legacynavbar.LegacyNavigationBar android:id="@id/titlebar" android:background="?com.oculus.twilight:attr/titleBarBackground" android:layout_width="-1" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbFrameLayout android:id="@id/fragment_container" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:layout_width="-1" android:layout_height="-1"/>
+</LinearLayout>

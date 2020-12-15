@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 member</item>
+        <item quantity="other">%1$d anëtarë</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 ditë më parë</item>
+        <item quantity="other">%1$d ditë më parë</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 ditë</item>
+        <item quantity="other">%1$d ditë</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 ditë</item>
+        <item quantity="other">%1$d ditë</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 Orë</item>
+        <item quantity="other">%1$d orë</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 minutë</item>
+        <item quantity="other">%1$d minuta</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 muaj</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 sekondë</item>
+        <item quantity="other">%1$d sekonda</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 javë</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 ditë më shumë</item>
+        <item quantity="other">%1$d ditë të tjera</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 vit</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 orë më parë</item>
+        <item quantity="other">%1$d orë më parë</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 orë</item>
+        <item quantity="other">%1$d orë</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 orë</item>
+        <item quantity="other">%1$d orë</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 minute ago</item>
+        <item quantity="other">%1$d minuta më parë</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%1$d minuta</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 month ago</item>
+        <item quantity="other">%1$d muaj më parë</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 sekondë</item>
+        <item quantity="other">%1$d sekonda më parë</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 year ago</item>
+        <item quantity="other">%1$d vite më parë</item>
+    </plurals>
+</resources>

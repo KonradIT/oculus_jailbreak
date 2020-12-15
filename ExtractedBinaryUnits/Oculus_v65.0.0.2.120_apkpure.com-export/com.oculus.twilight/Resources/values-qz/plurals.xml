@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">ဓာတ္ပုံ %1$dပုံ က်န္ေသးသည္။</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$sႏွင့္ အျခား %2$dခု</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">မဖတ္ရေသးေသာ အျပန္အလွန္ေျပာဆိုမွု စာတြဲမ်ား %1$s</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">အဖြဲ႕ဝင္ %1$d ဦး</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">ၾကယ္ %1$dလုံးျဖင့္ အဆင့္ သတ္မွတ္ရန္</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">အသိေပးခ်က္ %1$d ခု</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s၊ အသစ္ %2$dခု</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d ရက္</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d ရက္</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$dရက္</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d မိနစ္</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d လ</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d စကၠန႔္</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d ပတ္</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">ေနာက္ထပ္ %1$d ရက္</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">ေနာက္ထပ္ %1$d နာရီ</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">ေနာက္ထပ္ %1$d မိနစ္</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">ေနာက္ထပ္ %1$d လ</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">ေနာက္ထပ္ %1$d စကၠန႔္</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">ေနာက္ထပ္ %1$d ပတ္</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">ေနာက္ထပ္ %1$d ႏွစ္</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d ႏွစ္</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d နာရီ</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="other">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">လြန္ခဲ့သည့္ %1$d နာရီက</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">ယခုအခ်ိန္မွ %1$d နာရီအတြင္း</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">ယခုမွ %1$d မိနစ္အတြင္း</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">လြန္ခဲ့သည့္ %1$d မိနစ္က</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d မိနစ္</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d မိနစ္</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="other">%1$d မိနစ္</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d လ</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d စကၠန႔္</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d ပတ္</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="other">%1$d နာရီ က်န္ပါေသးတယ္</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="other">%1$d မိနစ္ပဲ က်န္ပါတယ္</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d ႏွစ္</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">လြန္ခဲ့တဲ့ %1$d ရက္တုန္းက သင္ သြားေရာက္ခဲ့ပါတယ္</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %1$d ႏွစ္က သင္သြားေရာက္ခဲ့သည္</item>
+    </plurals>
+</resources>

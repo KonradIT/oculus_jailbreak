@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="@dimen/mr_dynamic_volume_group_list_item_height">
+    <TextView android:textAppearance="?com.oculus.twilight:attr/mediaRouteHeaderTextAppearance" android:gravity="0x800003" android:id="@id/mr_group_volume_route_name" android:paddingLeft="16.0dp" android:paddingTop="16.0dp" android:paddingRight="16.0dp" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" android:textAlignment="5"/>
+    <RelativeLayout android:id="@id/mr_cast_volume_layout" android:layout_width="-1" android:layout_height="@dimen/mr_dynamic_dialog_row_height">
+        <ImageButton android:id="@id/mr_cast_mute_button" android:background="?com.oculus.twilight:attr/selectableItemBackgroundBorderless" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginLeft="16.0dp" android:layout_centerVertical="true" android:layout_marginStart="16.0dp"/>
+        <androidx.mediarouter.app.MediaRouteVolumeSlider android:id="@id/mr_cast_volume_slider" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="16.0dp" android:maxHeight="48.0dp" android:progressDrawable="@drawable/mr_cast_group_seekbar_track" android:minHeight="48.0dp" android:thumb="@drawable/mr_cast_thumb" android:layout_toRightOf="@id/mr_cast_mute_button" android:layout_centerVertical="true" android:contentDescription="@string/mr_controller_volume_slider" android:layout_marginEnd="16.0dp" android:layout_toEndOf="@id/mr_cast_mute_button" android:splitTrack="false"/>
+        <View android:id="@id/mr_cast_divider" android:background="?com.oculus.twilight:attr/mediaRouteDividerColor" android:layout_width="-1" android:layout_height="1.0dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

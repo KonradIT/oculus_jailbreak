@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <style name="Widget.Design.TabLayout">
+        <enum name="com.oculus.twilight:attr/tabGravity" value="1" />
+        <enum name="com.oculus.twilight:attr/tabMode" value="1" />
+    </style>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/zero_e2e_tests" android:background="#7537b3" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+    <ViewStub android:id="@id/dialtone_switcher_bar_stub" android:layout="@layout/dialtone_switcher_bar_wrapper" android:inflatedId="@id/dialtone_swdialtone_switcher_baritcher_bar" android:layout_width="-1" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textStyle="0x1" android:textColor="#f9f9f9" android:layout_gravity="0x1" android:layout_width="-1" android:layout_height="-2" android:text="E2E Zero Test Screen"/>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Is ZR Campaign Enabled: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_zr_campaign_enabled" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Is Dialtone Enabled: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_dialtone_enabled" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Active Token Type: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_active_token" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Carrier ID: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_carrier_id" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Is FUP Blocked: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_fup_blocked" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="NetworkType @ Zero Infra: " android:tooltipText="Maybe Mocked. See getNetworkType @ ZeroNetworkAndTelephonyHelper.java"/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_network_type" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Is Torque Enabled now: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_torque_enabled" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textStyle="0x1" android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Zero Shared Preferences: "/>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Dialtone Sticky Mode: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_zsp_sticky" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textStyle="0x1" android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Zero Headers: "/>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Masked MSISDN For FOS: "/>
+        <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/test_headers_fos" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:textStyle="0x1" android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="URL Rewrite Test: "/>
+    <LinearLayout android:orientation="1" android:padding="5.0dp" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.resources.ui.FbEditText android:textColor="#f9f9f9" android:textColorHint="#f9f9f9" android:id="@id/rewrite_edit_text" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Url"/>
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+            <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:layout_width="-2" android:layout_height="-2" android:text="Was URL Zero Rated: "/>
+            <com.facebook.resources.ui.FbTextView android:textColor="#f9f9f9" android:id="@id/rewritten_test_result" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.0dp" android:layout_marginStart="4.0dp"/>
+        </LinearLayout>
+        <com.facebook.resources.ui.FbTextView android:textColor="00f" android:id="@id/rewritten_test" android:background="@color/white" android:layout_width="-1" android:layout_height="-2"/>
+    </LinearLayout>
+    <com.facebook.resources.ui.FbButton android:textColor="#7537b3" android:layout_gravity="0x1" android:id="@id/test_refresh_token_btn" android:background="#f9f9f9" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dp" android:minHeight="0.0dp" android:text="Force Token Refresh"/>
+    <com.facebook.resources.ui.FbButton android:textColor="#7537b3" android:layout_gravity="0x1" android:id="@id/test_refresh_header_btn" android:background="#f9f9f9" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dp" android:minHeight="0.0dp" android:text="Refresh Headers"/>
+    <com.facebook.resources.ui.FbButton android:textColor="#7537b3" android:layout_gravity="0x1" android:id="@id/test_carrier_signal_btn" android:background="#f9f9f9" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dp" android:minHeight="0.0dp" android:text="Send Carrier Signal Ping"/>
+    <com.facebook.resources.ui.FbButton android:textColor="#7537b3" android:layout_gravity="0x1" android:id="@id/test_exit_btn" android:background="#f9f9f9" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8.0dp" android:minHeight="0.0dp" android:text="Exit Screen"/>
+</LinearLayout>

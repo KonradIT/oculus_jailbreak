@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/rap_padding_standard" android:insetRight="@dimen/rap_padding_standard">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <size android:height="@dimen/rap_divider_height"/>
+        <solid android:color="@color/rap_divider_color"/>
+    </shape>
+</inset>

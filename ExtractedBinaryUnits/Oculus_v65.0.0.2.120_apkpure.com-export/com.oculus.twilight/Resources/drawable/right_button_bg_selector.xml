@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="0">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="0">
+            <solid android:color="@color/right_button_on_press"/>
+        </shape>
+    </item>
+</selector>

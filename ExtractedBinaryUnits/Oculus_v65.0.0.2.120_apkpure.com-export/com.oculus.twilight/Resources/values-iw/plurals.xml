@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">נשארה תמונת %1$d</item>
+        <item quantity="other">נשארו %1$d תמונות</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s ואחד נוסף</item>
+        <item quantity="other">%1$s ו-%2$d נוספים</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">שיחה אחת שלא נקראה</item>
+        <item quantity="other">%1$s שיחות שלא נקראו</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">חבר אחד</item>
+        <item quantity="other">%1$d חברים</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">דירוג של כוכב אחד</item>
+        <item quantity="other">דירוג עם %1$d כוכבים</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d התראות</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, אחד חדש</item>
+        <item quantity="two">%1$s, שניים חדשים</item>
+        <item quantity="other">%1$s, %2$d חדשים</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">לפני יום</item>
+        <item quantity="two">לפני יומיים</item>
+        <item quantity="other">לפני %1$d ימים</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">יום אחד</item>
+        <item quantity="other">%1$d ימים</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">יום אחד</item>
+        <item quantity="other">%1$d ימים</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="other">%1$d שעות</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">דקה אחת</item>
+        <item quantity="other">%1$d דקות</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">חודש אחד</item>
+        <item quantity="other">%1$d חודשים</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="other">%1$d שניות</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">שבוע אחד</item>
+        <item quantity="other">%1$d שבועות</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">יום אחד נוסף</item>
+        <item quantity="two">יומיים נוספים</item>
+        <item quantity="other">%1$d ימים נוספים</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">שעה נוספת</item>
+        <item quantity="two">שעתיים נוספות</item>
+        <item quantity="other">%1$d שעות נוספות</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">דקה נוספת</item>
+        <item quantity="other">%1$d דקות נוספות</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">חודש נוסף</item>
+        <item quantity="other">%1$d חודשים נוספים</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">שניה נוספת</item>
+        <item quantity="other">%1$d שניות נוספות</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">שבוע נוסף</item>
+        <item quantity="other">%1$d שבועות נוספים</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">שנה נוספת</item>
+        <item quantity="other">%1$d שנים נוספות</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">שנה אחת</item>
+        <item quantity="other">%1$d שנים</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">לפני שעה</item>
+        <item quantity="other">לפני %1$d שעות</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="other">%1$d שעות</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="other">%1$d שעות</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">שעה אחת</item>
+        <item quantity="other">%1$d שעות</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">לפני שעה</item>
+        <item quantity="two">לפני שעתיים</item>
+        <item quantity="other">לפני %1$d שעות</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">שעה אחת מעכשיו</item>
+        <item quantity="other">%1$d שעות מעכשיו</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">דקה מעכשיו</item>
+        <item quantity="other">%1$d דקות מעכשיו</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">לפני דקה</item>
+        <item quantity="other">לפני %1$d דקות</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">לפני דקה</item>
+        <item quantity="other">לפני %1$d דקות</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">דקה אחת</item>
+        <item quantity="other">%1$d דקות</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">דקה</item>
+        <item quantity="other">%1$d דקות</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">לפני חודש אחד</item>
+        <item quantity="other">לפני %1$d חודשים</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="other">לפני %1$d שניות</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">לפני שבוע</item>
+        <item quantity="other">לפני %1$d שבועות</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">נותרה שעה</item>
+        <item quantity="two">נותרו שעתיים</item>
+        <item quantity="other">נותרו %1$d שעות</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">נותרה דקה אחת</item>
+        <item quantity="other">נותרו %1$d דקות</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">לפני שנה</item>
+        <item quantity="other">לפני %1$d שנים</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">ביקרת לפני יום</item>
+        <item quantity="two">ביקרת לפני יומיים</item>
+        <item quantity="other">ביקרת לפני %1$d ימים</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">ביקרת לפני שעה</item>
+        <item quantity="two">ביקרת לפני שעתיים</item>
+        <item quantity="other">ביקרת לפני %1$d שעות</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">ביקרת לפני דקה</item>
+        <item quantity="other">ביקרת לפני %1$d דקות</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">ביקרת לפני חודש</item>
+        <item quantity="two">ביקרת לפני חודשיים</item>
+        <item quantity="other">ביקרת לפני %1$d חודשים</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">ביקרת לפני שבוע</item>
+        <item quantity="two">ביקרת לפני שבועיים</item>
+        <item quantity="other">ביקרת לפני %1$d שבועות</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">ביקרת לפני שנה</item>
+        <item quantity="two">ביקרת לפני שנתיים</item>
+        <item quantity="other">ביקרת לפני %1$d שנים</item>
+    </plurals>
+</resources>

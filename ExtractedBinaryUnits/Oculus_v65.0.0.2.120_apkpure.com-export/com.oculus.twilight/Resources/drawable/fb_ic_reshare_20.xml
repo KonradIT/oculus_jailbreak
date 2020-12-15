@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<app-fbicon xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" fbui:variant_filled="@drawable/fb_ic_reshare_filled_20" fbui:variant_outline="@drawable/fb_ic_reshare_outline_20"/>

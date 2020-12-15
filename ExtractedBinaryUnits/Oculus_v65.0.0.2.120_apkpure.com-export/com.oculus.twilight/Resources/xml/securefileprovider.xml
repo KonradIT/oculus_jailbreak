@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="photobooth" path="PhotoboothPhotos/"/>
+    <cache-path name="temp" path="fb_temp/"/>
+    <external-path name="sdcard_root" path="/"/>
+</paths>

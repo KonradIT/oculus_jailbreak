@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:paddingLeft="24.0dp" android:paddingRight="12.0dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="24.0dp" android:paddingEnd="12.0dp">
+    <ImageButton android:id="@id/mr_control_playback_ctrl" android:background="?com.oculus.twilight:attr/selectableItemBackgroundBorderless" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12.0dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/mr_controller_play" android:layout_marginStart="12.0dp" android:layout_alignParentEnd="true"/>
+    <LinearLayout android:orientation="1" android:id="@id/mr_control_title_container" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/mr_control_playback_ctrl" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:importantForAccessibility="2" android:layout_toStartOf="@id/mr_control_playback_ctrl" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="@style/TextAppearance.MediaRouter.PrimaryText" android:id="@id/mr_control_title" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/TextAppearance.MediaRouter.SecondaryText" android:id="@id/mr_control_subtitle" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true"/>
+    </LinearLayout>
+</RelativeLayout>

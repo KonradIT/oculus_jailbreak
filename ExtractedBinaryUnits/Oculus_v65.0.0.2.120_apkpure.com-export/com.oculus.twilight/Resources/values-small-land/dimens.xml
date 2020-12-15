@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="dialtone_fb_logo_margin_top">16.0dp</dimen>
+    <dimen name="dialtone_interstitial_line_view_paddings">12.0dp</dimen>
+    <dimen name="dialtone_interstitial_side_padding">24.0dp</dimen>
+    <dimen name="dialtone_interstitial_top_bottom_padding">6.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_bottom">16.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_side">14.0dp</dimen>
+</resources>

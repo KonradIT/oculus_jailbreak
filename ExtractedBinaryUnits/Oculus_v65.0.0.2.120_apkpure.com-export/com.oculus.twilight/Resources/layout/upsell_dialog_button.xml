@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.iorg.common.upsell.IorgTextView android:textSize="@dimen/upsell_text_size_medium" android:textColor="@color/iorg_btn_light_primary_text" android:gravity="0x15" android:id="@id/upsell_button_text" android:background="@drawable/upsell_bottom_button_bg" android:paddingLeft="@dimen/upsell_button_padding" android:paddingRight="@dimen/upsell_button_padding" android:layout_width="-2" android:layout_height="36.0dp" android:layout_marginRight="8.0dp" android:minWidth="64.0dp" android:textAllCaps="true" android:layout_marginEnd="8.0dp"/>
+    <ProgressBar android:gravity="0x11" android:id="@id/upsell_button_progress_bar" android:paddingLeft="@dimen/upsell_button_padding" android:paddingTop="@dimen/upsell_button__spinner_padding" android:paddingRight="@dimen/upsell_button_padding" android:paddingBottom="@dimen/upsell_button__spinner_padding" android:visibility="2" android:layout_width="-2" android:layout_height="36.0dp" android:indeterminate="true" style="@android:style/Widget.ProgressBar.Inverse"/>
+</merge>

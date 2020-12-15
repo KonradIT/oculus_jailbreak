@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.fbui.popover.PopoverViewFlipper android:id="@id/fbui_popover_view_flipper" android:background="?com.oculus.twilight:attr/popoverWindowBackground" android:layout_width="-1" android:layout_height="-2"/>
+</merge>

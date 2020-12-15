@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:layout_width="-1" android:layout_height="-1">
+    <com.facebook.ui.legacynavbar.LegacyNavigationBar android:id="@id/titlebar" android:background="?com.oculus.twilight:attr/titleBarBackground" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true"/>
+    <ProgressBar android:layout_gravity="0x1" android:id="@id/terms_and_conditions_progress_spinner" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" style="@style/Widget.ProgressBar.FBUi"/>
+    <ScrollView android:orientation="1" android:id="@id/scrollable_terms_and_conditions_content" android:padding="@dimen/native_terms_and_conditions_padding" android:layout_width="-1" android:layout_height="-2" android:fillViewport="true" android:layout_below="@id/titlebar">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/native_terms_and_conditions_text_size" android:textColor="@color/dialtone_optin_title_text_color" android:id="@id/terms_and_conditions_content" android:layout_width="-1" android:layout_height="-2"/>
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/native_terms_and_conditions_text_size" android:textColor="@color/fig_usage_blue_link" android:gravity="0x800003" android:id="@id/data_policy_text_view" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/data_policy_text_margin_top"/>
+        </LinearLayout>
+    </ScrollView>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

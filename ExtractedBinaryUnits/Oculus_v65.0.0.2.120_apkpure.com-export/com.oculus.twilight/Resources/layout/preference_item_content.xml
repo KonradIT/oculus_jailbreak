@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x11" android:id="@android:id/icon" android:layout_width="-2" android:layout_height="-2"/>
+    <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.0dp" android:layout_marginTop="6.0dp" android:layout_marginRight="6.0dp" android:layout_marginBottom="6.0dp" android:layout_weight="1.0" android:layout_marginStart="8.0dp" android:layout_marginEnd="6.0dp">
+        <com.facebook.resources.ui.FbTextView android:ellipsize="4" android:id="@android:id/title" android:fadingEdge="0x1000" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="?com.oculus.twilight:attr/listPrimaryTextStyle"/>
+        <com.facebook.resources.ui.FbTextView android:id="@android:id/summary" android:layout_width="-2" android:layout_height="-2" android:maxLines="4" style="?com.oculus.twilight:attr/listSecondaryTextStyle"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x10" android:orientation="1" android:id="@android:id/widget_frame" android:layout_width="-2" android:layout_height="-1"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/pref_dialog_v_margin" android:layout_marginBottom="@dimen/pref_dialog_v_margin" android:overScrollMode="1">
+    <LinearLayout android:orientation="1" android:id="@id/edittext_container" android:padding="5.0dp" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textColor="?android:attr/textColorSecondary" android:id="@android:id/message" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="48.0dp" style="?android:attr/textAppearanceSmall"/>
+    </LinearLayout>
+</ScrollView>

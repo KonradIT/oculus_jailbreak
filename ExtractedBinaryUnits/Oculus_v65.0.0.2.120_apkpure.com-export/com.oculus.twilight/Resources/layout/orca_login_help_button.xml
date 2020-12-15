@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x55" android:id="@id/login_help_button" android:background="@color/fds_transparent" android:padding="20.0dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/orca_login_help_button"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="-1" android:layout_height="?com.oculus.twilight:attr/dropdownListPreferredItemHeight" android:minWidth="196.0dp">
+    <TextView android:textAppearance="?com.oculus.twilight:attr/textAppearancePopupMenuHeader" android:ellipsize="4" android:layout_gravity="0x10" android:id="@android:id/title" android:fadingEdge="0x1000" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:textAlignment="5"/>
+</FrameLayout>

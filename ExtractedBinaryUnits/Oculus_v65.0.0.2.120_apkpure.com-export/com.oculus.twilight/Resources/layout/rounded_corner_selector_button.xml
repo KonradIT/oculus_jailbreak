@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/item_root" android:layout_width="-1" android:layout_height="-2" android:foreground="@drawable/rounded_corner_selector_overlay">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="0x1" android:textColor="#023c6e" android:gravity="0x13" android:id="@id/item_label" android:padding="12.0dp" android:paddingLeft="6.0dp" android:layout_width="-1" android:layout_height="-2" android:includeFontPadding="false"/>
+</FrameLayout>

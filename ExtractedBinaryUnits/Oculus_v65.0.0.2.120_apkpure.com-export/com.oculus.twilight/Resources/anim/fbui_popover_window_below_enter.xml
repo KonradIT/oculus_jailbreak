@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <scale android:interpolator="@anim/fbui_popover_window_overshoot_interpolator" android:duration="@integer/fbui_popover_window_anim_enter_duration" android:pivotX="@dimen/fbui_popover_window_anim_pivot_center" android:pivotY="@dimen/fbui_popover_window_anim_pivot_top" android:fromXScale="@dimen/fbui_popover_window_anim_min_scale" android:toXScale="@dimen/fbui_popover_window_anim_max_scale" android:fromYScale="@dimen/fbui_popover_window_anim_min_scale" android:toYScale="@dimen/fbui_popover_window_anim_max_scale"/>
+    <alpha android:interpolator="@android:anim/linear_interpolator" android:duration="@integer/fbui_popover_window_anim_enter_duration" android:fromAlpha="@dimen/fbui_popover_window_anim_enter_min_alpha" android:toAlpha="@dimen/fbui_popover_window_anim_max_alpha"/>
+</set>

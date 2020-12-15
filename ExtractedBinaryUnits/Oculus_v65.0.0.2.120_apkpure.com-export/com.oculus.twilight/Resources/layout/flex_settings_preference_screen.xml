@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:layout_width="-1" android:layout_height="-1">
+    <ViewStub android:id="@id/dialtone_switcher_bar_stub" android:layout="@layout/dialtone_switcher_bar_wrapper" android:inflatedId="@id/dialtone_switcher_bar" android:layout_width="-1" android:layout_height="-2"/>
+    <com.facebook.ui.legacynavbar.LegacyNavigationBar android:id="@id/titlebar" android:background="?com.oculus.twilight:attr/titleBarBackground" android:layout_width="-1" android:layout_height="-2"/>
+    <com.facebook.resources.ui.FbFrameLayout android:layout_width="-1" android:layout_height="-1">
+        <ScrollView android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:orientation="1" android:id="@id/layout_content" android:layout_width="-1" android:layout_height="-2">
+                <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="0" android:id="@id/carrier_info_bar" android:background="@color/fbui_bg_light" android:paddingLeft="@dimen/free_facebook_settings_carrier_info_padding" android:paddingTop="@dimen/free_facebook_settings_carrier_info_padding" android:paddingRight="@dimen/free_facebook_settings_carrier_info_padding" android:paddingBottom="@dimen/free_facebook_settings_carrier_info_padding" android:visibility="2" android:layout_width="-1" android:layout_height="-2" fb:divider="@color/fbui_text_light" fb:dividerThickness="1.0px" fb:showDividers="0x4">
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/carrier_summary" android:layout_width="0.0dp" android:layout_height="-2" android:layout_weight="1.0"/>
+                    <com.facebook.fbui.widget.glyph.GlyphView android:layout_gravity="0x10" android:id="@id/hide_carrier_info_button" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/fb_ic_cross_20"/>
+                </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
+                <LinearLayout android:orientation="1" android:id="@id/flex_settings_main_layout" android:paddingLeft="@dimen/free_facebook_settings_padding" android:paddingTop="18.0dp" android:paddingRight="@dimen/free_facebook_settings_padding" android:paddingBottom="@dimen/free_facebook_settings_padding" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="?com.oculus.twilight:attr/fds_usage_primary_text" android:gravity="0x10" android:id="@id/pref_title" android:layout_width="-2" android:layout_height="-2"/>
+                    <View android:background="@color/fbui_text_light" android:layout_width="-1" android:layout_height="1.0px" android:layout_marginTop="@dimen/free_facebook_settings_divider_margin" android:layout_marginBottom="@dimen/free_facebook_settings_divider_margin"/>
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/pref_summary" android:layout_width="-2" android:layout_height="-2"/>
+                    <com.facebook.dialtone.ui.LightswitchPhoneImageWithText android:layout_gravity="0x1" android:id="@id/flex_info_image" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="18.0dp" android:layout_marginBottom="18.0dp" android:adjustViewBounds="true" fb:mode="1"/>
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/pref_instruction" android:layout_width="-2" android:layout_height="-2"/>
+                    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_grey_40" android:gravity="0x11" android:layout_gravity="0x11" android:id="@id/disable_text" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12.0dp" android:text="@string/flex_settings_disable_button" android:maxLines="2" android:contentDescription="@string/flex_settings_disable_button"/>
+                    <com.facebook.fig.deprecated.button.FigButton android:gravity="0x1" android:id="@id/enable_button" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="24.0dp" fb:buttonType="0x104"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <ProgressBar android:layout_gravity="0x11" android:id="@id/progress_spinner" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminateOnly="true" style="@android:style/Widget.ProgressBar.Inverse"/>
+    </com.facebook.resources.ui.FbFrameLayout>
+</LinearLayout>

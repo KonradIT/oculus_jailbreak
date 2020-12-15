@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/black70a" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="12.0dp" android:layout_marginTop="8.0dp" android:minHeight="80.0dp" android:layout_marginStart="12.0dp">
+        <com.facebook.resources.ui.FbTextView android:id="@id/carrier_bottom_banner_title" android:paddingRight="38.0dp" android:layout_width="-1" android:layout_height="-2" style="@style/BottomBannerTitle"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/carrier_bottom_banner_content" android:layout_width="-1" android:layout_height="-2" style="@style/BottomBannerText"/>
+    </LinearLayout>
+    <com.facebook.resources.ui.FbButton android:layout_gravity="0x35" android:id="@id/carrier_bottom_banner_close" android:background="@drawable/bottom_banner_close" android:layout_width="32.0dp" android:layout_height="32.0dp"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x50" android:layout_width="-1" android:layout_height="-2">
+    <com.facebook.widget.CustomLinearLayout android:layout_gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.widget.CustomViewPager android:gravity="0x50" android:id="@id/section_pager" android:layout_width="-1" android:layout_height="@dimen/effects_tray_height" android:layout_marginBottom="@dimen/effects_tray_bottom_padding"/>
+        <com.facebook.widget.recyclerview.BetterRecyclerView android:id="@id/section_selector" android:background="@drawable/section_selector_translucent_background" android:layout_width="-1" android:layout_height="@dimen/inspiration_section_selector_item_size"/>
+    </com.facebook.widget.CustomLinearLayout>
+    <ViewStub android:layout_gravity="0x50" android:id="@id/section_pager_error_status_container_stub" android:layout="@layout/inspiration_section_pager_overlay_container" android:inflatedId="@id/section_pager_error_status_container" android:layout_width="-1" android:layout_height="@dimen/effects_tray_height" android:layout_marginBottom="@dimen/effects_tray_bottom_padding"/>
+    <ViewStub android:layout_gravity="0x50" android:id="@id/section_pager_loading_status_container_stub" android:layout="@layout/inspiration_section_pager_overlay_container" android:inflatedId="@id/section_pager_loading_status_container" android:layout_width="-1" android:layout_height="@dimen/effects_tray_height" android:layout_marginBottom="@dimen/effects_tray_bottom_padding"/>
+</com.facebook.resources.ui.FbFrameLayout>

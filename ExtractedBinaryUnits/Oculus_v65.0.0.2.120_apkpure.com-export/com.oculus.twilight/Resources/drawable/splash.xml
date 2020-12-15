@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/twilight_black"/>
+    <item android:gravity="0x11">
+        <bitmap android:gravity="0x11" android:src="@drawable/splash_logo"/>
+    </item>
+</layer-list>

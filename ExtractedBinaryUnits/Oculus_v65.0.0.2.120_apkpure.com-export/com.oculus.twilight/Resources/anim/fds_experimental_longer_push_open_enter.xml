@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@anim/fds_interpolator_enter">
+    <translate android:duration="@integer/fds_medium_in" android:fromXDelta="100.0%" android:toXDelta="0.0%"/>
+</set>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="activity_open_enter_slide_duration_ms">300</integer>
+    <integer name="activity_open_exist_fade_delay_ms">400</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="cast_libraries_material_featurehighlight_pulse_base_alpha">138</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="fbui_popover_window_anim_enter_duration">200</integer>
+    <integer name="fbui_popover_window_anim_exit_duration">100</integer>
+    <integer name="fds_experimental_modal_in">325</integer>
+    <integer name="fds_experimental_modal_out">275</integer>
+    <integer name="fds_experimental_push_in">200</integer>
+    <integer name="fds_experimental_push_out">200</integer>
+    <integer name="fds_long_in">500</integer>
+    <integer name="fds_long_out">350</integer>
+    <integer name="fds_medium_in">400</integer>
+    <integer name="fds_medium_out">350</integer>
+    <integer name="fds_short_in">280</integer>
+    <integer name="fds_short_out">200</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="maximum_status_length">63206</integer>
+    <integer name="mr_cast_volume_slider_layout_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
+    <integer name="mr_update_routes_delay_ms">300</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="neue_login_logo_threshold">500</integer>
+    <integer name="neue_login_text_size_threshold">300</integer>
+    <integer name="react_native_dev_server_port">8081</integer>
+    <integer name="react_native_inspector_proxy_port">@com.oculus.twilight:integer/react_native_dev_server_port</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="tag_expansion_description_max_lines">3</integer>
+</resources>

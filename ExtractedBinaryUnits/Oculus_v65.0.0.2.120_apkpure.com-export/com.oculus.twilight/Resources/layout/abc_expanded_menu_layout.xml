@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.appcompat.view.menu.ExpandedMenuView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/expanded_menu" android:layout_width="?com.oculus.twilight:attr/panelMenuListWidth" android:layout_height="-2"/>

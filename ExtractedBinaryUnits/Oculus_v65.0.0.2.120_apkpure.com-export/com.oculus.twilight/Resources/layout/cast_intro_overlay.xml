@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textAppearance="?com.oculus.twilight:attr/castTitleTextAppearance" android:id="@id/textTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/cast_intro_overlay_title_margin_top" android:layout_centerHorizontal="true"/>
+    <Button android:textAppearance="?com.oculus.twilight:attr/castButtonTextAppearance" android:id="@id/button" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/cast_intro_overlay_button_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:drawable/toast_frame" android:padding="20.0dp" android:layout_width="-2" android:layout_height="-2">
+    <com.facebook.resources.ui.FbTextView android:textSize="14.0dp" android:textColor="@color/fds_white" android:id="@id/toast_text" android:layout_width="-2" android:layout_height="-2"/>
+</LinearLayout>

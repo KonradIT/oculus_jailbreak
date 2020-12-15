@@ -1,0 +1,20 @@
+{
+  "global": {
+    "navigationBar": "hidden"
+  },
+  "sections": [
+    "TwilightAppMainRoute"
+  ],
+  "screens": {
+    "TwilightAppMainRoute": {
+      "navigationOptions": {},
+      "paramDefinitions": {},
+      "path": "/twilight_app_main"
+    },
+    "TwilightInternalSettingsRoute": {
+      "navigationOptions": {},
+      "paramDefinitions": {},
+      "path": "/twilight_internal_settings"
+    }
+  }
+}

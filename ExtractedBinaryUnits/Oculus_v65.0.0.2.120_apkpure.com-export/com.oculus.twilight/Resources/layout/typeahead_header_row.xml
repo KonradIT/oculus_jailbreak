@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/wrapper" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:layout_width="-1" android:layout_height="-2">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="0x1" android:textColor="?com.oculus.twilight:attr/fds_usage_primary_text" android:gravity="0x10" android:id="@id/label" android:layout_width="-2" android:layout_height="32.0dp" android:layout_marginLeft="10.0dp" android:maxLines="1" android:layout_marginStart="10.0dp"/>
+    <View android:id="@id/divider" android:layout_below="@id/label" style="@style/typeahead_divider"/>
+    <View android:id="@id/divider_fig" android:visibility="2" android:layout_below="@id/label" style="@style/typeahead_divider_fig"/>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

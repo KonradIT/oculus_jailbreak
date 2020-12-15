@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d صورة متبقية</item>
+        <item quantity="other">الصور المتبقية: %1$d</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s وعنصر آخر</item>
+        <item quantity="other">%1$s و%2$d آخرين</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="two">%1$s محادثتان غير مقروءتين</item>
+        <item quantity="few">%1$s محادثات غير مقروءة</item>
+        <item quantity="other">%1$s محادثة غير مقروءة</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">عضو واحد</item>
+        <item quantity="two">عضوان</item>
+        <item quantity="few">%1$d أعضاء</item>
+        <item quantity="many">%1$d عضوًا</item>
+        <item quantity="other">%1$d عضو</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">التقييم بمنح نجمة واحدة</item>
+        <item quantity="other">تقييم بعدد %1$d من النجوم</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">إشعار واحد</item>
+        <item quantity="two">إشعاران</item>
+        <item quantity="few">%1$d إشعارات</item>
+        <item quantity="many">%1$d إشعارًا</item>
+        <item quantity="other">%1$d إشعار</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s، الجديد 1</item>
+        <item quantity="other">%1$s، الجديد: %2$d</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">منذ يوم واحد</item>
+        <item quantity="two">منذ يومين</item>
+        <item quantity="few">منذ %1$d أيام</item>
+        <item quantity="many">منذ %1$d يومًا</item>
+        <item quantity="other">منذ %1$d يوم</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d يومًا</item>
+        <item quantity="other">%1$d يوم</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d يومًا</item>
+        <item quantity="other">%1$d يوم</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتان</item>
+        <item quantity="few">%1$d ساعات</item>
+        <item quantity="other">%1$d ساعة</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%1$d دقائق</item>
+        <item quantity="other">%1$d دقيقة</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">شهر واحد</item>
+        <item quantity="two">شهران</item>
+        <item quantity="few">%1$d شهور</item>
+        <item quantity="many">%1$d شهرًا</item>
+        <item quantity="other">%1$d شهر</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%1$d ثوانٍ</item>
+        <item quantity="other">%1$d ثانية</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">أسبوع واحد</item>
+        <item quantity="two">أسبوعان</item>
+        <item quantity="few">%1$d أسابيع</item>
+        <item quantity="many">%1$d أسبوعًا</item>
+        <item quantity="other">%1$d أسبوع</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="zero">%1$d يومي إضافي</item>
+        <item quantity="one">يوم واحد إضافي</item>
+        <item quantity="two">يومان إضافيان</item>
+        <item quantity="few">%1$d أيام إضافية</item>
+        <item quantity="many">%1$d يومًا إضافيًا</item>
+        <item quantity="other">%1$d سنة إضافية</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">ساعة واحدة إضافية</item>
+        <item quantity="two">ساعتان إضافيتان</item>
+        <item quantity="few">%1$d ساعات إضافية</item>
+        <item quantity="other">%1$d ساعة إضافية</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">دقيقة واحدة إضافية</item>
+        <item quantity="two">دقيقتان إضافيتان</item>
+        <item quantity="few">%1$d دقائق إضافية</item>
+        <item quantity="other">%1$d دقيقة إضافية</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">شهر واحد إضافي</item>
+        <item quantity="two">شهران إضافيان</item>
+        <item quantity="few">%1$d شهور إضافية</item>
+        <item quantity="many">%1$d شهرًا إضافيًا</item>
+        <item quantity="other">%1$d شهر إضافي</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">ثانية واحدة إضافية</item>
+        <item quantity="two">ثانيتان إضافيتان</item>
+        <item quantity="few">%1$d ثوانٍ إضافية</item>
+        <item quantity="other">%1$d ثانية إضافية</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">أسبوع واحد إضافي</item>
+        <item quantity="two">أسبوعان إضافيان</item>
+        <item quantity="few">%1$d أسابيع إضافية</item>
+        <item quantity="many">%1$d أسبوعًا إضافيًا</item>
+        <item quantity="other">%1$d أسبوع إضافي</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">سنة واحدة إضافية</item>
+        <item quantity="two">سنتان إضافيتان</item>
+        <item quantity="few">%1$d سنوات إضافية</item>
+        <item quantity="other">%1$d سنة إضافية</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">سنة واحدة</item>
+        <item quantity="two">سنتان</item>
+        <item quantity="few">%1$d سنوات</item>
+        <item quantity="other">%1$d سنة</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتين</item>
+        <item quantity="few">منذ %1$d ساعات</item>
+        <item quantity="other">منذ %1$d ساعة</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="other">%1$d س</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="other">%1$d س</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="other">%1$d س</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتين</item>
+        <item quantity="few">منذ %1$d ساعات</item>
+        <item quantity="other">منذ %1$d ساعة</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">بعد ساعة واحدة من الآن</item>
+        <item quantity="two">بعد ساعتين من الآن</item>
+        <item quantity="few">بعد %1$d ساعات من الآن</item>
+        <item quantity="other">بعد %1$d ساعة من الآن</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">بعد دقيقة واحدة من الآن</item>
+        <item quantity="two">بعد دقيقتين من الآن</item>
+        <item quantity="few">بعد %1$d دقائق من الآن</item>
+        <item quantity="other">بعد %1$d دقيقة من الآن</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">منذ دقيقة واحدة</item>
+        <item quantity="two">منذ دقيقتين</item>
+        <item quantity="few">منذ %1$d دقائق</item>
+        <item quantity="other">منذ %1$d دقيقة</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">منذ دقيقة واحدة</item>
+        <item quantity="two">منذ دقيقتين</item>
+        <item quantity="few">منذ %1$d دقائق</item>
+        <item quantity="other">منذ %1$d دقيقة</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="other">%1$d د</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="other">%1$d د</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">منذ شهر واحد</item>
+        <item quantity="two">منذ شهرين</item>
+        <item quantity="few">منذ %1$d شهور</item>
+        <item quantity="many">منذ %1$d شهرًا</item>
+        <item quantity="other">منذ %1$d شهر</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">منذ ثانية واحدة</item>
+        <item quantity="two">منذ ثانيتين</item>
+        <item quantity="few">منذ %1$d ثوانٍ</item>
+        <item quantity="other">منذ %1$d ثانية</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">منذ أسبوع واحد</item>
+        <item quantity="two">منذ أسبوعين</item>
+        <item quantity="few">منذ %1$d أسابيع</item>
+        <item quantity="many">منذ %1$d أسبوعًا</item>
+        <item quantity="other">منذ %1$d أسبوع</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">تبقى ساعة واحدة</item>
+        <item quantity="other">تبقى %1$d ساعات</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">تبقى دقيقة واحدة</item>
+        <item quantity="other">تبقى %1$d دقائق</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">منذ سنة واحدة</item>
+        <item quantity="two">منذ سنتين</item>
+        <item quantity="few">منذ %1$d سنوات</item>
+        <item quantity="other">منذ %1$d سنة</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">آخر زيارة لك منذ يوم واحد</item>
+        <item quantity="two">آخر زيارة لك منذ يومين</item>
+        <item quantity="few">آخر زيارة لك منذ %1$d أيام</item>
+        <item quantity="many">آخر زيارة لك منذ %1$d يومًا</item>
+        <item quantity="other">آخر زيارة لك منذ %1$d يوم</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">آخر زيارة لك منذ ساعة</item>
+        <item quantity="two">آخر زيارة لك منذ ساعتين</item>
+        <item quantity="few">آخر زيارة لك منذ %1$d ساعات</item>
+        <item quantity="other">آخر زيارة لك منذ %1$d ساعة</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">آخر زيارة لك منذ دقيقة</item>
+        <item quantity="other">آخر زيارة لك منذ %1$d من الدقائق</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">آخر زيارة لك منذ شهر</item>
+        <item quantity="two">آخر زيارة لك منذ شهرين</item>
+        <item quantity="few">آخر زيارة لك منذ %1$d شهور</item>
+        <item quantity="many">آخر زيارة لك منذ %1$d شهرًا</item>
+        <item quantity="other">آخر زيارة لك منذ %1$d شهر</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">آخر زيارة لك منذ أسبوع</item>
+        <item quantity="other">آخر زيارة لك منذ %1$d من الأسابيع</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">آخر زيارة لك منذ سنة</item>
+        <item quantity="two">آخر زيارة لك منذ سنتين</item>
+        <item quantity="few">آخر زيارة لك منذ %1$d سنوات</item>
+        <item quantity="other">آخر زيارة لك منذ %1$d سنة</item>
+    </plurals>
+</resources>

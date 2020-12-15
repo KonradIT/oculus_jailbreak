@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:orientation="0" android:layout_width="0.0dp" android:layout_height="-1" android:layout_weight="1.0">
+    <com.facebook.widget.text.SimpleVariableTextLayoutView android:textSize="@dimen/composer_title_text_size" android:textColor="?com.oculus.twilight:attr/fds_usage_secondary_text" android:ellipsize="3" android:gravity="0x800013" android:id="@id/title_text" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="-2" android:layout_height="@dimen/harrison_title_bar_height" android:scaleType="5" android:singleLine="true" fb:maxLines="1"/>
+</LinearLayout>

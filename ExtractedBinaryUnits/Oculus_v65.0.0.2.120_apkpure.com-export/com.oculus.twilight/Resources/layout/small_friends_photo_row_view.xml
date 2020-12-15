@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="@drawable/photo_tag_suggestion_bg" android:layout_width="-1" android:layout_height="44.0dp">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/friend_user_image" android:layout_width="44.0dp" android:layout_height="44.0dp" fb:actualImageScaleType="0" fb:placeholderImage="@drawable/no_avatar_neutral"/>
+    <com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:orientation="0" android:paddingLeft="18.0dp" android:paddingTop="0.0dp" android:paddingRight="5.0dp" android:paddingBottom="1.0dp" android:layout_width="-2" android:layout_height="-1" android:layout_toRightOf="@id/friend_user_image" android:layout_toEndOf="@id/friend_user_image">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="?com.oculus.twilight:attr/fds_usage_primary_button_text" android:ellipsize="3" android:id="@id/friend_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toRightOf="@id/friend_user_image" android:layout_toEndOf="@id/friend_user_image"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small_medium" android:textColor="@drawable/dark_gray_text_color" android:id="@id/friend_social_context" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/friend_name"/>
+    </com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

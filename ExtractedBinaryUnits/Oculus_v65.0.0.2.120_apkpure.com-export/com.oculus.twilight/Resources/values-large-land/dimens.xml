@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="dialtone_fb_logo_margin_bottom">34.0dp</dimen>
+    <dimen name="dialtone_fb_logo_margin_top">28.0dp</dimen>
+    <dimen name="dialtone_interstitial_line_view_paddings">32.0dp</dimen>
+    <dimen name="dialtone_interstitial_side_padding">60.0dp</dimen>
+    <dimen name="dialtone_interstitial_top_bottom_padding">32.0dp</dimen>
+    <dimen name="dialtone_optin_bottom_padding">24.0dp</dimen>
+    <dimen name="dialtone_optin_button_primary_height">40.0dp</dimen>
+    <dimen name="dialtone_optin_button_section_between_component_margin">24.0dp</dimen>
+    <dimen name="dialtone_optin_content_section_between_component_margin">12.0dp</dimen>
+    <dimen name="dialtone_optin_content_section_bottom_margin">8.0dp</dimen>
+    <dimen name="dialtone_optin_facepile_size">48.0dp</dimen>
+    <dimen name="dialtone_optin_header_section_between_component_margin">12.0dp</dimen>
+    <dimen name="dialtone_optin_header_section_bottom_margin">28.0dp</dimen>
+    <dimen name="dialtone_optin_left_padding">32.0dp</dimen>
+    <dimen name="dialtone_optin_right_padding">32.0dp</dimen>
+    <dimen name="dialtone_optin_top_padding">20.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_bottom">34.0dp</dimen>
+    <dimen name="dialtone_upgrade_message_margin_side">24.0dp</dimen>
+    <dimen name="lightswitch_optin_header_description_top_margin">24.0dp</dimen>
+    <dimen name="lightswitch_optin_header_section_image_top_margin">60.0dp</dimen>
+</resources>

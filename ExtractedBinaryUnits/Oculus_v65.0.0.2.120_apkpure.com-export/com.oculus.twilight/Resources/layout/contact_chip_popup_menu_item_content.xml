@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="0x10" android:orientation="0" android:id="@id/typeahead_chip_popup_menu_item_background" android:background="@drawable/typeahead_chip_popup_menu_item_background" android:paddingLeft="12.0dp" android:paddingTop="16.0dp" android:paddingRight="12.0dp" android:paddingBottom="16.0dp" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/contact_menu_item_image" android:layout_width="40.0dp" android:layout_height="40.0dp"/>
+        <LinearLayout android:orientation="1" android:layout_width="0.0dp" android:layout_height="-2" android:layout_marginLeft="12.0dp" android:layout_marginRight="12.0dp" android:layout_weight="1.0" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp">
+            <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:textColor="@color/typeahead_chip_popup_menu_item_primary_text" android:id="@id/contact_menu_item_primary_text" android:layout_width="-2" android:layout_height="-2"/>
+            <com.facebook.resources.ui.FbTextView android:textSize="14.0sp" android:textColor="@color/typeahead_chip_popup_menu_item_secondary_text" android:id="@id/contact_menu_item_secondary_text" android:layout_width="-2" android:layout_height="-2"/>
+        </LinearLayout>
+        <com.facebook.fbui.widget.glyph.GlyphView android:id="@id/contact_menu_item_delete_button" android:focusable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/token_delete" app:glyphColor="@color/typeahead_chip_popup_menu_item_delete_button"/>
+    </LinearLayout>
+</merge>

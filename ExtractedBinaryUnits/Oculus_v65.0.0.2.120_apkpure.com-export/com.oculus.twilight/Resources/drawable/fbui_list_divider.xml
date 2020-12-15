@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/fbui_divider_horizontal" android:insetLeft="@dimen/fbui_list_divider_padding" android:insetRight="@dimen/fbui_list_divider_padding"/>

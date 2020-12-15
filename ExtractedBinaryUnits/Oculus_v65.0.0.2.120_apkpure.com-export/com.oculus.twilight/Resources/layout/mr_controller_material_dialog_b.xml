@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/mr_expandable_area" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="0x11" android:orientation="1" android:id="@id/mr_dialog_area" android:background="?com.oculus.twilight:attr/colorBackgroundFloating" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:id="@id/mr_title_bar" android:paddingLeft="24.0dp" android:paddingRight="12.0dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="24.0dp" android:paddingEnd="12.0dp">
+            <TextView android:textAppearance="@style/TextAppearance.MediaRouter.Title" android:ellipsize="3" android:gravity="0x800013" android:id="@id/mr_name" android:layout_width="0.0dp" android:layout_height="72.0dp" android:singleLine="true" android:layout_weight="1.0" android:importantForAccessibility="2" android:textAlignment="5"/>
+            <ImageButton android:layout_gravity="0x10" android:id="@id/mr_close" android:background="?com.oculus.twilight:attr/selectableItemBackgroundBorderless" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="?com.oculus.twilight:attr/mediaRouteCloseDrawable" android:contentDescription="@string/mr_controller_close_description"/>
+        </LinearLayout>
+        <FrameLayout android:id="@id/mr_custom_control" android:visibility="2" android:layout_width="-1" android:layout_height="-2"/>
+        <FrameLayout android:id="@id/mr_default_control" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_gravity="0x30" android:id="@id/mr_art" android:background="?com.oculus.twilight:attr/colorPrimary" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="1" android:adjustViewBounds="true" android:contentDescription="@string/mr_controller_album_art"/>
+            <LinearLayout android:layout_gravity="0x50" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:splitMotionEvents="false">
+                <LinearLayout android:theme="?com.oculus.twilight:attr/mediaRouteControlPanelThemeOverlay" android:layout_gravity="0x50" android:orientation="1" android:id="@id/mr_media_main_control" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="-1" android:layout_height="-2">
+                    <include android:id="@id/mr_playback_control" layout="@layout/mr_playback_control"/>
+                    <View android:id="@id/mr_control_divider" android:visibility="2" android:layout_width="-1" android:layout_height="8.0dp"/>
+                    <include android:id="@id/mr_volume_control" layout="@layout/mr_volume_control"/>
+                </LinearLayout>
+                <androidx.mediarouter.app.OverlayListView android:theme="?com.oculus.twilight:attr/mediaRouteControlPanelThemeOverlay" android:scrollbarStyle="33554432" android:id="@id/mr_volume_group_list" android:paddingTop="@dimen/mr_controller_volume_group_list_padding_top" android:visibility="2" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:splitMotionEvents="false"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/abc_alert_dialog_button_bar_material"/>
+    </LinearLayout>
+</FrameLayout>

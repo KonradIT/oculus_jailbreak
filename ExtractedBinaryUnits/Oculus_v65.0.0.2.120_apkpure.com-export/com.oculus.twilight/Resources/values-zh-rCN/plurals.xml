@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">还能看%1$d张照片</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s+%2$d</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">%1$s未读对话</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d位成员</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">打%1$d分</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d条通知</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">%1$s，新增：%2$d</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="other">%1$d天前</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d天</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d天</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d小时</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d分钟</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d个月</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d周</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">往后推%1$d天</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">往后推%1$d小时</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">往后推%1$d分钟</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">往后推%1$d个月</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">往后推%1$d秒</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">往后推%1$d周</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">往后推%1$d年</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d年</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d小时前</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d小时</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="other">%1$d小时</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d小时</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">%1$d小时前</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">%1$d小时内</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">%1$d分钟</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">%1$d分钟前</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">%1$d分钟前</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d分钟</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="other">%1$d分钟</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">%1$d个月前</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">%1$d秒前</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">%1$d周前</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="other">剩余%1$d小时</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="other">剩余%1$d分钟</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">%1$d年前</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">你上次访问是%1$d天前</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">你上次访问是%1$d小时前</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">你上次访问是%1$d分钟前</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">你上次访问是%1$d个月前</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">你上次访问是%1$d周前</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">你上次访问是%1$d年前</item>
+    </plurals>
+</resources>

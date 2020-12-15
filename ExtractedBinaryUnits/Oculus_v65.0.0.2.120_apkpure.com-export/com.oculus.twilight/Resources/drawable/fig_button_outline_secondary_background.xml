@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/fig_button_radius"/>
+            <solid android:color="?com.oculus.twilight:attr/fds_usage_secondary_button_background"/>
+            <stroke android:width="@dimen/fig_button_stroke_width" android:color="?com.oculus.twilight:attr/sutro_usage_button_border"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@dimen/fig_button_radius"/>
+            <solid android:color="@color/fds_transparent"/>
+            <stroke android:width="@dimen/fig_button_stroke_width" android:color="?com.oculus.twilight:attr/fds_usage_disabled_button_background"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/fig_button_radius"/>
+            <solid android:color="@color/fds_transparent"/>
+            <stroke android:width="@dimen/fig_button_stroke_width" android:color="?com.oculus.twilight:attr/sutro_usage_button_border"/>
+        </shape>
+    </item>
+</selector>

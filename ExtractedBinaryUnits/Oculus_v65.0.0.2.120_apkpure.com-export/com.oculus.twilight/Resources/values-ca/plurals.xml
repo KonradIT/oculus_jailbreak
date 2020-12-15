@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 member</item>
+        <item quantity="other">%1$d membres</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 day ago</item>
+        <item quantity="other">fa %1$d dies</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 dia</item>
+        <item quantity="other">%1$d dies</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 dia</item>
+        <item quantity="other">%1$d dies</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 hora</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other">%1$d minuts</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 mes</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 setmana</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 any</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">fa una hora</item>
+        <item quantity="other">Fa %1$d hores</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 hora</item>
+        <item quantity="other">%1$d hores</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 hora</item>
+        <item quantity="other">%1$d hores</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">fa 1 minut</item>
+        <item quantity="other">Fa %1$d minuts</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 minut</item>
+        <item quantity="other">%1$d minuts</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 month ago</item>
+        <item quantity="other">fa %1$d mesos</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 second</item>
+        <item quantity="other">Fa %1$d segons</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">Fa un any</item>
+        <item quantity="other">fa %1$d anys</item>
+    </plurals>
+</resources>

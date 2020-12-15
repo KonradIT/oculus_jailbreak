@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="?com.oculus.twilight:attr/fds_usage_accent"/>
+    <item android:color="?com.oculus.twilight:attr/fds_usage_placeholder_text"/>
+</selector>

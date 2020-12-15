@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.drawee.fbpipeline.FbDraweeView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x10" android:layout_width="@dimen/composer_harrison_round_profile_width" android:layout_height="@dimen/composer_harrison_round_profile_height"/>

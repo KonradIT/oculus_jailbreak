@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/neue_orca_spinner_clockwise_indeterminate_light"/>
+    <item android:drawable="@drawable/neue_orca_spinner_counterclockwise_indeterminate_light"/>
+</layer-list>

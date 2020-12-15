@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/bug_report_category_chooser_text" android:focusable="false" android:clickable="false" android:button="@ResourceId_0x00000000" android:drawableTop="@ResourceId_0x00000000" style="@style/ReportAProblem.ListViewItem"/>

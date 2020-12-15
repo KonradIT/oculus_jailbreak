@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">%1$d fotoğraf kaldı</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s ve 1 diğer</item>
+        <item quantity="other">%1$s ve %2$d diğer</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 okunmamış konuşma</item>
+        <item quantity="other">%1$s okunmamış konuşma</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 üye</item>
+        <item quantity="other">%1$d üye</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Bir yıldız ver</item>
+        <item quantity="other">%1$d yıldız ver</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d Bildirim</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 yeni</item>
+        <item quantity="other">%1$s, %2$d yeni</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 gün önce</item>
+        <item quantity="other">%1$d gün önce</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 dakika</item>
+        <item quantity="other">%1$d dakika</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 ay</item>
+        <item quantity="other">%1$d ay</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 saniye</item>
+        <item quantity="other">%1$d saniye</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 hafta</item>
+        <item quantity="other">%1$d hafta</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 gün daha</item>
+        <item quantity="other">%1$d gün daha</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">1 saat daha</item>
+        <item quantity="other">%1$d saat daha</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">1 dakika daha</item>
+        <item quantity="other">%1$d dakika daha</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">1 ay daha</item>
+        <item quantity="other">%1$d ay daha</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">1 saniye daha</item>
+        <item quantity="other">%1$d saniye daha</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">1 hafta daha</item>
+        <item quantity="other">%1$d hafta daha</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">1 yıl daha</item>
+        <item quantity="other">%1$d yıl daha</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 yıl</item>
+        <item quantity="other">%1$d yıl</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 saat önce</item>
+        <item quantity="other">%1$d saat önce</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1s</item>
+        <item quantity="other">%1$ds</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 saat önce</item>
+        <item quantity="other">%1$d sa önce</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">1 saat sonra</item>
+        <item quantity="other">%1$d saat sonra</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">1 dakika sonra</item>
+        <item quantity="other">%1$d dakika sonra</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 dk önce</item>
+        <item quantity="other">%1$d dk önce</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 dakika önce</item>
+        <item quantity="other">%1$d dakika önce</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 dk</item>
+        <item quantity="other">%1$d dk</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1d</item>
+        <item quantity="other">%1$dd</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 ay önce</item>
+        <item quantity="other">%1$d ay önce</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 saniye</item>
+        <item quantity="other">%1$d saniye önce</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 hafta önce</item>
+        <item quantity="other">%1$d hafta önce</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 sa kaldı</item>
+        <item quantity="other">%1$d sa kaldı</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 dk kaldı</item>
+        <item quantity="other">%1$d dk kaldı</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 yıl önce</item>
+        <item quantity="other">%1$d yıl önce</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">1 gün önce ziyaret ettin</item>
+        <item quantity="other">%1$d gün önce ziyaret ettin</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">1 saat önce ziyaret ettin</item>
+        <item quantity="other">%1$d saat önce ziyaret ettin</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">1 dakika önce ziyaret ettin</item>
+        <item quantity="other">%1$d dakika önce ziyaret ettin</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">1 ay önce ziyaret ettin</item>
+        <item quantity="other">%1$d ay önce ziyaret ettin</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">1 hafta önce ziyaret ettin</item>
+        <item quantity="other">%1$d hafta önce ziyaret ettin</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">1 yıl önce ziyaret ettin</item>
+        <item quantity="other">%1$d yıl önce ziyaret ettin</item>
+    </plurals>
+</resources>

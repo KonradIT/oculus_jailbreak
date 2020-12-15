@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ReportAProblem.Dialog">
+    <TextView android:text="@string/thank_you_title" style="@style/ReportAProblem.DialogTitle"/>
+    <TextView android:layout_marginLeft="@dimen/rap_margin_large" android:layout_marginRight="@dimen/rap_margin_large" android:text="@string/thank_you_description" android:drawableLeft="@drawable/rageshake_booboo" android:layout_marginStart="@dimen/rap_margin_large" android:layout_marginEnd="@dimen/rap_margin_large" style="@style/ReportAProblem.ListViewItem"/>
+    <Button android:id="@id/thank_you_ok_button" android:text="@android:string/ok" style="@style/ReportAProblem.DialogButton"/>
+</LinearLayout>

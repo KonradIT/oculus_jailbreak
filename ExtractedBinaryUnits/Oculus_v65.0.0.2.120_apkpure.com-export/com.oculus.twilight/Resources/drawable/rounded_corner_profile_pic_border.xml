@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/profile_pic_shadow"/>
+            <padding android:left="1.0dp" android:top="1.0dp" android:right="1.0dp" android:bottom="1.0dp"/>
+            <corners android:radius="2.0dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#ffffffff"/>
+            <padding android:left="2.0dp" android:top="2.0dp" android:right="2.0dp" android:bottom="2.0dp"/>
+            <corners android:radius="2.0dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <corners android:radius="2.0dp"/>
+        </shape>
+    </item>
+</layer-list>

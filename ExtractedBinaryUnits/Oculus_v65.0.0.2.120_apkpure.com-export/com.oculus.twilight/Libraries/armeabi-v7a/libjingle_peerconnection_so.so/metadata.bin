@@ -1,0 +1,13 @@
+ELF metadata
+
+- Comment:
+
+  + clang version 6.0.0 (trunk 313786)
+  + GCC: (GNU) 4.9.x 20150123 (prerelease)
+  + Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+
+- Notes:
+
+  + Owner: GNU
+    - type: NT_GNU_GOLD_VERSION (gold linker version)
+    - description: gold 1.11

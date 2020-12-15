@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">%1$d photo left @@@ @@@ @@@ @@@ @@@ @@@</item>
+        <item quantity="other">%1$d photos left@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s and 1 other@@@@@@@@@@@@@@@</item>
+        <item quantity="other">%1$s and %2$d others @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 unread conversation@@@@@@@@@@@@@@@</item>
+        <item quantity="other">%1$s unread conversations @@@ @@@ @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 member @@@</item>
+        <item quantity="other">%1$d members@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Rate one star@@@</item>
+        <item quantity="other">Rate with %1$d stars@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d Notification@@@@@@@@@@@@@@@</item>
+        <item quantity="other">%1$d Notifications@@@@@@@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 new@@@</item>
+        <item quantity="other">%1$s, %2$d new@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 day ago @@@ @@@ @@@</item>
+        <item quantity="other">%1$d days ago @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 day@@@</item>
+        <item quantity="other">%1$d days@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 day@@@</item>
+        <item quantity="other">%1$d days @@@ @@@</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 hour@@@@@@</item>
+        <item quantity="other">%1$d hours@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 minute @@@</item>
+        <item quantity="other">%1$d minutes @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 month@@@</item>
+        <item quantity="other">%1$d months@@@@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 second@@@@@@</item>
+        <item quantity="other">%1$d seconds @@@ @@@ @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 week</item>
+        <item quantity="other">%1$d weeks@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 more day @@@ @@@</item>
+        <item quantity="other">%1$d more days@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">1 more hour@@@</item>
+        <item quantity="other">%1$d more hours@@@@@@@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">1 more minute @@@ @@@ @@@ @@@</item>
+        <item quantity="other">%1$d more minutes@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">1 more month @@@ @@@ @@@ @@@</item>
+        <item quantity="other">%1$d more months@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">1 more second@@@@@@@@@</item>
+        <item quantity="other">%1$d more seconds @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">1 more week@@@@@@@@@</item>
+        <item quantity="other">%1$d more weeks @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">1 more year@@@@@@</item>
+        <item quantity="other">%1$d more years@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 year</item>
+        <item quantity="other">%1$d years @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 hour ago @@@ @@@</item>
+        <item quantity="other">%1$d hours ago@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 hr</item>
+        <item quantity="other">%1$d hrs@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1h</item>
+        <item quantity="other">%1$dh @@@ @@@</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 hr</item>
+        <item quantity="other">%1$d hrs@@@@@@</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 hr ago@@@</item>
+        <item quantity="other">%1$d hrs ago @@@ @@@</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">1 hour from now@@@@@@@@@@@@</item>
+        <item quantity="other">%1$d hours from now@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">1 minute from now @@@ @@@ @@@ @@@ @@@</item>
+        <item quantity="other">%1$d minutes from now @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 min ago@@@@@@</item>
+        <item quantity="other">%1$d mins ago@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 minute ago @@@</item>
+        <item quantity="other">%1$d minutes ago@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%1$d mins @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1m</item>
+        <item quantity="other">%1$dm@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 month ago @@@ @@@</item>
+        <item quantity="other">%1$d months ago@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 second@@@@@@</item>
+        <item quantity="other">%1$d seconds ago@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 week ago@@@@@@</item>
+        <item quantity="other">%1$d weeks ago @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 hr left@@@@@@</item>
+        <item quantity="other">%1$d hrs left @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 min left @@@ @@@ @@@</item>
+        <item quantity="other">%1$d mins left @@@ @@@ @@@</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 year ago@@@@@@</item>
+        <item quantity="other">%1$d years ago @@@ @@@</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">You visited 1 day ago @@@ @@@ @@@ @@@ @@@</item>
+        <item quantity="other">You visited %1$d days ago@@@@@@@@@</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">You visited 1 hour ago @@@ @@@ @@@ @@@</item>
+        <item quantity="other">You visited %1$d hours ago@@@@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">You visited 1 minute ago@@@@@@@@@@@@@@@@@@@@@@@@</item>
+        <item quantity="other">You visited %1$d minutes ago@@@@@@@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">You visited 1 month ago@@@@@@@@@@@@@@@</item>
+        <item quantity="other">You visited %1$d months ago@@@@@@@@@@@@@@@@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">You visited 1 week ago@@@@@@@@@@@@@@@@@@</item>
+        <item quantity="other">You visited %1$d weeks ago@@@@@@@@@@@@</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">You visited 1 year ago@@@@@@@@@@@@@@@@@@</item>
+        <item quantity="other">You visited %1$d years ago @@@ @@@ @@@ @@@ @@@</item>
+    </plurals>
+</resources>

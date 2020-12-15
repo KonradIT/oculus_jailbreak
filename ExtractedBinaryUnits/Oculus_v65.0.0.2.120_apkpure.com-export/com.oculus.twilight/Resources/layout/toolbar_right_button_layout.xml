@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.fbreact.navigation.ReactNavigationPrimaryButton xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/right_button_text_size" android:gravity="0x11" android:id="@id/toolbar_right_button" android:background="@drawable/right_button_bg_selector" android:padding="@dimen/right_button_padding" android:layout_width="-2" android:layout_height="-2" android:textAllCaps="true"/>

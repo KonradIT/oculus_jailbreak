@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="?com.oculus.twilight:attr/fds_usage_stepper_inactive"/>
+        </shape>
+    </item>
+    <item android:id="@id/progress">
+        <clip>
+            <shape>
+                <solid android:color="?com.oculus.twilight:attr/fds_usage_stepper_active"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:id="@id/dialtone_upgrade_button" android:focusable="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@string/dialtone_view_photo" android:drawableLeft="@drawable/dialtone_upgrade_photo" style="@style/Widget.Button.FBUi.Light.Regular.Medium"/>

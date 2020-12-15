@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.glyph.GlyphView android:gravity="0x11" android:id="@id/notification_banner_error_icon" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.0dp" android:src="@drawable/fb_ic_caution_triangle_filled_24" android:layout_marginEnd="10.0dp" fb:glyphColor="#8f8f8f"/>
+    <com.facebook.widget.NotificationTextSwitcher android:id="@id/notification_banner_title" android:layout_width="-2" android:layout_height="-2" fb:textColor="?com.oculus.twilight:attr/fds_usage_primary_button_text" fb:textSize="14.0dp" fb:textStyle="0x1"/>
+</merge>

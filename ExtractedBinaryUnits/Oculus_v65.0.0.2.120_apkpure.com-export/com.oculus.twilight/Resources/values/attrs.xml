@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <attr name="actionBarDivider" format="reference"></attr>
+    <attr name="actionBarItemBackground" format="reference"></attr>
+    <attr name="actionBarPopupTheme" format="reference"></attr>
+    <attr name="actionBarSize" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/wrap_content" value="0" />
+    </attr>
+    <attr name="actionBarSplitStyle" format="reference"></attr>
+    <attr name="actionBarStyle" format="reference"></attr>
+    <attr name="actionBarTabBarStyle" format="reference"></attr>
+    <attr name="actionBarTabStyle" format="reference"></attr>
+    <attr name="actionBarTabTextStyle" format="reference"></attr>
+    <attr name="actionBarTheme" format="reference"></attr>
+    <attr name="actionBarWidgetTheme" format="reference"></attr>
+    <attr name="actionButtonBackground" format="reference"></attr>
+    <attr name="actionButtonDrawable" format="reference"></attr>
+    <attr name="actionButtonGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="actionButtonPadding" format="dimension"></attr>
+    <attr name="actionButtonStyle" format="reference"></attr>
+    <attr name="actionButtonText" format="string"></attr>
+    <attr name="actionButtonTextAppearance" format="reference"></attr>
+    <attr name="actionButtonTheme" format="enum">
+        <enum name="com.oculus.twilight:id/blue" value="2" />
+        <enum name="com.oculus.twilight:id/gray" value="1" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+    </attr>
+    <attr name="actionDrawable" format="reference"></attr>
+    <attr name="actionDropDownStyle" format="reference"></attr>
+    <attr name="actionLayout" format="reference"></attr>
+    <attr name="actionMenuTextAppearance" format="reference"></attr>
+    <attr name="actionMenuTextColor" format="reference|color"></attr>
+    <attr name="actionModeBackground" format="reference"></attr>
+    <attr name="actionModeCloseButtonStyle" format="reference"></attr>
+    <attr name="actionModeCloseDrawable" format="reference"></attr>
+    <attr name="actionModeCopyDrawable" format="reference"></attr>
+    <attr name="actionModeCutDrawable" format="reference"></attr>
+    <attr name="actionModeFindDrawable" format="reference"></attr>
+    <attr name="actionModePasteDrawable" format="reference"></attr>
+    <attr name="actionModePopupWindowStyle" format="reference"></attr>
+    <attr name="actionModeSelectAllDrawable" format="reference"></attr>
+    <attr name="actionModeShareDrawable" format="reference"></attr>
+    <attr name="actionModeSplitBackground" format="reference"></attr>
+    <attr name="actionModeStyle" format="reference"></attr>
+    <attr name="actionModeWebSearchDrawable" format="reference"></attr>
+    <attr name="actionOverflowButtonStyle" format="reference"></attr>
+    <attr name="actionOverflowMenuStyle" format="reference"></attr>
+    <attr name="actionProviderClass" format="string"></attr>
+    <attr name="actionState" format="boolean"></attr>
+    <attr name="actionText" format="string"></attr>
+    <attr name="actionType" format="enum">
+        <enum name="com.oculus.twilight:id/checkbox" value="3" />
+        <enum name="com.oculus.twilight:id/fill_button" value="8" />
+        <enum name="com.oculus.twilight:id/flat_primary_button" value="7" />
+        <enum name="com.oculus.twilight:id/glyph" value="11" />
+        <enum name="com.oculus.twilight:id/menu" value="12" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/outline_primary_button" value="9" />
+        <enum name="com.oculus.twilight:id/outline_secondary_button" value="10" />
+        <enum name="com.oculus.twilight:id/radio" value="4" />
+        <enum name="com.oculus.twilight:id/switchCompat" value="5" />
+        <enum name="com.oculus.twilight:id/text_primary" value="1" />
+        <enum name="com.oculus.twilight:id/text_secondary" value="2" />
+        <enum name="com.oculus.twilight:id/toggleButton" value="6" />
+    </attr>
+    <attr name="actionViewClass" format="string"></attr>
+    <attr name="activeNowBadge" format="reference"></attr>
+    <attr name="activityChooserViewStyle" format="reference"></attr>
+    <attr name="activityClass" format="string"></attr>
+    <attr name="actualImageResource" format="reference"></attr>
+    <attr name="actualImageScaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="4" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="5" />
+        <enum name="com.oculus.twilight:id/fitBottomStart" value="8" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="2" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="3" />
+        <enum name="com.oculus.twilight:id/fitStart" value="1" />
+        <enum name="com.oculus.twilight:id/fitXY" value="0" />
+        <enum name="com.oculus.twilight:id/focusCrop" value="7" />
+        <enum name="com.oculus.twilight:id/none" value="-1" />
+    </attr>
+    <attr name="actualImageUri" format="string"></attr>
+    <attr name="adjustLRGravityByTextDirectionCompat" format="boolean"></attr>
+    <attr name="adjustViewBounds" format="boolean"></attr>
+    <attr name="adminMessageButtonBackground" format="reference|color"></attr>
+    <attr name="alertDialogBackgroundColor" format="reference|color"></attr>
+    <attr name="alertDialogButtonBarPreferStrictHorizontalLayout" format="boolean"></attr>
+    <attr name="alertDialogButtonBarStyle" format="reference"></attr>
+    <attr name="alertDialogButtonGroupStyle" format="reference"></attr>
+    <attr name="alertDialogButtonStyle" format="reference"></attr>
+    <attr name="alertDialogCenterButtons" format="boolean"></attr>
+    <attr name="alertDialogDisclaimerStyle" format="reference"></attr>
+    <attr name="alertDialogItemMinHeight" format="dimension"></attr>
+    <attr name="alertDialogLayout" format="reference"></attr>
+    <attr name="alertDialogListItemStyle" format="reference"></attr>
+    <attr name="alertDialogListViewStyle" format="reference"></attr>
+    <attr name="alertDialogMessageStyle" format="reference"></attr>
+    <attr name="alertDialogPaddingHorizontal" format="dimension"></attr>
+    <attr name="alertDialogPaddingVertical" format="dimension"></attr>
+    <attr name="alertDialogPaddingVerticalSmall" format="dimension"></attr>
+    <attr name="alertDialogPrimaryButtonStyle" format="reference"></attr>
+    <attr name="alertDialogScrollIndicator" format="reference"></attr>
+    <attr name="alertDialogStyle" format="reference"></attr>
+    <attr name="alertDialogTheme" format="reference"></attr>
+    <attr name="alertDialogWindowTitleStyle" format="reference"></attr>
+    <attr name="alertDividerHorizontalDrawable" format="reference|color"></attr>
+    <attr name="alignment" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="2" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+        <enum name="com.oculus.twilight:id/opposite" value="1" />
+    </attr>
+    <attr name="alignmentMode" format="enum">
+        <enum name="com.oculus.twilight:id/alignBounds" value="0" />
+        <enum name="com.oculus.twilight:id/alignMargins" value="1" />
+    </attr>
+    <attr name="allCaps" format="boolean"></attr>
+    <attr name="allowDpadPaging" format="boolean"></attr>
+    <attr name="allowImeActionsWithMultiLine" format="boolean"></attr>
+    <attr name="allowPastingSpans" format="boolean"></attr>
+    <attr name="allowStacking" format="boolean"></attr>
+    <attr name="alpha" format="float"></attr>
+    <attr name="alphabeticModifiers" format="flags">
+        <enum name="com.oculus.twilight:id/ALT" value="2" />
+        <enum name="com.oculus.twilight:id/CTRL" value="4096" />
+        <enum name="com.oculus.twilight:id/FUNCTION" value="8" />
+        <enum name="com.oculus.twilight:id/META" value="65536" />
+        <enum name="com.oculus.twilight:id/SHIFT" value="1" />
+        <enum name="com.oculus.twilight:id/SYM" value="4" />
+    </attr>
+    <attr name="alwaysShowDropDown" format="boolean"></attr>
+    <attr name="analyticsTag" format="string"></attr>
+    <attr name="angle" format="enum">
+        <enum name="com.oculus.twilight:id/cw_0" value="0" />
+        <enum name="com.oculus.twilight:id/cw_180" value="180" />
+        <enum name="com.oculus.twilight:id/cw_270" value="270" />
+        <enum name="com.oculus.twilight:id/cw_90" value="90" />
+    </attr>
+    <attr name="appGlyph" format="reference"></attr>
+    <attr name="appTabGlyphOffColor" format="color"></attr>
+    <attr name="appTabGlyphOnColor" format="color"></attr>
+    <attr name="arrowHeadLength" format="dimension"></attr>
+    <attr name="arrowShaftLength" format="dimension"></attr>
+    <attr name="asCircle" format="boolean"></attr>
+    <attr name="asRoundRectRadius" format="dimension"></attr>
+    <attr name="assetServerHandle" format="string"></attr>
+    <attr name="atlas" format="reference"></attr>
+    <attr name="atlasHeight" format="dimension"></attr>
+    <attr name="atlasWidth" format="dimension"></attr>
+    <attr name="audienceTypeaheadAutoCompleteBackground" format="reference|color"></attr>
+    <attr name="audienceTypeaheadBackgroundColor" format="reference|color"></attr>
+    <attr name="audienceTypeaheadGlyphColor" format="reference|color"></attr>
+    <attr name="autoCompleteTextViewStyle" format="reference"></attr>
+    <attr name="autoSizeMaxTextSize" format="dimension"></attr>
+    <attr name="autoSizeMinTextSize" format="dimension"></attr>
+    <attr name="autoSizePresetSizes" format="reference"></attr>
+    <attr name="autoSizeStepGranularity" format="dimension"></attr>
+    <attr name="autoSizeTextType" format="enum">
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/uniform" value="1" />
+    </attr>
+    <attr name="auto_start" format="boolean"></attr>
+    <attr name="autohide_keyboard" format="boolean"></attr>
+    <attr name="auxViewPadding" format="dimension"></attr>
+    <attr name="background" format="reference"></attr>
+    <attr name="backgroundColorDefault" format="reference|color"></attr>
+    <attr name="backgroundColorOverflow" format="reference|color"></attr>
+    <attr name="backgroundImage" format="reference"></attr>
+    <attr name="backgroundSplit" format="reference|color"></attr>
+    <attr name="backgroundStacked" format="reference|color"></attr>
+    <attr name="backgroundTint" format="color"></attr>
+    <attr name="backgroundTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="backgroundWashColor" format="reference|color"></attr>
+    <attr name="badgeBackground" format="reference|color"></attr>
+    <attr name="badgeBackgroundColor" format="reference|color"></attr>
+    <attr name="badgeBackgroundPadding" format="dimension"></attr>
+    <attr name="badgeBoundsType" format="enum">
+        <enum name="com.oculus.twilight:id/intrinsic" value="1" />
+        <enum name="com.oculus.twilight:id/relative" value="0" />
+        <enum name="com.oculus.twilight:id/specified" value="2" />
+    </attr>
+    <attr name="badgeIconHeight" format="dimension"></attr>
+    <attr name="badgeIconWidth" format="dimension"></attr>
+    <attr name="badgeOffset" format="dimension"></attr>
+    <attr name="badgePadding" format="dimension"></attr>
+    <attr name="badgePlacement" format="enum">
+        <enum name="com.oculus.twilight:id/awayFromText" value="1" />
+        <enum name="com.oculus.twilight:id/withText" value="0" />
+    </attr>
+    <attr name="badgeText" format="string"></attr>
+    <attr name="badgeTextAppearance" format="reference"></attr>
+    <attr name="badgeTextViewStyle" format="reference"></attr>
+    <attr name="badgeYOffset" format="dimension"></attr>
+    <attr name="barLength" format="dimension"></attr>
+    <attr name="base_alpha" format="float"></attr>
+    <attr name="behavior_autoHide" format="boolean"></attr>
+    <attr name="behavior_fitToContents" format="boolean"></attr>
+    <attr name="behavior_hideable" format="boolean"></attr>
+    <attr name="behavior_overlapTop" format="dimension"></attr>
+    <attr name="behavior_peekHeight" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/auto" value="-1" />
+    </attr>
+    <attr name="behavior_skipCollapsed" format="boolean"></attr>
+    <attr name="bigImageLocation" format="enum">
+        <enum name="com.oculus.twilight:id/left" value="0" />
+        <enum name="com.oculus.twilight:id/right" value="1" />
+    </attr>
+    <attr name="bigImageWidthPercent" format="float"></attr>
+    <attr name="birthdayBadge" format="reference"></attr>
+    <attr name="bodyMaxLines" format="integer"></attr>
+    <attr name="bodyText" format="string"></attr>
+    <attr name="bodyTextAppearanceType" format="enum">
+        <enum name="com.oculus.twilight:id/fig_large_size_primary_color" value="9" />
+        <enum name="com.oculus.twilight:id/fig_large_size_white_color" value="10" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_blue_color" value="4" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_green_color" value="6" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_medium_color" value="2" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_primary_color" value="0" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_primary_color_bold" value="7" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_red_color" value="5" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_secondary_color" value="3" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_white_color" value="1" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_white_color_bold" value="8" />
+        <enum name="com.oculus.twilight:id/fig_small_size_primary_color" value="11" />
+        <enum name="com.oculus.twilight:id/fig_small_size_primary_color_bold" value="13" />
+        <enum name="com.oculus.twilight:id/fig_small_size_white_color" value="12" />
+        <enum name="com.oculus.twilight:id/fig_small_size_white_color_bold" value="14" />
+    </attr>
+    <attr name="border" format="dimension"></attr>
+    <attr name="borderBottom" format="dimension"></attr>
+    <attr name="borderColor" format="color"></attr>
+    <attr name="borderLeft" format="dimension"></attr>
+    <attr name="borderRight" format="dimension"></attr>
+    <attr name="borderTop" format="dimension"></attr>
+    <attr name="borderWidth" format="dimension"></attr>
+    <attr name="borderlessButtonStyle" format="reference"></attr>
+    <attr name="bottom" format="dimension"></attr>
+    <attr name="bottomAppBarStyle" format="reference"></attr>
+    <attr name="bottomLeftCornerRadius" format="dimension"></attr>
+    <attr name="bottomNavigationStyle" format="reference"></attr>
+    <attr name="bottomRightCornerRadius" format="dimension"></attr>
+    <attr name="bottomSheetDialogTheme" format="reference"></attr>
+    <attr name="bottomSheetStyle" format="reference"></attr>
+    <attr name="bottomsheetBackgroundColor" format="reference|color"></attr>
+    <attr name="bottomsheetDescriptionStyle" format="reference"></attr>
+    <attr name="bottomsheetDialogTheme" format="reference"></attr>
+    <attr name="bottomsheetHeaderTitleStyle" format="reference"></attr>
+    <attr name="bottomsheetIconTint" format="reference|color"></attr>
+    <attr name="bottomsheetTitleStyle" format="reference"></attr>
+    <attr name="boxBackgroundColor" format="color"></attr>
+    <attr name="boxBackgroundMode" format="enum">
+        <enum name="com.oculus.twilight:id/filled" value="1" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/outline" value="2" />
+    </attr>
+    <attr name="boxCollapsedPaddingTop" format="dimension"></attr>
+    <attr name="boxCornerRadiusBottomEnd" format="dimension"></attr>
+    <attr name="boxCornerRadiusBottomStart" format="dimension"></attr>
+    <attr name="boxCornerRadiusTopEnd" format="dimension"></attr>
+    <attr name="boxCornerRadiusTopStart" format="dimension"></attr>
+    <attr name="boxStrokeColor" format="color"></attr>
+    <attr name="boxStrokeWidth" format="dimension"></attr>
+    <attr name="broadcasterBadge" format="reference"></attr>
+    <attr name="bucket" format="integer"></attr>
+    <attr name="buttonBarButtonStyle" format="reference"></attr>
+    <attr name="buttonBarNegativeButtonStyle" format="reference"></attr>
+    <attr name="buttonBarNeutralButtonStyle" format="reference"></attr>
+    <attr name="buttonBarPositiveButtonStyle" format="reference"></attr>
+    <attr name="buttonBarPreferStrictHorizontalLayout" format="boolean"></attr>
+    <attr name="buttonBarStyle" format="reference"></attr>
+    <attr name="buttonCompat" format="reference"></attr>
+    <attr name="buttonGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="buttonIconDimen" format="dimension"></attr>
+    <attr name="buttonPanelSideLayout" format="reference"></attr>
+    <attr name="buttonPrimaryLarge" format="reference"></attr>
+    <attr name="buttonPrimaryLargeInverse" format="reference"></attr>
+    <attr name="buttonPrimaryMedium" format="reference"></attr>
+    <attr name="buttonPrimaryMediumInverse" format="reference"></attr>
+    <attr name="buttonPrimarySmall" format="reference"></attr>
+    <attr name="buttonPrimarySmallInverse" format="reference"></attr>
+    <attr name="buttonRegularLarge" format="reference"></attr>
+    <attr name="buttonRegularLargeInverse" format="reference"></attr>
+    <attr name="buttonRegularMedium" format="reference"></attr>
+    <attr name="buttonRegularMediumInverse" format="reference"></attr>
+    <attr name="buttonRegularSmall" format="reference"></attr>
+    <attr name="buttonRegularSmallInverse" format="reference"></attr>
+    <attr name="buttonSecondaryLarge" format="reference"></attr>
+    <attr name="buttonSecondaryLargeInverse" format="reference"></attr>
+    <attr name="buttonSecondaryMedium" format="reference"></attr>
+    <attr name="buttonSecondaryMediumInverse" format="reference"></attr>
+    <attr name="buttonSecondarySmall" format="reference"></attr>
+    <attr name="buttonSecondarySmallInverse" format="reference"></attr>
+    <attr name="buttonSize" format="reference|enum">
+        <enum name="com.oculus.twilight:id/icon_only" value="2" />
+        <enum name="com.oculus.twilight:id/standard" value="0" />
+        <enum name="com.oculus.twilight:id/wide" value="1" />
+    </attr>
+    <attr name="buttonSpecialLarge" format="reference"></attr>
+    <attr name="buttonSpecialLargeInverse" format="reference"></attr>
+    <attr name="buttonSpecialMedium" format="reference"></attr>
+    <attr name="buttonSpecialMediumInverse" format="reference"></attr>
+    <attr name="buttonSpecialSmall" format="reference"></attr>
+    <attr name="buttonSpecialSmallInverse" format="reference"></attr>
+    <attr name="buttonStyle" format="reference"></attr>
+    <attr name="buttonStyleSmall" format="reference"></attr>
+    <attr name="buttonTint" format="color"></attr>
+    <attr name="buttonTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="buttonType" format="flags">
+        <enum name="com.oculus.twilight:id/filled_large" value="260" />
+        <enum name="com.oculus.twilight:id/filled_medium" value="258" />
+        <enum name="com.oculus.twilight:id/filled_small" value="257" />
+        <enum name="com.oculus.twilight:id/filled_white_large" value="516" />
+        <enum name="com.oculus.twilight:id/filled_white_medium" value="514" />
+        <enum name="com.oculus.twilight:id/filled_white_small" value="513" />
+        <enum name="com.oculus.twilight:id/flat_primary_large" value="1028" />
+        <enum name="com.oculus.twilight:id/flat_primary_medium" value="1032" />
+        <enum name="com.oculus.twilight:id/flat_secondary_large" value="2052" />
+        <enum name="com.oculus.twilight:id/flat_secondary_medium" value="2056" />
+        <enum name="com.oculus.twilight:id/outline_primary_large" value="4100" />
+        <enum name="com.oculus.twilight:id/outline_primary_medium" value="4098" />
+        <enum name="com.oculus.twilight:id/outline_primary_small" value="4097" />
+        <enum name="com.oculus.twilight:id/outline_secondary_large" value="8196" />
+        <enum name="com.oculus.twilight:id/outline_secondary_medium" value="8194" />
+        <enum name="com.oculus.twilight:id/outline_secondary_small" value="8193" />
+        <enum name="com.oculus.twilight:id/outline_white_large" value="16388" />
+        <enum name="com.oculus.twilight:id/outline_white_medium" value="16386" />
+        <enum name="com.oculus.twilight:id/outline_white_opacity_large" value="32772" />
+        <enum name="com.oculus.twilight:id/outline_white_opacity_medium" value="32770" />
+        <enum name="com.oculus.twilight:id/outline_white_opacity_small" value="32769" />
+        <enum name="com.oculus.twilight:id/outline_white_small" value="16385" />
+    </attr>
+    <attr name="calendarViewStyle" format="reference"></attr>
+    <attr name="cardBackgroundColor" format="color"></attr>
+    <attr name="cardCornerRadius" format="dimension"></attr>
+    <attr name="cardElevation" format="dimension"></attr>
+    <attr name="cardMaxElevation" format="dimension"></attr>
+    <attr name="cardPreventCornerOverlap" format="boolean"></attr>
+    <attr name="cardUseCompatPadding" format="boolean"></attr>
+    <attr name="cardViewStyle" format="reference"></attr>
+    <attr name="castAdBreakMarkerColor" format="color"></attr>
+    <attr name="castAdInProgressLabelTextAppearance" format="reference"></attr>
+    <attr name="castAdInProgressText" format="reference|string"></attr>
+    <attr name="castAdInProgressTextColor" format="color"></attr>
+    <attr name="castAdLabelColor" format="color"></attr>
+    <attr name="castAdLabelTextAppearance" format="reference"></attr>
+    <attr name="castAdLabelTextColor" format="color"></attr>
+    <attr name="castBackground" format="reference|color"></attr>
+    <attr name="castBackgroundColor" format="reference|color"></attr>
+    <attr name="castButtonBackgroundColor" format="reference|color"></attr>
+    <attr name="castButtonColor" format="reference|color"></attr>
+    <attr name="castButtonText" format="reference|string"></attr>
+    <attr name="castButtonTextAppearance" format="reference"></attr>
+    <attr name="castClosedCaptionsButtonDrawable" format="reference"></attr>
+    <attr name="castControlButtons" format="reference"></attr>
+    <attr name="castDefaultAdPosterUrl" format="reference|string"></attr>
+    <attr name="castExpandedControllerLoadingIndicatorColor" format="color"></attr>
+    <attr name="castExpandedControllerStyle" format="reference"></attr>
+    <attr name="castExpandedControllerToolbarStyle" format="reference"></attr>
+    <attr name="castFocusRadius" format="reference|dimension"></attr>
+    <attr name="castForward30ButtonDrawable" format="reference"></attr>
+    <attr name="castIntroOverlayStyle" format="reference"></attr>
+    <attr name="castLargePauseButtonDrawable" format="reference"></attr>
+    <attr name="castLargePlayButtonDrawable" format="reference"></attr>
+    <attr name="castLargeStopButtonDrawable" format="reference"></attr>
+    <attr name="castLiveIndicatorColor" format="color"></attr>
+    <attr name="castMiniControllerLoadingIndicatorColor" format="color"></attr>
+    <attr name="castMiniControllerStyle" format="reference"></attr>
+    <attr name="castMuteToggleButtonDrawable" format="reference"></attr>
+    <attr name="castPauseButtonDrawable" format="reference"></attr>
+    <attr name="castPlayButtonDrawable" format="reference"></attr>
+    <attr name="castProgressBarColor" format="color"></attr>
+    <attr name="castRewind30ButtonDrawable" format="reference"></attr>
+    <attr name="castSeekBarProgressAndThumbColor" format="color"></attr>
+    <attr name="castSeekBarProgressDrawable" format="reference"></attr>
+    <attr name="castSeekBarSecondaryProgressColor" format="color"></attr>
+    <attr name="castSeekBarThumbDrawable" format="reference"></attr>
+    <attr name="castSeekBarTooltipBackgroundColor" format="color"></attr>
+    <attr name="castSeekBarUnseekableProgressColor" format="color"></attr>
+    <attr name="castShowImageThumbnail" format="boolean"></attr>
+    <attr name="castSkipNextButtonDrawable" format="reference"></attr>
+    <attr name="castSkipPreviousButtonDrawable" format="reference"></attr>
+    <attr name="castStopButtonDrawable" format="reference"></attr>
+    <attr name="castSubtitleTextAppearance" format="reference"></attr>
+    <attr name="castTitleTextAppearance" format="reference"></attr>
+    <attr name="cellHeight" format="dimension"></attr>
+    <attr name="cellWidth" format="dimension"></attr>
+    <attr name="centerAlignmentFavoredEdge" format="enum">
+        <enum name="com.oculus.twilight:id/leading" value="0" />
+        <enum name="com.oculus.twilight:id/trailing" value="1" />
+    </attr>
+    <attr name="centerSelectedTab" format="boolean"></attr>
+    <attr name="centerTitle" format="boolean"></attr>
+    <attr name="centered" format="boolean"></attr>
+    <attr name="centralizedSymmetric" format="boolean"></attr>
+    <attr name="charLimit" format="integer"></attr>
+    <attr name="checkMarkPadding" format="dimension"></attr>
+    <attr name="checkMarkPosition" format="enum">
+        <enum name="com.oculus.twilight:id/end" value="1" />
+        <enum name="com.oculus.twilight:id/start" value="0" />
+    </attr>
+    <attr name="checkboxStyle" format="reference"></attr>
+    <attr name="checkedBackground" format="reference"></attr>
+    <attr name="checkedChip" format="reference"></attr>
+    <attr name="checkedContentDescription" format="string"></attr>
+    <attr name="checkedContentViewStyle" format="reference"></attr>
+    <attr name="checkedIcon" format="reference"></attr>
+    <attr name="checkedIconEnabled" format="boolean"></attr>
+    <attr name="checkedIconVisible" format="boolean"></attr>
+    <attr name="checkedImage" format="reference"></attr>
+    <attr name="checkedTextViewStyle" format="reference"></attr>
+    <attr name="childMargin" format="dimension"></attr>
+    <attr name="chipBackgroundColor" format="color"></attr>
+    <attr name="chipCornerRadius" format="dimension"></attr>
+    <attr name="chipEndPadding" format="dimension"></attr>
+    <attr name="chipGroupStyle" format="reference"></attr>
+    <attr name="chipIcon" format="reference"></attr>
+    <attr name="chipIconEnabled" format="boolean"></attr>
+    <attr name="chipIconSize" format="dimension"></attr>
+    <attr name="chipIconTint" format="color"></attr>
+    <attr name="chipIconVisible" format="boolean"></attr>
+    <attr name="chipMinHeight" format="dimension"></attr>
+    <attr name="chipSpacing" format="dimension"></attr>
+    <attr name="chipSpacingHorizontal" format="dimension"></attr>
+    <attr name="chipSpacingVertical" format="dimension"></attr>
+    <attr name="chipStandaloneStyle" format="reference"></attr>
+    <attr name="chipStartPadding" format="dimension"></attr>
+    <attr name="chipStrokeColor" format="color"></attr>
+    <attr name="chipStrokeWidth" format="dimension"></attr>
+    <attr name="chipStyle" format="reference"></attr>
+    <attr name="chipTextColor" format="color"></attr>
+    <attr name="circleCrop" format="boolean"></attr>
+    <attr name="clearButtonDrawable" format="reference"></attr>
+    <attr name="clearButtonMode" format="enum">
+        <enum name="com.oculus.twilight:id/always" value="2" />
+        <enum name="com.oculus.twilight:id/never" value="0" />
+        <enum name="com.oculus.twilight:id/while_editing" value="1" />
+    </attr>
+    <attr name="clearButtonTint" format="reference|color"></attr>
+    <attr name="clearTextDrawable" format="reference"></attr>
+    <attr name="clearTextDrawableColor" format="color"></attr>
+    <attr name="clipBorderToPadding" format="boolean"></attr>
+    <attr name="closeIcon" format="reference"></attr>
+    <attr name="closeIconEnabled" format="boolean"></attr>
+    <attr name="closeIconEndPadding" format="dimension"></attr>
+    <attr name="closeIconSize" format="dimension"></attr>
+    <attr name="closeIconStartPadding" format="dimension"></attr>
+    <attr name="closeIconTint" format="color"></attr>
+    <attr name="closeIconVisible" format="boolean"></attr>
+    <attr name="closeItemLayout" format="reference"></attr>
+    <attr name="cmsTextKey" format="string"></attr>
+    <attr name="collapseAnimationEnabled" format="boolean"></attr>
+    <attr name="collapseAnimationMaxTime" format="integer"></attr>
+    <attr name="collapseAnimationSpeed" format="integer"></attr>
+    <attr name="collapseContentDescription" format="string"></attr>
+    <attr name="collapseIcon" format="reference"></attr>
+    <attr name="collapsedTitleGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/fill_vertical" value="112" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="collapsedTitleTextAppearance" format="reference"></attr>
+    <attr name="color" format="color"></attr>
+    <attr name="colorAccent" format="color"></attr>
+    <attr name="colorBackgroundFloating" format="color"></attr>
+    <attr name="colorButtonNormal" format="color"></attr>
+    <attr name="colorControlActivated" format="color"></attr>
+    <attr name="colorControlHighlight" format="color"></attr>
+    <attr name="colorControlNormal" format="color"></attr>
+    <attr name="colorError" format="reference|color"></attr>
+    <attr name="colorPrimary" format="color"></attr>
+    <attr name="colorPrimaryDark" format="color"></attr>
+    <attr name="colorScheme" format="reference|enum">
+        <enum name="com.oculus.twilight:id/auto" value="2" />
+        <enum name="com.oculus.twilight:id/dark" value="0" />
+        <enum name="com.oculus.twilight:id/light" value="1" />
+    </attr>
+    <attr name="colorSecondary" format="color"></attr>
+    <attr name="colorSwitchThumbNormal" format="color"></attr>
+    <attr name="columnCount" format="integer"></attr>
+    <attr name="columnOrderPreserved" format="boolean"></attr>
+    <attr name="columnWidthCompat" format="dimension"></attr>
+    <attr name="com_facebook_auxiliary_view_position" format="enum">
+        <enum name="com.oculus.twilight:id/bottom" value="0" />
+        <enum name="com.oculus.twilight:id/inline" value="1" />
+        <enum name="com.oculus.twilight:id/top" value="2" />
+    </attr>
+    <attr name="com_facebook_confirm_logout" format="boolean"></attr>
+    <attr name="com_facebook_foreground_color" format="color"></attr>
+    <attr name="com_facebook_horizontal_alignment" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="0" />
+        <enum name="com.oculus.twilight:id/left" value="1" />
+        <enum name="com.oculus.twilight:id/right" value="2" />
+    </attr>
+    <attr name="com_facebook_is_cropped" format="boolean"></attr>
+    <attr name="com_facebook_login_text" format="string"></attr>
+    <attr name="com_facebook_logout_text" format="string"></attr>
+    <attr name="com_facebook_object_id" format="string"></attr>
+    <attr name="com_facebook_object_type" format="enum">
+        <enum name="com.oculus.twilight:id/open_graph" value="1" />
+        <enum name="com.oculus.twilight:id/page" value="2" />
+        <enum name="com.oculus.twilight:id/unknown" value="0" />
+    </attr>
+    <attr name="com_facebook_preset_size" format="enum">
+        <enum name="com.oculus.twilight:id/large" value="-4" />
+        <enum name="com.oculus.twilight:id/normal" value="-3" />
+        <enum name="com.oculus.twilight:id/small" value="-2" />
+    </attr>
+    <attr name="com_facebook_style" format="enum">
+        <enum name="com.oculus.twilight:id/box_count" value="2" />
+        <enum name="com.oculus.twilight:id/button" value="1" />
+        <enum name="com.oculus.twilight:id/standard" value="0" />
+    </attr>
+    <attr name="com_facebook_tooltip_mode" format="enum">
+        <enum name="com.oculus.twilight:id/automatic" value="0" />
+        <enum name="com.oculus.twilight:id/display_always" value="1" />
+        <enum name="com.oculus.twilight:id/never_display" value="2" />
+    </attr>
+    <attr name="commitIcon" format="reference"></attr>
+    <attr name="contentDescription" format="string"></attr>
+    <attr name="contentInsetEnd" format="dimension"></attr>
+    <attr name="contentInsetEndWithActions" format="dimension"></attr>
+    <attr name="contentInsetLeft" format="dimension"></attr>
+    <attr name="contentInsetRight" format="dimension"></attr>
+    <attr name="contentInsetStart" format="dimension"></attr>
+    <attr name="contentInsetStartWithNavigation" format="dimension"></attr>
+    <attr name="contentPadding" format="dimension"></attr>
+    <attr name="contentPaddingBottom" format="dimension"></attr>
+    <attr name="contentPaddingLeft" format="dimension"></attr>
+    <attr name="contentPaddingRight" format="dimension"></attr>
+    <attr name="contentPaddingTop" format="dimension"></attr>
+    <attr name="contentScrim" format="color"></attr>
+    <attr name="contentViewMetaStyle" format="reference"></attr>
+    <attr name="contentViewStyle" format="reference"></attr>
+    <attr name="contentViewStyleCondensed" format="reference"></attr>
+    <attr name="contentViewSubtitleStyle" format="reference"></attr>
+    <attr name="contentViewThumbnailLarge" format="reference"></attr>
+    <attr name="contentViewThumbnailMedium" format="reference"></attr>
+    <attr name="contentViewThumbnailSmall" format="reference"></attr>
+    <attr name="contentViewThumbnailXSmall" format="reference"></attr>
+    <attr name="contentViewThumbnailXlarge" format="reference"></attr>
+    <attr name="contentViewTitleStyle" format="reference"></attr>
+    <attr name="contentViewVerticalPadding" format="reference"></attr>
+    <attr name="contentViewWithButtonStyle" format="reference"></attr>
+    <attr name="contextItemPaddingHorizontal" format="dimension"></attr>
+    <attr name="contextItemPaddingVertical" format="dimension"></attr>
+    <attr name="controlBackground" format="reference"></attr>
+    <attr name="coordinatorLayoutStyle" format="reference"></attr>
+    <attr name="cornerRadius" format="dimension"></attr>
+    <attr name="counterEnabled" format="boolean"></attr>
+    <attr name="counterMaxLength" format="integer"></attr>
+    <attr name="counterOverflowTextAppearance" format="reference"></attr>
+    <attr name="counterTextAppearance" format="reference"></attr>
+    <attr name="crc_background_color" format="color"></attr>
+    <attr name="crc_countdown_duration_millis" format="integer"></attr>
+    <attr name="crc_full_ring_color" format="color"></attr>
+    <attr name="crc_overlay_ring_color" format="color"></attr>
+    <attr name="crc_stroke_width" format="dimension"></attr>
+    <attr name="customNavigationLayout" format="reference"></attr>
+    <attr name="dateTextAppearance" format="reference"></attr>
+    <attr name="debug" format="boolean"></attr>
+    <attr name="defaultFeedFeedbackButtonStyle" format="reference"></attr>
+    <attr name="defaultFeedFeedbackColorQeOverride" format="color"></attr>
+    <attr name="defaultFeedFeedbackGlyphColor" format="color"></attr>
+    <attr name="defaultFeedFeedbackHeight" format="dimension"></attr>
+    <attr name="defaultFeedFeedbackLikedColor" format="color"></attr>
+    <attr name="defaultFeedFeedbackStyle" format="reference"></attr>
+    <attr name="defaultPillsBlingBarHeight" format="dimension"></attr>
+    <attr name="defaultQueryHint" format="string"></attr>
+    <attr name="density" format="integer"></attr>
+    <attr name="dialogCornerRadius" format="dimension"></attr>
+    <attr name="dialogPreferredPadding" format="dimension"></attr>
+    <attr name="dialogTheme" format="reference"></attr>
+    <attr name="disableScrollHideList" format="boolean"></attr>
+    <attr name="displayOptions" format="flags">
+        <enum name="com.oculus.twilight:id/disableHome" value="32" />
+        <enum name="com.oculus.twilight:id/homeAsUp" value="4" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/showCustom" value="16" />
+        <enum name="com.oculus.twilight:id/showHome" value="2" />
+        <enum name="com.oculus.twilight:id/showTitle" value="8" />
+        <enum name="com.oculus.twilight:id/useLogo" value="1" />
+    </attr>
+    <attr name="divider" format="reference"></attr>
+    <attr name="dividerColor" format="color"></attr>
+    <attr name="dividerHorizontal" format="reference"></attr>
+    <attr name="dividerLeftMargin" format="dimension"></attr>
+    <attr name="dividerPadding" format="dimension"></attr>
+    <attr name="dividerPaddingEnd" format="dimension"></attr>
+    <attr name="dividerPaddingStart" format="dimension"></attr>
+    <attr name="dividerRightMargin" format="dimension"></attr>
+    <attr name="dividerSize" format="dimension"></attr>
+    <attr name="dividerThickness" format="dimension"></attr>
+    <attr name="dividerVertical" format="reference"></attr>
+    <attr name="dragDirections" format="flags">
+        <enum name="com.oculus.twilight:id/down" value="2" />
+        <enum name="com.oculus.twilight:id/left" value="4" />
+        <enum name="com.oculus.twilight:id/right" value="8" />
+        <enum name="com.oculus.twilight:id/up" value="1" />
+    </attr>
+    <attr name="drawable" format="reference"></attr>
+    <attr name="drawableBottomCompat" format="reference"></attr>
+    <attr name="drawableEndCompat" format="reference"></attr>
+    <attr name="drawableLeftCompat" format="reference"></attr>
+    <attr name="drawableOrientation" format="enum">
+        <enum name="com.oculus.twilight:id/bottom" value="3" />
+        <enum name="com.oculus.twilight:id/end" value="2" />
+        <enum name="com.oculus.twilight:id/start" value="0" />
+        <enum name="com.oculus.twilight:id/top" value="1" />
+    </attr>
+    <attr name="drawableRightCompat" format="reference"></attr>
+    <attr name="drawableSize" format="dimension"></attr>
+    <attr name="drawableStartCompat" format="reference"></attr>
+    <attr name="drawableTint" format="color"></attr>
+    <attr name="drawableTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="drawableTopCompat" format="reference"></attr>
+    <attr name="drawerArrowStyle" format="reference"></attr>
+    <attr name="drawerLayoutStyle" format="reference"></attr>
+    <attr name="dropDownListViewStyle" format="reference"></attr>
+    <attr name="dropdownListPreferredItemHeight" format="dimension"></attr>
+    <attr name="dropoff" format="float"></attr>
+    <attr name="duration" format="integer"></attr>
+    <attr name="e2eFeedbackNewsfeedShadow" format="reference"></attr>
+    <attr name="editTextBackground" format="reference"></attr>
+    <attr name="editTextColor" format="reference|color"></attr>
+    <attr name="editTextStyle" format="reference"></attr>
+    <attr name="editTextType" format="enum">
+        <enum name="com.oculus.twilight:id/expanding_cell" value="1" />
+        <enum name="com.oculus.twilight:id/floating_cell" value="0" />
+    </attr>
+    <attr name="elevation" format="dimension"></attr>
+    <attr name="ellipsisText" format="string"></attr>
+    <attr name="ellipsizeLineBreaks" format="boolean"></attr>
+    <attr name="enableFading" format="boolean"></attr>
+    <attr name="enableTranscriptModeWorkaround" format="boolean"></attr>
+    <attr name="enforceMaterialTheme" format="boolean"></attr>
+    <attr name="enforceTextAppearance" format="boolean"></attr>
+    <attr name="errorEnabled" format="boolean"></attr>
+    <attr name="errorTextAppearance" format="reference"></attr>
+    <attr name="eventReminderDeclinedBadge" format="reference"></attr>
+    <attr name="eventReminderGoingBadge" format="reference"></attr>
+    <attr name="expandActivityOverflowButtonDrawable" format="reference"></attr>
+    <attr name="expanded" format="boolean"></attr>
+    <attr name="expandedTitleGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/fill_vertical" value="112" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="expandedTitleMargin" format="dimension"></attr>
+    <attr name="expandedTitleMarginBottom" format="dimension"></attr>
+    <attr name="expandedTitleMarginEnd" format="dimension"></attr>
+    <attr name="expandedTitleMarginStart" format="dimension"></attr>
+    <attr name="expandedTitleMarginTop" format="dimension"></attr>
+    <attr name="expandedTitleTextAppearance" format="reference"></attr>
+    <attr name="externalRouteEnabledDrawable" format="reference"></attr>
+    <attr name="externalRouteEnabledDrawableStatic" format="reference"></attr>
+    <attr name="fabAlignmentMode" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="0" />
+        <enum name="com.oculus.twilight:id/end" value="1" />
+    </attr>
+    <attr name="fabCradleMargin" format="dimension"></attr>
+    <attr name="fabCradleRoundedCornerRadius" format="dimension"></attr>
+    <attr name="fabCradleVerticalOffset" format="dimension"></attr>
+    <attr name="fabCustomSize" format="dimension"></attr>
+    <attr name="fabSize" format="enum">
+        <enum name="com.oculus.twilight:id/auto" value="-1" />
+        <enum name="com.oculus.twilight:id/mini" value="1" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+    </attr>
+    <attr name="faceCountForOverflow" format="integer"></attr>
+    <attr name="faceSize" format="dimension"></attr>
+    <attr name="faceSizeOffset" format="dimension"></attr>
+    <attr name="facebookAppBadge" format="reference"></attr>
+    <attr name="facebookBadge" format="reference"></attr>
+    <attr name="facebookFriendBadge" format="reference"></attr>
+    <attr name="facepileGridPlaceholderImage" format="reference|color"></attr>
+    <attr name="facepileGridViewStyle" format="reference"></attr>
+    <attr name="facepilePlaceholderImage" format="reference"></attr>
+    <attr name="facepileViewStyle" format="reference"></attr>
+    <attr name="fadeDuration" format="integer"></attr>
+    <attr name="fadingTitleBarStartColor" format="color"></attr>
+    <attr name="failureImage" format="reference"></attr>
+    <attr name="failureImageScaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="4" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="5" />
+        <enum name="com.oculus.twilight:id/fitBottomStart" value="8" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="2" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="3" />
+        <enum name="com.oculus.twilight:id/fitStart" value="1" />
+        <enum name="com.oculus.twilight:id/fitXY" value="0" />
+        <enum name="com.oculus.twilight:id/focusCrop" value="7" />
+        <enum name="com.oculus.twilight:id/none" value="-1" />
+    </attr>
+    <attr name="fastScrollEnabled" format="boolean"></attr>
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference"></attr>
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference"></attr>
+    <attr name="fastScrollOverlayPosition" format="integer"></attr>
+    <attr name="fastScrollPreviewBackgroundLeft" format="reference"></attr>
+    <attr name="fastScrollPreviewBackgroundRight" format="reference"></attr>
+    <attr name="fastScrollTextColor" format="color"></attr>
+    <attr name="fastScrollThumbDrawable" format="reference"></attr>
+    <attr name="fastScrollTrackDrawable" format="reference"></attr>
+    <attr name="fastScrollVerticalThumbDrawable" format="reference"></attr>
+    <attr name="fastScrollVerticalTrackDrawable" format="reference"></attr>
+    <attr name="fbBadgeGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="fbChipBackgroundColor" format="reference|color"></attr>
+    <attr name="fbEventCantGoBadge" format="reference"></attr>
+    <attr name="fbEventGoingBadge" format="reference"></attr>
+    <attr name="fbEventInterestedBadge" format="reference"></attr>
+    <attr name="fbFontFamily" format="enum">
+        <enum name="com.oculus.twilight:id/roboto" value="0" />
+    </attr>
+    <attr name="fbFontWeight" format="enum">
+        <enum name="com.oculus.twilight:id/bold" value="3" />
+        <enum name="com.oculus.twilight:id/light" value="0" />
+        <enum name="com.oculus.twilight:id/medium" value="2" />
+        <enum name="com.oculus.twilight:id/regular" value="1" />
+    </attr>
+    <attr name="fbListItemLayout" format="reference"></attr>
+    <attr name="fbListLayout" format="reference"></attr>
+    <attr name="fbMultiChoiceItemLayout" format="reference"></attr>
+    <attr name="fbSingleChoiceItemLayout" format="reference"></attr>
+    <attr name="fds_dark_mode" format="boolean"></attr>
+    <attr name="fds_mobile_wash_fix_me" format="reference|color"></attr>
+    <attr name="fds_pink_mode" format="boolean"></attr>
+    <attr name="fds_usage_accent" format="reference|color"></attr>
+    <attr name="fds_usage_accent_deemphasized" format="reference|color"></attr>
+    <attr name="fds_usage_active_switch_track" format="reference|color"></attr>
+    <attr name="fds_usage_always_transparent" format="reference|color"></attr>
+    <attr name="fds_usage_always_white" format="reference|color"></attr>
+    <attr name="fds_usage_attachment_footer_background" format="reference|color"></attr>
+    <attr name="fds_usage_background_deemphasized" format="reference|color"></attr>
+    <attr name="fds_usage_badge_border" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha05_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha10_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha15_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha20_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha30_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha40_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha50_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha60_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_alpha80_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_black_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_35_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_40_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_45_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_50_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_60_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_80_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_95_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_blue_badge" format="reference|color"></attr>
+    <attr name="fds_usage_blue_link" format="reference|color"></attr>
+    <attr name="fds_usage_blue_link_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_border_persistent_ui" format="reference|color"></attr>
+    <attr name="fds_usage_border_responsive_ui" format="reference|color"></attr>
+    <attr name="fds_usage_border_ui_emphasis" format="reference|color"></attr>
+    <attr name="fds_usage_bottom_sheet_handle" format="reference|color"></attr>
+    <attr name="fds_usage_card_background" format="reference|color"></attr>
+    <attr name="fds_usage_card_background_flat" format="reference|color"></attr>
+    <attr name="fds_usage_card_background_flat_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_card_border" format="reference|color"></attr>
+    <attr name="fds_usage_comment_background" format="reference|color"></attr>
+    <attr name="fds_usage_comment_background_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_comment_threading_lines" format="reference|color"></attr>
+    <attr name="fds_usage_cyan_65_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_blue" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_green" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_pink" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_purple" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_red" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_teal" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_whatsapp" format="reference|color"></attr>
+    <attr name="fds_usage_decorative_icon_yellow" format="reference|color"></attr>
+    <attr name="fds_usage_disabled_button_background" format="reference|color"></attr>
+    <attr name="fds_usage_disabled_button_text" format="reference|color"></attr>
+    <attr name="fds_usage_disabled_icon" format="reference|color"></attr>
+    <attr name="fds_usage_disabled_text" format="reference|color"></attr>
+    <attr name="fds_usage_disabled_text_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_divider" format="reference|color"></attr>
+    <attr name="fds_usage_event_date" format="reference|color"></attr>
+    <attr name="fds_usage_facepile_overflow_overlay" format="reference|color"></attr>
+    <attr name="fds_usage_fb_wordmark" format="reference|color"></attr>
+    <attr name="fds_usage_gray_00_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_100_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_10_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_15_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_20_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_25_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_30_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_35_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_40_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_50_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_55_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_70_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_75_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_80_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_85_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_90_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_gray_95_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_green_40_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_green_50_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_hidden_comment_overlay" format="reference|color"></attr>
+    <attr name="fds_usage_highlight_cell_background" format="reference|color"></attr>
+    <attr name="fds_usage_hosted_view_selected_state" format="reference|color"></attr>
+    <attr name="fds_usage_list_cell_background" format="reference|color"></attr>
+    <attr name="fds_usage_loading_state" format="reference|color"></attr>
+    <attr name="fds_usage_media_inner_border" format="reference|color"></attr>
+    <attr name="fds_usage_media_outer_border" format="reference|color"></attr>
+    <attr name="fds_usage_media_pressed" format="reference|color"></attr>
+    <attr name="fds_usage_media_pressed_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_mobile_wash_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_nav_bar_background" format="reference|color"></attr>
+    <attr name="fds_usage_nav_bar_icon" format="reference|color"></attr>
+    <attr name="fds_usage_nav_bar_text" format="reference|color"></attr>
+    <attr name="fds_usage_negative" format="reference|color"></attr>
+    <attr name="fds_usage_new_notification_background" format="reference|color"></attr>
+    <attr name="fds_usage_non_media_pressed" format="reference|color"></attr>
+    <attr name="fds_usage_non_media_pressed_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_non_media_pressed_on_dark" format="reference|color"></attr>
+    <attr name="fds_usage_notification_badge" format="reference|color"></attr>
+    <attr name="fds_usage_orange_55_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_overlay_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_overlay_on_surface" format="reference|color"></attr>
+    <attr name="fds_usage_pink_100_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_placeholder_icon" format="reference|color"></attr>
+    <attr name="fds_usage_placeholder_image" format="reference|color"></attr>
+    <attr name="fds_usage_placeholder_text" format="reference|color"></attr>
+    <attr name="fds_usage_placeholder_text_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_popover_background" format="reference|color"></attr>
+    <attr name="fds_usage_positive" format="reference|color"></attr>
+    <attr name="fds_usage_positive_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_background" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_background_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_background_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_icon" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_icon_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_pressed_background" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_text" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_text_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_primary_button_text_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_primary_deemphasized_button_background" format="reference|color"></attr>
+    <attr name="fds_usage_primary_deemphasized_button_background_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_primary_deemphasized_button_icon" format="reference|color"></attr>
+    <attr name="fds_usage_primary_deemphasized_button_text" format="reference|color"></attr>
+    <attr name="fds_usage_primary_icon" format="reference|color"></attr>
+    <attr name="fds_usage_primary_icon_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_primary_text" format="reference|color"></attr>
+    <attr name="fds_usage_primary_text_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_primary_text_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_blue_background" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_blue_foreground" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_disabled_foreground" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_neutral_background" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_neutral_foreground" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_on_media_background" format="reference|color"></attr>
+    <attr name="fds_usage_progress_ring_on_media_foreground" format="reference|color"></attr>
+    <attr name="fds_usage_purple_45_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_purple_50_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_red_40_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_red_45_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_rooms_app_icon" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_background" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_background_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_background_on_color" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_background_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_icon" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_icon_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_pressed" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_pressed_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_text" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_text_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_button_text_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_deemphasized_button_background" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_deemphasized_button_text" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_icon" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_text" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_text_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_secondary_text_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_shadow_persistent_ui" format="reference|color"></attr>
+    <attr name="fds_usage_shadow_responsive_ui" format="reference|color"></attr>
+    <attr name="fds_usage_shadow_text_and_icon_on_media" format="reference|color"></attr>
+    <attr name="fds_usage_shadow_ui_emphasis" format="reference|color"></attr>
+    <attr name="fds_usage_stepper_active" format="reference|color"></attr>
+    <attr name="fds_usage_stepper_inactive" format="reference|color"></attr>
+    <attr name="fds_usage_surface_background" format="reference|color"></attr>
+    <attr name="fds_usage_surface_background_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_teal_45_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_teal_60_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_teal_70_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_tertiary_icon" format="reference|color"></attr>
+    <attr name="fds_usage_tertiary_text" format="reference|color"></attr>
+    <attr name="fds_usage_tertiary_text_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_text_highlight" format="reference|color"></attr>
+    <attr name="fds_usage_text_input_bar_background" format="reference|color"></attr>
+    <attr name="fds_usage_toggle_active_background" format="reference|color"></attr>
+    <attr name="fds_usage_toggle_active_icon" format="reference|color"></attr>
+    <attr name="fds_usage_toggle_active_text" format="reference|color"></attr>
+    <attr name="fds_usage_transparent" format="reference|color"></attr>
+    <attr name="fds_usage_warning" format="reference|color"></attr>
+    <attr name="fds_usage_wash" format="reference|color"></attr>
+    <attr name="fds_usage_web_wash" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha15_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha20_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha30_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha40_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha50_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha60_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_alpha80_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_white_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_yellow_55_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_yellow_60_fix_me" format="reference|color"></attr>
+    <attr name="fds_usage_yellow_80_fix_me" format="reference|color"></attr>
+    <attr name="featureTag" format="string"></attr>
+    <attr name="feedActorLinkTextColor" format="color"></attr>
+    <attr name="feedLikesDescriptionTextColor" format="color"></attr>
+    <attr name="feedTargetActorSpacerColor" format="color"></attr>
+    <attr name="feedTextBodyColor" format="color"></attr>
+    <attr name="feed_story_photo_placeholder_color" format="reference|color"></attr>
+    <attr name="figBackgroundTint" format="color"></attr>
+    <attr name="figRippleColor" format="color"></attr>
+    <attr name="figThumbnailSize" format="enum">
+        <enum name="com.oculus.twilight:id/glyph" value="4" />
+        <enum name="com.oculus.twilight:id/large" value="3" />
+        <enum name="com.oculus.twilight:id/medium" value="2" />
+        <enum name="com.oculus.twilight:id/small" value="1" />
+        <enum name="com.oculus.twilight:id/xsmall" value="0" />
+    </attr>
+    <attr name="fillColor" format="reference|color"></attr>
+    <attr name="fillParentWidth" format="boolean"></attr>
+    <attr name="firstBaselineToTopHeight" format="dimension"></attr>
+    <attr name="firstDayOfWeek" format="integer"></attr>
+    <attr name="fixed_height" format="dimension"></attr>
+    <attr name="fixed_width" format="dimension"></attr>
+    <attr name="flex" format="float"></attr>
+    <attr name="flex_alignItems" format="enum">
+        <enum name="com.oculus.twilight:id/auto" value="0" />
+        <enum name="com.oculus.twilight:id/center" value="2" />
+        <enum name="com.oculus.twilight:id/flexEnd" value="3" />
+        <enum name="com.oculus.twilight:id/flexStart" value="1" />
+        <enum name="com.oculus.twilight:id/stretch" value="4" />
+    </attr>
+    <attr name="flex_alignSelf" format="enum">
+        <enum name="com.oculus.twilight:id/auto" value="0" />
+        <enum name="com.oculus.twilight:id/center" value="2" />
+        <enum name="com.oculus.twilight:id/flexEnd" value="3" />
+        <enum name="com.oculus.twilight:id/flexStart" value="1" />
+        <enum name="com.oculus.twilight:id/stretch" value="4" />
+    </attr>
+    <attr name="flex_bottom" format="dimension"></attr>
+    <attr name="flex_direction" format="enum">
+        <enum name="com.oculus.twilight:id/column" value="0" />
+        <enum name="com.oculus.twilight:id/columnReverse" value="1" />
+        <enum name="com.oculus.twilight:id/row" value="2" />
+        <enum name="com.oculus.twilight:id/rowReverse" value="3" />
+    </attr>
+    <attr name="flex_justifyContent" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="1" />
+        <enum name="com.oculus.twilight:id/flexEnd" value="2" />
+        <enum name="com.oculus.twilight:id/flexStart" value="0" />
+        <enum name="com.oculus.twilight:id/spaceAround" value="4" />
+        <enum name="com.oculus.twilight:id/spaceBetween" value="3" />
+    </attr>
+    <attr name="flex_layoutDirection" format="enum">
+        <enum name="com.oculus.twilight:id/inherit" value="0" />
+        <enum name="com.oculus.twilight:id/ltr" value="1" />
+        <enum name="com.oculus.twilight:id/rtl" value="2" />
+    </attr>
+    <attr name="flex_left" format="dimension"></attr>
+    <attr name="flex_positionType" format="enum">
+        <enum name="com.oculus.twilight:id/absolute" value="1" />
+        <enum name="com.oculus.twilight:id/relative" value="0" />
+    </attr>
+    <attr name="flex_right" format="dimension"></attr>
+    <attr name="flex_top" format="dimension"></attr>
+    <attr name="flex_wrap" format="enum">
+        <enum name="com.oculus.twilight:id/nowrap" value="0" />
+        <enum name="com.oculus.twilight:id/wrap" value="1" />
+    </attr>
+    <attr name="floatingActionButtonStyle" format="any"></attr>
+    <attr name="focusedDateColor" format="reference|color"></attr>
+    <attr name="focusedMonthDateColor" format="reference|color"></attr>
+    <attr name="font" format="reference"></attr>
+    <attr name="fontFamily" format="string"></attr>
+    <attr name="fontProviderAuthority" format="string"></attr>
+    <attr name="fontProviderCerts" format="reference"></attr>
+    <attr name="fontProviderFetchStrategy" format="enum">
+        <enum name="com.oculus.twilight:id/async" value="1" />
+        <enum name="com.oculus.twilight:id/blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer|enum">
+        <enum name="com.oculus.twilight:id/forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string"></attr>
+    <attr name="fontProviderQuery" format="string"></attr>
+    <attr name="fontStyle" format="enum">
+        <enum name="com.oculus.twilight:id/italic" value="1" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string"></attr>
+    <attr name="fontWeight" format="integer"></attr>
+    <attr name="footerActionType" format="enum">
+        <enum name="com.oculus.twilight:id/chevron" value="1" />
+        <enum name="com.oculus.twilight:id/glyph" value="2" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+    </attr>
+    <attr name="footerType" format="enum">
+        <enum name="com.oculus.twilight:id/custom" value="0" />
+        <enum name="com.oculus.twilight:id/see_all" value="1" />
+        <enum name="com.oculus.twilight:id/see_more" value="2" />
+    </attr>
+    <attr name="forceFirstItemSeparateLine" format="boolean"></attr>
+    <attr name="forceSingleItemLines" format="boolean"></attr>
+    <attr name="foreground" format="reference"></attr>
+    <attr name="foregroundColor" format="reference|color"></attr>
+    <attr name="foregroundInsidePadding" format="boolean"></attr>
+    <attr name="foregroundPadding" format="dimension"></attr>
+    <attr name="full_ring_alpha" format="integer"></attr>
+    <attr name="full_ring_color" format="color"></attr>
+    <attr name="gameBadge" format="reference"></attr>
+    <attr name="gameBigBadge" format="reference"></attr>
+    <attr name="gapBetweenBars" format="dimension"></attr>
+    <attr name="gemBadge" format="reference"></attr>
+    <attr name="glyphButtonType" format="flags">
+        <enum name="com.oculus.twilight:id/flat_primary_medium" value="1026" />
+    </attr>
+    <attr name="glyphColor" format="reference|color"></attr>
+    <attr name="glyphPadding" format="dimension"></attr>
+    <attr name="glyphPaddingEnd" format="dimension"></attr>
+    <attr name="glyphPaddingStart" format="dimension"></attr>
+    <attr name="glyphPaddingTop" format="dimension"></attr>
+    <attr name="glyphSize" format="dimension"></attr>
+    <attr name="glyphSpacing" format="dimension"></attr>
+    <attr name="glyphSrc" format="reference"></attr>
+    <attr name="goIcon" format="reference"></attr>
+    <attr name="hasBackButton" format="boolean"></attr>
+    <attr name="hasProgressBar" format="boolean"></attr>
+    <attr name="hasTopDivider" format="boolean"></attr>
+    <attr name="headerActionType" format="enum">
+        <enum name="com.oculus.twilight:id/chevron" value="2" />
+        <enum name="com.oculus.twilight:id/glyph" value="3" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/text" value="1" />
+    </attr>
+    <attr name="headerHideThreshold" format="dimension"></attr>
+    <attr name="headerLayout" format="reference"></attr>
+    <attr name="headerStartHeight" format="dimension"></attr>
+    <attr name="headerSubtitleDefaultVisibility" format="enum">
+        <enum name="com.oculus.twilight:id/gone" value="2" />
+        <enum name="com.oculus.twilight:id/invisible" value="1" />
+        <enum name="com.oculus.twilight:id/visible" value="0" />
+    </attr>
+    <attr name="headerTitleMaxLines" format="integer"></attr>
+    <attr name="headerTitlesGravity" format="flags">
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="headerTitlesHeight" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/match_parent" value="-1" />
+        <enum name="com.oculus.twilight:id/wrap_content" value="-2" />
+    </attr>
+    <attr name="headerTitlesMarginBottom" format="dimension"></attr>
+    <attr name="headerTitlesMarginEnd" format="dimension"></attr>
+    <attr name="headerTitlesMarginStart" format="dimension"></attr>
+    <attr name="headerTitlesMarginTop" format="dimension"></attr>
+    <attr name="headerTitlesWidth" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/match_parent" value="-1" />
+        <enum name="com.oculus.twilight:id/wrap_content" value="-2" />
+    </attr>
+    <attr name="height" format="dimension"></attr>
+    <attr name="helperText" format="string"></attr>
+    <attr name="helperTextEnabled" format="boolean"></attr>
+    <attr name="helperTextTextAppearance" format="reference"></attr>
+    <attr name="hideClearTextDrawableWhenUnfocused" format="boolean"></attr>
+    <attr name="hideMotionSpec" format="reference"></attr>
+    <attr name="hideOnContentScroll" format="boolean"></attr>
+    <attr name="hideOnScroll" format="boolean"></attr>
+    <attr name="highlightColor" format="color"></attr>
+    <attr name="highlightStyle" format="flags">
+        <enum name="com.oculus.twilight:id/bold" value="1" />
+        <enum name="com.oculus.twilight:id/italic" value="2" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+    </attr>
+    <attr name="highlight_color" format="color"></attr>
+    <attr name="hintAnimationEnabled" format="boolean"></attr>
+    <attr name="hintEnabled" format="boolean"></attr>
+    <attr name="hintTextAppearance" format="reference"></attr>
+    <attr name="homeAsUpIndicator" format="reference"></attr>
+    <attr name="homeLayout" format="reference"></attr>
+    <attr name="horizontalMarginPadding" format="reference|dimension"></attr>
+    <attr name="horizontalPadding" format="dimension"></attr>
+    <attr name="horizontalProgressLayout" format="reference"></attr>
+    <attr name="horizontalSpacing" format="dimension"></attr>
+    <attr name="horrible_oom_crash_mode" format="boolean"></attr>
+    <attr name="hoveredFocusedTranslationZ" format="dimension"></attr>
+    <attr name="icon" format="reference"></attr>
+    <attr name="iconAndTextTabbedViewPagerIndicatorChildStyle" format="reference"></attr>
+    <attr name="iconBadgeBackground" format="reference"></attr>
+    <attr name="iconBadgeOffsetX" format="dimension"></attr>
+    <attr name="iconBadgeOffsetY" format="dimension"></attr>
+    <attr name="iconBadgeTextAppearance" format="reference"></attr>
+    <attr name="iconEndPadding" format="dimension"></attr>
+    <attr name="iconGravity" format="flags">
+        <enum name="com.oculus.twilight:id/start" value="1" />
+        <enum name="com.oculus.twilight:id/textStart" value="2" />
+    </attr>
+    <attr name="iconPadding" format="dimension"></attr>
+    <attr name="iconPosition" format="enum">
+        <enum name="com.oculus.twilight:id/bottom" value="3" />
+        <enum name="com.oculus.twilight:id/end" value="2" />
+        <enum name="com.oculus.twilight:id/start" value="0" />
+        <enum name="com.oculus.twilight:id/top" value="1" />
+    </attr>
+    <attr name="iconSize" format="dimension"></attr>
+    <attr name="iconStartPadding" format="dimension"></attr>
+    <attr name="iconTabbedViewPagerIndicatorChildStyle" format="reference"></attr>
+    <attr name="iconTint" format="color"></attr>
+    <attr name="iconTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="iconifiedByDefault" format="boolean"></attr>
+    <attr name="imageAspectRatio" format="float"></attr>
+    <attr name="imageAspectRatioAdjust" format="enum">
+        <enum name="com.oculus.twilight:id/adjust_height" value="2" />
+        <enum name="com.oculus.twilight:id/adjust_width" value="1" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+    </attr>
+    <attr name="imageBlockLayoutStyle" format="any"></attr>
+    <attr name="imageButtonStyle" format="reference"></attr>
+    <attr name="imageUri" format="string"></attr>
+    <attr name="indeterminateProgressStyle" format="reference"></attr>
+    <attr name="indicator_active_color" format="reference|color"></attr>
+    <attr name="indicator_inactive_color" format="reference|color"></attr>
+    <attr name="inflatedLayoutAndroidId" format="reference"></attr>
+    <attr name="initialActivityCount" format="string"></attr>
+    <attr name="initializeHeightToFirstItem" format="boolean"></attr>
+    <attr name="initialsTextSize" format="dimension"></attr>
+    <attr name="inlineBoldColor" format="color"></attr>
+    <attr name="insetForeground" format="reference|color"></attr>
+    <attr name="inspirationProgressBaseColor" format="color"></attr>
+    <attr name="inspirationProgressOverlayColor" format="color"></attr>
+    <attr name="inspirationProgressStrokeWidth" format="dimension"></attr>
+    <attr name="instagramAppBadge" format="reference"></attr>
+    <attr name="intensity" format="float"></attr>
+    <attr name="isBottomLeftRounded" format="boolean"></attr>
+    <attr name="isBottomRightRounded" format="boolean"></attr>
+    <attr name="isLightTheme" format="boolean"></attr>
+    <attr name="isNonHardwareChildClippingEnabled" format="boolean"></attr>
+    <attr name="isShownInGallery" format="boolean"></attr>
+    <attr name="isSwipingEnabled" format="boolean"></attr>
+    <attr name="isTopLeftRounded" format="boolean"></attr>
+    <attr name="isTopRightRounded" format="boolean"></attr>
+    <attr name="isWidthMutable" format="boolean"></attr>
+    <attr name="itemBackground" format="reference"></attr>
+    <attr name="itemHorizontalPadding" format="dimension"></attr>
+    <attr name="itemHorizontalTranslationEnabled" format="boolean"></attr>
+    <attr name="itemIconPadding" format="dimension"></attr>
+    <attr name="itemIconSize" format="dimension"></attr>
+    <attr name="itemIconTint" format="color"></attr>
+    <attr name="itemPadding" format="dimension"></attr>
+    <attr name="itemSpacing" format="dimension"></attr>
+    <attr name="itemTextAppearance" format="reference"></attr>
+    <attr name="itemTextAppearanceActive" format="reference"></attr>
+    <attr name="itemTextAppearanceInactive" format="reference"></attr>
+    <attr name="itemTextColor" format="color"></attr>
+    <attr name="keylines" format="reference"></attr>
+    <attr name="koalaModeBadge" format="reference"></attr>
+    <attr name="labelVisibilityMode" format="enum">
+        <enum name="com.oculus.twilight:id/auto" value="-1" />
+        <enum name="com.oculus.twilight:id/labeled" value="1" />
+        <enum name="com.oculus.twilight:id/selected" value="0" />
+        <enum name="com.oculus.twilight:id/unlabeled" value="2" />
+    </attr>
+    <attr name="lastBaselineToBottomHeight" format="dimension"></attr>
+    <attr name="layout" format="reference"></attr>
+    <attr name="layoutManager" format="string"></attr>
+    <attr name="layout_alwaysOverlapIfOverflow" format="boolean"></attr>
+    <attr name="layout_anchor" format="reference"></attr>
+    <attr name="layout_anchorAlignment" format="flags">
+        <enum name="com.oculus.twilight:id/aboveAnchor" value="1056" />
+        <enum name="com.oculus.twilight:id/alignBottom" value="32" />
+        <enum name="com.oculus.twilight:id/alignHorizontalCenter" value="2" />
+        <enum name="com.oculus.twilight:id/alignLeft" value="1" />
+        <enum name="com.oculus.twilight:id/alignRight" value="4" />
+        <enum name="com.oculus.twilight:id/alignTop" value="8" />
+        <enum name="com.oculus.twilight:id/alignVerticalCenter" value="16" />
+        <enum name="com.oculus.twilight:id/alignWithBottomOfAnchor" value="4128" />
+        <enum name="com.oculus.twilight:id/alignWithLeftOfAnchor" value="130" />
+        <enum name="com.oculus.twilight:id/alignWithRightOfAnchor" value="516" />
+        <enum name="com.oculus.twilight:id/alignWithTopOfAnchor" value="1032" />
+        <enum name="com.oculus.twilight:id/belowAnchor" value="4104" />
+        <enum name="com.oculus.twilight:id/centerHorizontallyOnAnchor" value="258" />
+        <enum name="com.oculus.twilight:id/centerVerticallyOnAnchor" value="2064" />
+        <enum name="com.oculus.twilight:id/leftOfAnchor" value="132" />
+        <enum name="com.oculus.twilight:id/rightOfAnchor" value="513" />
+        <enum name="com.oculus.twilight:id/withBottomOfAnchor" value="4096" />
+        <enum name="com.oculus.twilight:id/withHorizontalCenterOfAnchor" value="256" />
+        <enum name="com.oculus.twilight:id/withLeftOfAnchor" value="128" />
+        <enum name="com.oculus.twilight:id/withRightOfAnchor" value="512" />
+        <enum name="com.oculus.twilight:id/withTopOfAnchor" value="1024" />
+        <enum name="com.oculus.twilight:id/withVerticalCenterOfAnchor" value="2048" />
+    </attr>
+    <attr name="layout_anchorGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/clip_horizontal" value="8" />
+        <enum name="com.oculus.twilight:id/clip_vertical" value="128" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/fill" value="119" />
+        <enum name="com.oculus.twilight:id/fill_horizontal" value="7" />
+        <enum name="com.oculus.twilight:id/fill_vertical" value="112" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="layout_anchoredTo" format="reference"></attr>
+    <attr name="layout_behavior" format="string"></attr>
+    <attr name="layout_collapseMode" format="enum">
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/parallax" value="2" />
+        <enum name="com.oculus.twilight:id/pin" value="1" />
+    </attr>
+    <attr name="layout_collapseParallaxMultiplier" format="float"></attr>
+    <attr name="layout_column" format="integer"></attr>
+    <attr name="layout_columnSpan" format="integer">
+        <item>1</item>
+    </attr>
+    <attr name="layout_columnWeight" format="float"></attr>
+    <attr name="layout_dodgeInsetEdges" format="flags">
+        <enum name="com.oculus.twilight:id/all" value="119" />
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="layout_gravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/clip_horizontal" value="8" />
+        <enum name="com.oculus.twilight:id/clip_vertical" value="128" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/fill" value="119" />
+        <enum name="com.oculus.twilight:id/fill_horizontal" value="7" />
+        <enum name="com.oculus.twilight:id/fill_vertical" value="112" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="layout_ignore" format="boolean"></attr>
+    <attr name="layout_insetEdge" format="enum">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="layout_isOptional" format="boolean"></attr>
+    <attr name="layout_isOverlay" format="boolean"></attr>
+    <attr name="layout_keyline" format="integer"></attr>
+    <attr name="layout_overlapWithPrevious" format="dimension"></attr>
+    <attr name="layout_row" format="integer"></attr>
+    <attr name="layout_rowSpan" format="integer">
+        <item>1</item>
+    </attr>
+    <attr name="layout_rowWeight" format="float"></attr>
+    <attr name="layout_scrollFlags" format="flags">
+        <enum name="com.oculus.twilight:id/enterAlways" value="4" />
+        <enum name="com.oculus.twilight:id/enterAlwaysCollapsed" value="8" />
+        <enum name="com.oculus.twilight:id/exitUntilCollapsed" value="2" />
+        <enum name="com.oculus.twilight:id/scroll" value="1" />
+        <enum name="com.oculus.twilight:id/snap" value="16" />
+        <enum name="com.oculus.twilight:id/snapMargins" value="32" />
+    </attr>
+    <attr name="layout_scrollInterpolator" format="reference"></attr>
+    <attr name="layout_useAsAuxView" format="boolean"></attr>
+    <attr name="layout_useAsThumbnail" format="boolean"></attr>
+    <attr name="layout_useViewAs" format="enum">
+        <enum name="com.oculus.twilight:id/meta" value="2" />
+        <enum name="com.oculus.twilight:id/subtitle" value="1" />
+        <enum name="com.oculus.twilight:id/title" value="0" />
+    </attr>
+    <attr name="layout_xOffset" format="dimension"></attr>
+    <attr name="layout_yOffset" format="dimension"></attr>
+    <attr name="left" format="dimension"></attr>
+    <attr name="left_item_width_percentage" format="integer"></attr>
+    <attr name="liftOnScroll" format="boolean"></attr>
+    <attr name="lineHeight" format="dimension"></attr>
+    <attr name="lineSpacing" format="dimension"></attr>
+    <attr name="listChoiceBackgroundIndicator" format="reference"></attr>
+    <attr name="listChoiceIndicatorMultipleAnimated" format="reference"></attr>
+    <attr name="listChoiceIndicatorSingleAnimated" format="reference"></attr>
+    <attr name="listDividerAlertDialog" format="reference"></attr>
+    <attr name="listHideThreshold" format="dimension"></attr>
+    <attr name="listItemLayout" format="reference"></attr>
+    <attr name="listItemsDividerStyle" format="reference"></attr>
+    <attr name="listLayout" format="reference"></attr>
+    <attr name="listMenuViewStyle" format="reference"></attr>
+    <attr name="listPopupWindowStyle" format="reference"></attr>
+    <attr name="listPreferredItemHeight" format="dimension"></attr>
+    <attr name="listPreferredItemHeightLarge" format="dimension"></attr>
+    <attr name="listPreferredItemHeightSmall" format="dimension"></attr>
+    <attr name="listPreferredItemPaddingEnd" format="dimension"></attr>
+    <attr name="listPreferredItemPaddingLeft" format="dimension"></attr>
+    <attr name="listPreferredItemPaddingRight" format="dimension"></attr>
+    <attr name="listPreferredItemPaddingStart" format="dimension"></attr>
+    <attr name="listPrimaryTextStyle" format="reference"></attr>
+    <attr name="listSecondaryTextStyle" format="reference"></attr>
+    <attr name="listStartHeight" format="dimension"></attr>
+    <attr name="listSubHeaderStyle" format="reference"></attr>
+    <attr name="liveWithBadge" format="reference"></attr>
+    <attr name="loginBottomTextStyle" format="reference"></attr>
+    <attr name="loginBottomTextStyleForWhiteBackground" format="reference"></attr>
+    <attr name="loginButtonStyle" format="reference"></attr>
+    <attr name="loginEditTextStyle" format="reference"></attr>
+    <attr name="loginEditTextStyleForWhiteBackground" format="reference"></attr>
+    <attr name="loginPasswordEditTextStyle" format="reference"></attr>
+    <attr name="loginPasswordEditTextStyleForWhiteBackground" format="reference"></attr>
+    <attr name="loginProgressMessageTextStyle" format="reference"></attr>
+    <attr name="loginProgressSpinnerDrawable" format="reference"></attr>
+    <attr name="loginScreenBackground" format="color"></attr>
+    <attr name="loginSplashBackground" format="color"></attr>
+    <attr name="logo" format="reference"></attr>
+    <attr name="logoDescription" format="string"></attr>
+    <attr name="logoutTextStyle" format="reference"></attr>
+    <attr name="mask" format="reference"></attr>
+    <attr name="mask_alpha" format="float"></attr>
+    <attr name="materialButtonStyle" format="reference"></attr>
+    <attr name="materialCardViewStyle" format="reference"></attr>
+    <attr name="maxActionInlineWidth" format="dimension"></attr>
+    <attr name="maxButtonHeight" format="dimension"></attr>
+    <attr name="maxDate" format="string"></attr>
+    <attr name="maxImageSize" format="dimension"></attr>
+    <attr name="maxItemLines" format="integer"></attr>
+    <attr name="maxLines" format="integer"></attr>
+    <attr name="maxLinesFromThumbnailSize" format="boolean"></attr>
+    <attr name="maxScaledTextSize" format="integer"></attr>
+    <attr name="maximallyWideThreshold" format="dimension"></attr>
+    <attr name="maximumWidth" format="dimension"></attr>
+    <attr name="measureWithLargestChild" format="boolean"></attr>
+    <attr name="mediaRouteAudioTrackDrawable" format="reference"></attr>
+    <attr name="mediaRouteBodyTextAppearance" format="reference"></attr>
+    <attr name="mediaRouteButtonStyle" format="reference"></attr>
+    <attr name="mediaRouteButtonTint" format="color"></attr>
+    <attr name="mediaRouteCloseDrawable" format="reference"></attr>
+    <attr name="mediaRouteControlPanelThemeOverlay" format="reference"></attr>
+    <attr name="mediaRouteDefaultIconDrawable" format="reference"></attr>
+    <attr name="mediaRouteDividerColor" format="color"></attr>
+    <attr name="mediaRouteHeaderTextAppearance" format="reference"></attr>
+    <attr name="mediaRoutePauseDrawable" format="reference"></attr>
+    <attr name="mediaRoutePlayDrawable" format="reference"></attr>
+    <attr name="mediaRouteSpeakerGroupIconDrawable" format="reference"></attr>
+    <attr name="mediaRouteSpeakerIconDrawable" format="reference"></attr>
+    <attr name="mediaRouteStopDrawable" format="reference"></attr>
+    <attr name="mediaRouteTheme" format="reference"></attr>
+    <attr name="mediaRouteTvIconDrawable" format="reference"></attr>
+    <attr name="menu" format="reference"></attr>
+    <attr name="messengerAppBadge" format="reference"></attr>
+    <attr name="messengerAudioBadge" format="reference"></attr>
+    <attr name="messengerBadge" format="reference"></attr>
+    <attr name="messengerVideoBadge" format="reference"></attr>
+    <attr name="metaMaxLines" format="integer"></attr>
+    <attr name="metaText" format="string"></attr>
+    <attr name="metaTextAppearance" format="reference"></attr>
+    <attr name="metaTextAppearanceType" format="enum">
+        <enum name="com.oculus.twilight:id/fig_small_size_secondary_color" value="0" />
+        <enum name="com.oculus.twilight:id/fig_small_size_white_secondary_color" value="1" />
+    </attr>
+    <attr name="minDate" format="string"></attr>
+    <attr name="minLines" format="integer"></attr>
+    <attr name="minNumColumns" format="integer"></attr>
+    <attr name="minScaledTextSize" format="integer"></attr>
+    <attr name="minimallyWide" format="boolean"></attr>
+    <attr name="minimallyWideIncludeWhiteSpace" format="boolean"></attr>
+    <attr name="mode" format="enum">
+        <enum name="com.oculus.twilight:id/free" value="1" />
+        <enum name="com.oculus.twilight:id/paid" value="0" />
+    </attr>
+    <attr name="monthTextAppearance" format="reference"></attr>
+    <attr name="multiChoiceItemLayout" format="reference"></attr>
+    <attr name="navigationContentDescription" format="string"></attr>
+    <attr name="navigationIcon" format="reference"></attr>
+    <attr name="navigationMode" format="enum">
+        <enum name="com.oculus.twilight:id/listMode" value="1" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+        <enum name="com.oculus.twilight:id/tabMode" value="2" />
+    </attr>
+    <attr name="navigationViewStyle" format="reference"></attr>
+    <attr name="navless" format="boolean"></attr>
+    <attr name="numCols" format="integer"></attr>
+    <attr name="numRows" format="integer"></attr>
+    <attr name="numericModifiers" format="flags">
+        <enum name="com.oculus.twilight:id/ALT" value="2" />
+        <enum name="com.oculus.twilight:id/CTRL" value="4096" />
+        <enum name="com.oculus.twilight:id/FUNCTION" value="8" />
+        <enum name="com.oculus.twilight:id/META" value="65536" />
+        <enum name="com.oculus.twilight:id/SHIFT" value="1" />
+        <enum name="com.oculus.twilight:id/SYM" value="4" />
+    </attr>
+    <attr name="orientation" format="enum">
+        <enum name="com.oculus.twilight:id/horizontal" value="0" />
+        <enum name="com.oculus.twilight:id/vertical" value="1" />
+    </attr>
+    <attr name="overflowAndListOverlap" format="dimension"></attr>
+    <attr name="overflowAsRoundedRect" format="boolean"></attr>
+    <attr name="overflowBackgroundColor" format="reference|color"></attr>
+    <attr name="overflowIcon" format="reference"></attr>
+    <attr name="overflowTextAppearance" format="reference"></attr>
+    <attr name="overflowTextColor" format="reference|color"></attr>
+    <attr name="overlapAnchor" format="boolean"></attr>
+    <attr name="overlayDivider" format="boolean"></attr>
+    <attr name="overlayDrawable" format="reference"></attr>
+    <attr name="overlayGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="overlayHeight" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/match_parent" value="-1" />
+        <enum name="com.oculus.twilight:id/wrap_content" value="-2" />
+    </attr>
+    <attr name="overlayImage" format="reference"></attr>
+    <attr name="overlayOffset" format="dimension"></attr>
+    <attr name="overlayWidth" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/match_parent" value="-1" />
+        <enum name="com.oculus.twilight:id/wrap_content" value="-2" />
+    </attr>
+    <attr name="overlay_ring_alpha" format="integer"></attr>
+    <attr name="overlay_ring_color" format="color"></attr>
+    <attr name="paddingBottom" format="dimension"></attr>
+    <attr name="paddingBottomNoButtons" format="dimension"></attr>
+    <attr name="paddingEnd" format="dimension"></attr>
+    <attr name="paddingEndWithGlyph" format="dimension"></attr>
+    <attr name="paddingLeft" format="dimension"></attr>
+    <attr name="paddingRight" format="dimension"></attr>
+    <attr name="paddingStart" format="dimension"></attr>
+    <attr name="paddingTop" format="dimension"></attr>
+    <attr name="paddingTopNoTitle" format="dimension"></attr>
+    <attr name="pagesCardBottomPadding" format="dimension"></attr>
+    <attr name="pagesCardTopPadding" format="dimension"></attr>
+    <attr name="pagesDarkTextColor" format="color"></attr>
+    <attr name="pagesDefaultPadding" format="dimension"></attr>
+    <attr name="pagesLargeTextSize" format="dimension"></attr>
+    <attr name="pagesLightTextColor" format="color"></attr>
+    <attr name="pagesMediumTextSize" format="dimension"></attr>
+    <attr name="pagesPrimaryTextColor" format="color"></attr>
+    <attr name="pagesRowHeightDefault" format="dimension"></attr>
+    <attr name="pagesSmallTextSize" format="dimension"></attr>
+    <attr name="pagesXLargeTextSize" format="dimension"></attr>
+    <attr name="panelBackground" format="reference"></attr>
+    <attr name="panelMenuListTheme" format="reference"></attr>
+    <attr name="panelMenuListWidth" format="dimension"></attr>
+    <attr name="partiesBadge" format="reference"></attr>
+    <attr name="passwordToggleContentDescription" format="string"></attr>
+    <attr name="passwordToggleDrawable" format="reference"></attr>
+    <attr name="passwordToggleEnabled" format="boolean"></attr>
+    <attr name="passwordToggleTint" format="color"></attr>
+    <attr name="passwordToggleTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="paymentDeclinedBadge" format="reference"></attr>
+    <attr name="paymentReceivedBadge" format="reference"></attr>
+    <attr name="paymentsBadge" format="reference"></attr>
+    <attr name="persist" format="boolean"></attr>
+    <attr name="placeHolderScaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="5" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="7" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="3" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="4" />
+        <enum name="com.oculus.twilight:id/fitStart" value="2" />
+        <enum name="com.oculus.twilight:id/fitXY" value="1" />
+        <enum name="com.oculus.twilight:id/matrix" value="0" />
+    </attr>
+    <attr name="placeholderImage" format="reference"></attr>
+    <attr name="placeholderImageScaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="4" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="5" />
+        <enum name="com.oculus.twilight:id/fitBottomStart" value="8" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="2" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="3" />
+        <enum name="com.oculus.twilight:id/fitStart" value="1" />
+        <enum name="com.oculus.twilight:id/fitXY" value="0" />
+        <enum name="com.oculus.twilight:id/focusCrop" value="7" />
+        <enum name="com.oculus.twilight:id/none" value="-1" />
+    </attr>
+    <attr name="placeholderSrc" format="reference"></attr>
+    <attr name="popoverListItemViewStyle" format="reference"></attr>
+    <attr name="popoverListViewCellWidth" format="dimension"></attr>
+    <attr name="popoverListViewMaxRows" format="float"></attr>
+    <attr name="popoverListViewRowHeight" format="dimension"></attr>
+    <attr name="popoverListViewStyle" format="reference"></attr>
+    <attr name="popoverListViewWindowBackground" format="reference"></attr>
+    <attr name="popoverMenuWindowDescriptionStyle" format="reference"></attr>
+    <attr name="popoverMenuWindowHeaderStyle" format="reference"></attr>
+    <attr name="popoverMenuWindowTheme" format="reference"></attr>
+    <attr name="popoverMenuWindowTitleStyle" format="reference"></attr>
+    <attr name="popoverNubAbove" format="reference"></attr>
+    <attr name="popoverNubBelow" format="reference"></attr>
+    <attr name="popoverSpinnerStyle" format="reference"></attr>
+    <attr name="popoverWindowAlignToAnchorEdge" format="boolean"></attr>
+    <attr name="popoverWindowBackground" format="reference"></attr>
+    <attr name="popoverWindowForceAnchor" format="boolean"></attr>
+    <attr name="popoverWindowFullWidth" format="boolean"></attr>
+    <attr name="popoverWindowInsetBottom" format="dimension"></attr>
+    <attr name="popoverWindowInsetLeft" format="dimension"></attr>
+    <attr name="popoverWindowInsetRight" format="dimension"></attr>
+    <attr name="popoverWindowInsetTop" format="dimension"></attr>
+    <attr name="popoverWindowOverlapAnchor" format="boolean"></attr>
+    <attr name="popoverWindowPaddingBottom" format="dimension"></attr>
+    <attr name="popoverWindowPaddingTop" format="dimension"></attr>
+    <attr name="popoverWindowTheme" format="reference"></attr>
+    <attr name="popupMenuStyle" format="reference"></attr>
+    <attr name="popupTheme" format="reference"></attr>
+    <attr name="popupWindowStyle" format="reference"></attr>
+    <attr name="postLoginNuxButtonStyle" format="reference"></attr>
+    <attr name="preserveIconSpacing" format="boolean"></attr>
+    <attr name="pressedOverlayColor" format="color"></attr>
+    <attr name="pressedStateOverlayImage" format="reference"></attr>
+    <attr name="pressedTranslationZ" format="dimension"></attr>
+    <attr name="primaryDimension" format="enum">
+        <enum name="com.oculus.twilight:id/height" value="1" />
+        <enum name="com.oculus.twilight:id/width" value="0" />
+    </attr>
+    <attr name="priority" format="float"></attr>
+    <attr name="profilePicBackground" format="reference"></attr>
+    <attr name="profilePicGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+    </attr>
+    <attr name="profilePicMarginBottom" format="dimension"></attr>
+    <attr name="profilePicMarginStart" format="dimension"></attr>
+    <attr name="profilePicMarginTop" format="dimension"></attr>
+    <attr name="profilePicSize" format="dimension"></attr>
+    <attr name="profileQuestionsOptionStyle" format="reference"></attr>
+    <attr name="profileQuestionsShowMoreStyle" format="reference"></attr>
+    <attr name="progressBarAutoRotateInterval" format="integer"></attr>
+    <attr name="progressBarImage" format="reference"></attr>
+    <attr name="progressBarImageScaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="4" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="5" />
+        <enum name="com.oculus.twilight:id/fitBottomStart" value="8" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="2" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="3" />
+        <enum name="com.oculus.twilight:id/fitStart" value="1" />
+        <enum name="com.oculus.twilight:id/fitXY" value="0" />
+        <enum name="com.oculus.twilight:id/focusCrop" value="7" />
+        <enum name="com.oculus.twilight:id/none" value="-1" />
+    </attr>
+    <attr name="progressBarPadding" format="dimension"></attr>
+    <attr name="progressBarStyle" format="reference"></attr>
+    <attr name="progressBarStyleSmallInverse" format="string"></attr>
+    <attr name="progressCircleBaseAlpha" format="integer"></attr>
+    <attr name="progressCircleBaseColor" format="color"></attr>
+    <attr name="progressCircleDrawnAlpha" format="integer"></attr>
+    <attr name="progressCircleDrawnColor" format="color"></attr>
+    <attr name="progressCircleEnableFadeIn" format="boolean"></attr>
+    <attr name="progressCircleStrokeWidth" format="dimension"></attr>
+    <attr name="progressCircleWidth" format="dimension"></attr>
+    <attr name="progressLayout" format="reference"></attr>
+    <attr name="publisherBarBackground" format="color"></attr>
+    <attr name="queryBackground" format="reference"></attr>
+    <attr name="queryHint" format="string"></attr>
+    <attr name="radioButtonStyle" format="reference"></attr>
+    <attr name="ratingBarStyle" format="reference"></attr>
+    <attr name="ratingBarStyleIndicator" format="reference"></attr>
+    <attr name="ratingBarStyleSmall" format="reference"></attr>
+    <attr name="recyclerViewStyle" format="reference"></attr>
+    <attr name="refreshDirection" format="enum">
+        <enum name="com.oculus.twilight:id/pull" value="0" />
+        <enum name="com.oculus.twilight:id/push" value="1" />
+    </attr>
+    <attr name="relative_height" format="float"></attr>
+    <attr name="relative_width" format="float"></attr>
+    <attr name="repeat_count" format="integer"></attr>
+    <attr name="repeat_delay" format="integer"></attr>
+    <attr name="repeat_mode" format="enum">
+        <enum name="com.oculus.twilight:id/restart" value="1" />
+        <enum name="com.oculus.twilight:id/reverse" value="2" />
+    </attr>
+    <attr name="retainImageDuringUpdate" format="boolean"></attr>
+    <attr name="retryImage" format="reference"></attr>
+    <attr name="retryImageScaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="4" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="5" />
+        <enum name="com.oculus.twilight:id/fitBottomStart" value="8" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="2" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="3" />
+        <enum name="com.oculus.twilight:id/fitStart" value="1" />
+        <enum name="com.oculus.twilight:id/fitXY" value="0" />
+        <enum name="com.oculus.twilight:id/focusCrop" value="7" />
+        <enum name="com.oculus.twilight:id/none" value="-1" />
+    </attr>
+    <attr name="reverseLayout" format="boolean"></attr>
+    <attr name="right" format="dimension"></attr>
+    <attr name="ring_stroke_width" format="dimension"></attr>
+    <attr name="rippleColor" format="color"></attr>
+    <attr name="roundAsCircle" format="boolean"></attr>
+    <attr name="roundBorderColor" format="color"></attr>
+    <attr name="roundBorderWidth" format="dimension"></attr>
+    <attr name="roundBottomEnd" format="boolean"></attr>
+    <attr name="roundBottomLeft" format="boolean"></attr>
+    <attr name="roundBottomRight" format="boolean"></attr>
+    <attr name="roundBottomStart" format="boolean"></attr>
+    <attr name="roundByOverlayingColor" format="color"></attr>
+    <attr name="roundDownToWholeLineNumber" format="boolean"></attr>
+    <attr name="roundFaces" format="boolean"></attr>
+    <attr name="roundProfileImages" format="boolean"></attr>
+    <attr name="roundTopEnd" format="boolean"></attr>
+    <attr name="roundTopLeft" format="boolean"></attr>
+    <attr name="roundTopRight" format="boolean"></attr>
+    <attr name="roundTopStart" format="boolean"></attr>
+    <attr name="roundWithOverlayColor" format="color"></attr>
+    <attr name="roundedCornerRadius" format="dimension"></attr>
+    <attr name="roundingBorderColor" format="reference|color"></attr>
+    <attr name="roundingBorderPadding" format="dimension"></attr>
+    <attr name="roundingBorderWidth" format="dimension"></attr>
+    <attr name="rowCount" format="integer"></attr>
+    <attr name="rowOrderPreserved" format="boolean"></attr>
+    <attr name="rtcColorPrimary" format="reference|color"></attr>
+    <attr name="rtcColorSecondary" format="reference|color"></attr>
+    <attr name="scaleType" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="5" />
+        <enum name="com.oculus.twilight:id/centerCrop" value="6" />
+        <enum name="com.oculus.twilight:id/centerInside" value="7" />
+        <enum name="com.oculus.twilight:id/fitCenter" value="3" />
+        <enum name="com.oculus.twilight:id/fitEnd" value="4" />
+        <enum name="com.oculus.twilight:id/fitStart" value="2" />
+        <enum name="com.oculus.twilight:id/fitXY" value="1" />
+        <enum name="com.oculus.twilight:id/matrix" value="0" />
+    </attr>
+    <attr name="scopeUris" format="reference|string"></attr>
+    <attr name="scrimAnimationDuration" format="integer"></attr>
+    <attr name="scrimBackground" format="reference|color"></attr>
+    <attr name="scrimVisibleHeightTrigger" format="dimension"></attr>
+    <attr name="searchBarGlyphColor" format="reference|color"></attr>
+    <attr name="searchBarHintColor" format="reference|color"></attr>
+    <attr name="searchBarHintEntityColor" format="reference|color"></attr>
+    <attr name="searchBarLineDrawable" format="reference"></attr>
+    <attr name="searchBarQRCodeGlyph" format="reference"></attr>
+    <attr name="searchHintIcon" format="reference"></attr>
+    <attr name="searchIcon" format="reference"></attr>
+    <attr name="searchViewStyle" format="reference"></attr>
+    <attr name="seekBarStyle" format="reference"></attr>
+    <attr name="selectableItemBackground" format="reference"></attr>
+    <attr name="selectableItemBackgroundBorderless" format="reference"></attr>
+    <attr name="selectedChipTextColor" format="color"></attr>
+    <attr name="selectedColor" format="color"></attr>
+    <attr name="selectedTokenTextColor" format="color"></attr>
+    <attr name="selectedWeekBackgroundColor" format="reference|color"></attr>
+    <attr name="selectionCircleSize" format="dimension"></attr>
+    <attr name="shape" format="enum">
+        <enum name="com.oculus.twilight:id/linear" value="0" />
+        <enum name="com.oculus.twilight:id/radial" value="1" />
+    </attr>
+    <attr name="shortText" format="string"></attr>
+    <attr name="shouldBounce" format="boolean"></attr>
+    <attr name="shouldShowLoadingAnimation" format="boolean"></attr>
+    <attr name="showAlohaHomeBadge" format="boolean"></attr>
+    <attr name="showAsAction" format="flags">
+        <enum name="com.oculus.twilight:id/always" value="2" />
+        <enum name="com.oculus.twilight:id/collapseActionView" value="8" />
+        <enum name="com.oculus.twilight:id/ifRoom" value="1" />
+        <enum name="com.oculus.twilight:id/never" value="0" />
+        <enum name="com.oculus.twilight:id/withText" value="4" />
+    </attr>
+    <attr name="showBottomDivider" format="boolean"></attr>
+    <attr name="showDividers" format="flags">
+        <enum name="com.oculus.twilight:id/beginning" value="1" />
+        <enum name="com.oculus.twilight:id/end" value="4" />
+        <enum name="com.oculus.twilight:id/middle" value="2" />
+        <enum name="com.oculus.twilight:id/none" value="0" />
+    </attr>
+    <attr name="showMotionSpec" format="reference"></attr>
+    <attr name="showOverflowView" format="boolean"></attr>
+    <attr name="showProgressBar" format="boolean"></attr>
+    <attr name="showText" format="boolean"></attr>
+    <attr name="showTitle" format="boolean"></attr>
+    <attr name="showWeekNumber" format="boolean"></attr>
+    <attr name="showWeekSeparator" format="boolean"></attr>
+    <attr name="shownWeekCount" format="integer"></attr>
+    <attr name="singleChoiceItemLayout" format="reference"></attr>
+    <attr name="singleLine" format="boolean"></attr>
+    <attr name="singleSelection" format="boolean"></attr>
+    <attr name="size" format="dimension"></attr>
+    <attr name="smsBadge" format="reference"></attr>
+    <attr name="snackbarButtonStyle" format="reference"></attr>
+    <attr name="snackbarStyle" format="reference"></attr>
+    <attr name="source" format="reference"></attr>
+    <attr name="spaceSavingThreshold" format="dimension"></attr>
+    <attr name="spanCount" format="integer"></attr>
+    <attr name="spinBars" format="boolean"></attr>
+    <attr name="spinnerDropDownItemStyle" format="reference"></attr>
+    <attr name="spinnerStyle" format="reference"></attr>
+    <attr name="splitTrack" format="boolean"></attr>
+    <attr name="srcCompat" format="reference"></attr>
+    <attr name="stackFromEnd" format="boolean"></attr>
+    <attr name="startText" format="reference|string"></attr>
+    <attr name="state_above_anchor" format="boolean"></attr>
+    <attr name="state_collapsed" format="boolean"></attr>
+    <attr name="state_collapsible" format="boolean"></attr>
+    <attr name="state_liftable" format="boolean"></attr>
+    <attr name="state_lifted" format="boolean"></attr>
+    <attr name="statusBarBackground" format="reference|color"></attr>
+    <attr name="statusBarColorBannerPreview" format="reference"></attr>
+    <attr name="statusBarColorDialtone" format="reference"></attr>
+    <attr name="statusBarColorOpaque" format="reference"></attr>
+    <attr name="statusBarColorTransparent" format="reference|color"></attr>
+    <attr name="statusBarColorZeroRating" format="reference|color"></attr>
+    <attr name="statusBarScrim" format="color"></attr>
+    <attr name="strictDelimiterMode" format="boolean"></attr>
+    <attr name="strokeColor" format="color"></attr>
+    <attr name="strokeWidth" format="dimension"></attr>
+    <attr name="subMenuArrow" format="reference"></attr>
+    <attr name="submitBackground" format="reference"></attr>
+    <attr name="subtitle" format="string"></attr>
+    <attr name="subtitleMaxLines" format="integer"></attr>
+    <attr name="subtitleText" format="string"></attr>
+    <attr name="subtitleTextAppearance" format="reference"></attr>
+    <attr name="subtitleTextColor" format="color"></attr>
+    <attr name="subtitleTextStyle" format="reference"></attr>
+    <attr name="suggestionRowLayout" format="reference"></attr>
+    <attr name="support_vertical_scrolling" format="boolean"></attr>
+    <attr name="suppressEllipsis" format="boolean"></attr>
+    <attr name="sutro_usage_button_border" format="reference|color"></attr>
+    <attr name="sutro_usage_button_text" format="reference|color"></attr>
+    <attr name="sutro_usage_comment_highlight" format="reference|color"></attr>
+    <attr name="sutro_usage_toggle_icon" format="reference|color"></attr>
+    <attr name="swipeAxis" format="enum">
+        <enum name="com.oculus.twilight:id/horizontal" value="0" />
+        <enum name="com.oculus.twilight:id/vertical" value="1" />
+    </attr>
+    <attr name="swipeRefreshLayoutProgressSpinnerBackgroundColor" format="color"></attr>
+    <attr name="switchCompatStyle" format="reference"></attr>
+    <attr name="switchCompatTextAppearance" format="reference"></attr>
+    <attr name="switchMinHeight" format="dimension"></attr>
+    <attr name="switchMinWidth" format="dimension"></attr>
+    <attr name="switchPadding" format="dimension"></attr>
+    <attr name="switchPreferenceSummary" format="boolean"></attr>
+    <attr name="switchStyle" format="reference"></attr>
+    <attr name="switchTextAllCaps" format="boolean"></attr>
+    <attr name="switchTextAppearance" format="reference"></attr>
+    <attr name="switchTextColor" format="color"></attr>
+    <attr name="switchTextSize" format="dimension"></attr>
+    <attr name="switchTextStyle" format="reference"></attr>
+    <attr name="switchTypeface" format="reference"></attr>
+    <attr name="tabBackground" format="reference"></attr>
+    <attr name="tabBarIndicatorColor" format="color"></attr>
+    <attr name="tabContentStart" format="dimension"></attr>
+    <attr name="tabGravity" format="enum">
+        <enum name="com.oculus.twilight:id/center" value="1" />
+        <enum name="com.oculus.twilight:id/fill" value="0" />
+    </attr>
+    <attr name="tabIconTint" format="color"></attr>
+    <attr name="tabIconTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="tabIndicator" format="reference"></attr>
+    <attr name="tabIndicatorAnimationDuration" format="integer"></attr>
+    <attr name="tabIndicatorColor" format="color"></attr>
+    <attr name="tabIndicatorFullWidth" format="boolean"></attr>
+    <attr name="tabIndicatorGravity" format="enum">
+        <enum name="com.oculus.twilight:id/bottom" value="0" />
+        <enum name="com.oculus.twilight:id/center" value="1" />
+        <enum name="com.oculus.twilight:id/stretch" value="3" />
+        <enum name="com.oculus.twilight:id/top" value="2" />
+    </attr>
+    <attr name="tabIndicatorHeight" format="dimension"></attr>
+    <attr name="tabInlineLabel" format="boolean"></attr>
+    <attr name="tabLayout" format="reference"></attr>
+    <attr name="tabMaxWidth" format="dimension"></attr>
+    <attr name="tabMinWidth" format="dimension"></attr>
+    <attr name="tabMode" format="enum">
+        <enum name="com.oculus.twilight:id/fixed" value="1" />
+        <enum name="com.oculus.twilight:id/scrollable" value="0" />
+    </attr>
+    <attr name="tabPadding" format="dimension"></attr>
+    <attr name="tabPaddingBottom" format="dimension"></attr>
+    <attr name="tabPaddingEnd" format="dimension"></attr>
+    <attr name="tabPaddingStart" format="dimension"></attr>
+    <attr name="tabPaddingTop" format="dimension"></attr>
+    <attr name="tabRippleColor" format="color"></attr>
+    <attr name="tabSelectedTextColor" format="color"></attr>
+    <attr name="tabStyle" format="reference"></attr>
+    <attr name="tabTextAppearance" format="reference"></attr>
+    <attr name="tabTextColor" format="color"></attr>
+    <attr name="tabUnboundedRipple" format="boolean"></attr>
+    <attr name="tabbedViewPagerIndicatorChildStyle" format="reference"></attr>
+    <attr name="tabbedViewPagerIndicatorStyle" format="reference"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="textAllCaps" format="reference|boolean"></attr>
+    <attr name="textAppearanceBody1" format="reference"></attr>
+    <attr name="textAppearanceBody2" format="reference"></attr>
+    <attr name="textAppearanceButton" format="reference"></attr>
+    <attr name="textAppearanceCaption" format="reference"></attr>
+    <attr name="textAppearanceHeadline1" format="reference"></attr>
+    <attr name="textAppearanceHeadline2" format="reference"></attr>
+    <attr name="textAppearanceHeadline3" format="reference"></attr>
+    <attr name="textAppearanceHeadline4" format="reference"></attr>
+    <attr name="textAppearanceHeadline5" format="reference"></attr>
+    <attr name="textAppearanceHeadline6" format="reference"></attr>
+    <attr name="textAppearanceLargePopupMenu" format="reference"></attr>
+    <attr name="textAppearanceListItem" format="reference"></attr>
+    <attr name="textAppearanceListItemSecondary" format="reference"></attr>
+    <attr name="textAppearanceListItemSmall" format="reference"></attr>
+    <attr name="textAppearanceOverline" format="reference"></attr>
+    <attr name="textAppearancePopupMenuHeader" format="reference"></attr>
+    <attr name="textAppearanceSearchResultSubtitle" format="reference"></attr>
+    <attr name="textAppearanceSearchResultTitle" format="reference"></attr>
+    <attr name="textAppearanceSmallPopupMenu" format="reference"></attr>
+    <attr name="textAppearanceSubtitle1" format="reference"></attr>
+    <attr name="textAppearanceSubtitle2" format="reference"></attr>
+    <attr name="textColor" format="reference|color"></attr>
+    <attr name="textColorAlertDialogListItem" format="reference|color"></attr>
+    <attr name="textColorOff" format="color"></attr>
+    <attr name="textColorOn" format="color"></attr>
+    <attr name="textColorSearchUrl" format="reference|color"></attr>
+    <attr name="textEndPadding" format="dimension"></attr>
+    <attr name="textGradientEndColor" format="color"></attr>
+    <attr name="textGradientStartColor" format="color"></attr>
+    <attr name="textGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/center_horizontal" value="1" />
+        <enum name="com.oculus.twilight:id/center_vertical" value="16" />
+        <enum name="com.oculus.twilight:id/clip_horizontal" value="8" />
+        <enum name="com.oculus.twilight:id/clip_vertical" value="128" />
+        <enum name="com.oculus.twilight:id/end" value="8388613" />
+        <enum name="com.oculus.twilight:id/fill" value="119" />
+        <enum name="com.oculus.twilight:id/fill_horizontal" value="7" />
+        <enum name="com.oculus.twilight:id/fill_vertical" value="112" />
+        <enum name="com.oculus.twilight:id/left" value="3" />
+        <enum name="com.oculus.twilight:id/right" value="5" />
+        <enum name="com.oculus.twilight:id/start" value="8388611" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="textInfoPaddingBottom" format="dimension"></attr>
+    <attr name="textInfoPaddingTop" format="dimension"></attr>
+    <attr name="textInfoTextColorDefault" format="reference"></attr>
+    <attr name="textInfoTextColorOverflow" format="reference"></attr>
+    <attr name="textInfoTextSize" format="dimension"></attr>
+    <attr name="textInputStyle" format="reference"></attr>
+    <attr name="textLocale" format="string"></attr>
+    <attr name="textMode" format="enum">
+        <enum name="com.oculus.twilight:id/chips" value="0" />
+        <enum name="com.oculus.twilight:id/plain_text" value="2" />
+        <enum name="com.oculus.twilight:id/stylized" value="1" />
+    </attr>
+    <attr name="textOff" format="string"></attr>
+    <attr name="textOn" format="string"></attr>
+    <attr name="textSelectedColor" format="color"></attr>
+    <attr name="textSize" format="dimension"></attr>
+    <attr name="textStartPadding" format="dimension"></attr>
+    <attr name="textStyle" format="flags">
+        <enum name="com.oculus.twilight:id/bold" value="1" />
+        <enum name="com.oculus.twilight:id/italic" value="2" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+    </attr>
+    <attr name="textUnselectedColor" format="color"></attr>
+    <attr name="theme" format="reference"></attr>
+    <attr name="thickness" format="dimension"></attr>
+    <attr name="threadTileRingMargin" format="dimension"></attr>
+    <attr name="threadTileRingThickness" format="dimension"></attr>
+    <attr name="threadTileSize" format="dimension"></attr>
+    <attr name="thumb" format="reference"></attr>
+    <attr name="thumbMinWidth" format="dimension"></attr>
+    <attr name="thumbTextPadding" format="dimension"></attr>
+    <attr name="thumbTint" format="color"></attr>
+    <attr name="thumbTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="thumbnailDrawable" format="reference"></attr>
+    <attr name="thumbnailGravity" format="flags">
+        <enum name="com.oculus.twilight:id/bottom" value="80" />
+        <enum name="com.oculus.twilight:id/center" value="17" />
+        <enum name="com.oculus.twilight:id/top" value="48" />
+    </attr>
+    <attr name="thumbnailHeight" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/match_parent" value="-1" />
+        <enum name="com.oculus.twilight:id/wrap_content" value="-2" />
+    </attr>
+    <attr name="thumbnailPadding" format="dimension"></attr>
+    <attr name="thumbnailSize" format="enum">
+        <enum name="com.oculus.twilight:id/large" value="3" />
+        <enum name="com.oculus.twilight:id/medium" value="2" />
+        <enum name="com.oculus.twilight:id/small" value="1" />
+        <enum name="com.oculus.twilight:id/xlarge" value="4" />
+        <enum name="com.oculus.twilight:id/xsmall" value="0" />
+    </attr>
+    <attr name="thumbnailWidth" format="dimension|enum">
+        <enum name="com.oculus.twilight:id/match_parent" value="-1" />
+        <enum name="com.oculus.twilight:id/wrap_content" value="-2" />
+    </attr>
+    <attr name="tickMark" format="reference"></attr>
+    <attr name="tickMarkTint" format="color"></attr>
+    <attr name="tickMarkTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="tileSize" format="dimension"></attr>
+    <attr name="tilt" format="float"></attr>
+    <attr name="tincanBadge" format="reference"></attr>
+    <attr name="tint" format="color"></attr>
+    <attr name="tintColor" format="reference|color"></attr>
+    <attr name="tintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="title" format="string"></attr>
+    <attr name="titleBarBackground" format="reference"></attr>
+    <attr name="titleBarButtonTextColor" format="color"></attr>
+    <attr name="titleBarPrimaryColor" format="color"></attr>
+    <attr name="titleEnabled" format="boolean"></attr>
+    <attr name="titleMargin" format="dimension"></attr>
+    <attr name="titleMarginBottom" format="dimension"></attr>
+    <attr name="titleMarginEnd" format="dimension"></attr>
+    <attr name="titleMarginStart" format="dimension"></attr>
+    <attr name="titleMarginTop" format="dimension"></attr>
+    <attr name="titleMargins" format="dimension"></attr>
+    <attr name="titleMaxLines" format="integer"></attr>
+    <attr name="titleText" format="reference|string"></attr>
+    <attr name="titleTextAppearance" format="reference"></attr>
+    <attr name="titleTextAppearanceType" format="enum">
+        <enum name="com.oculus.twilight:id/fig_large_size_primary_color" value="0" />
+        <enum name="com.oculus.twilight:id/fig_large_size_white_color" value="1" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_primary_color" value="4" />
+        <enum name="com.oculus.twilight:id/fig_medium_size_white_color" value="5" />
+        <enum name="com.oculus.twilight:id/fig_xxlarge_size_primary_color" value="2" />
+        <enum name="com.oculus.twilight:id/fig_xxlarge_size_white_color" value="3" />
+    </attr>
+    <attr name="titleTextColor" format="color"></attr>
+    <attr name="titleTextStyle" format="reference"></attr>
+    <attr name="toggleButtonType" format="flags">
+        <enum name="com.oculus.twilight:id/flat_primary_large" value="1028" />
+        <enum name="com.oculus.twilight:id/flat_primary_medium" value="1026" />
+        <enum name="com.oculus.twilight:id/flat_primary_small" value="1025" />
+        <enum name="com.oculus.twilight:id/outline_primary_small" value="4097" />
+    </attr>
+    <attr name="togglePreferenceStyle" format="enum">
+        <enum name="com.oculus.twilight:id/checkbox" value="0" />
+        <enum name="com.oculus.twilight:id/switch_compat" value="1" />
+    </attr>
+    <attr name="tokenBackgroundDrawable" format="reference"></attr>
+    <attr name="tokenTextColor" format="color"></attr>
+    <attr name="tokenTextSize" format="dimension"></attr>
+    <attr name="tokenizedTypeaheadDividerColor" format="reference|color"></attr>
+    <attr name="tokenizedTypeaheadDividerColorFig" format="reference|color"></attr>
+    <attr name="tokenizedTypeaheadHeaderBackgroundColor" format="reference|color"></attr>
+    <attr name="tokenizedTypeaheadHeaderTextColor" format="reference|color"></attr>
+    <attr name="tokenizedTypeaheadItemBackgroundColor" format="reference|color"></attr>
+    <attr name="tokenizedTypeaheadItemTextColor" format="reference|color"></attr>
+    <attr name="tokenizedTypeaheadItemTitleColor" format="reference|color"></attr>
+    <attr name="toolbarCompatNavigationContentDescription" format="reference|string"></attr>
+    <attr name="toolbarCompatTheme" format="reference"></attr>
+    <attr name="toolbarId" format="reference"></attr>
+    <attr name="toolbarNavigationButtonStyle" format="reference"></attr>
+    <attr name="toolbarStyle" format="reference"></attr>
+    <attr name="tooltipBackground" format="reference"></attr>
+    <attr name="tooltipContainerStyle" format="reference"></attr>
+    <attr name="tooltipDescriptionStyle" format="reference"></attr>
+    <attr name="tooltipForegroundColor" format="reference|color"></attr>
+    <attr name="tooltipFrameBackground" format="reference"></attr>
+    <attr name="tooltipFrameStyle" format="reference"></attr>
+    <attr name="tooltipNubAbove" format="reference"></attr>
+    <attr name="tooltipNubBelow" format="reference"></attr>
+    <attr name="tooltipText" format="string"></attr>
+    <attr name="tooltipTheme" format="reference"></attr>
+    <attr name="tooltipTitleStyle" format="reference"></attr>
+    <attr name="top" format="dimension"></attr>
+    <attr name="topLeftCornerRadius" format="dimension"></attr>
+    <attr name="topRightCornerRadius" format="dimension"></attr>
+    <attr name="traceAs" format="any"></attr>
+    <attr name="track" format="reference"></attr>
+    <attr name="trackOff" format="reference"></attr>
+    <attr name="trackOffAlpha" format="float"></attr>
+    <attr name="trackOn" format="reference"></attr>
+    <attr name="trackOnAlpha" format="float"></attr>
+    <attr name="trackTint" format="color"></attr>
+    <attr name="trackTintMode" format="enum">
+        <enum name="com.oculus.twilight:id/add" value="16" />
+        <enum name="com.oculus.twilight:id/multiply" value="14" />
+        <enum name="com.oculus.twilight:id/screen" value="15" />
+        <enum name="com.oculus.twilight:id/src_atop" value="9" />
+        <enum name="com.oculus.twilight:id/src_in" value="5" />
+        <enum name="com.oculus.twilight:id/src_over" value="3" />
+    </attr>
+    <attr name="trimFromEndMode" format="boolean"></attr>
+    <attr name="trophyBadge" format="reference"></attr>
+    <attr name="ttcIndex" format="integer"></attr>
+    <attr name="typeface" format="enum">
+        <enum name="com.oculus.twilight:id/monospace" value="3" />
+        <enum name="com.oculus.twilight:id/normal" value="0" />
+        <enum name="com.oculus.twilight:id/sans" value="1" />
+        <enum name="com.oculus.twilight:id/serif" value="2" />
+    </attr>
+    <attr name="uncheckedBackground" format="reference"></attr>
+    <attr name="uncheckedContentDescription" format="string"></attr>
+    <attr name="uncheckedImage" format="reference"></attr>
+    <attr name="underlineColor" format="color"></attr>
+    <attr name="underlineHeight" format="dimension"></attr>
+    <attr name="unfocusedMonthDateColor" format="reference|color"></attr>
+    <attr name="unifiedPublisherButtonBackgroundColor" format="color"></attr>
+    <attr name="unifiedPublisherButtonPressedColor" format="color"></attr>
+    <attr name="unifiedPublisherButtonPrimaryColor" format="color"></attr>
+    <attr name="unselectedColor" format="color"></attr>
+    <attr name="updateTabProgress" format="boolean"></attr>
+    <attr name="url" format="string"></attr>
+    <attr name="useActionBar" format="boolean"></attr>
+    <attr name="useCompatPadding" format="boolean"></attr>
+    <attr name="useDefaultMargins" format="boolean"></attr>
+    <attr name="useZoomableImageView" format="boolean"></attr>
+    <attr name="usedAsButton" format="boolean"></attr>
+    <attr name="usesFboToMask" format="boolean"></attr>
+    <attr name="variant_dark" format="reference"></attr>
+    <attr name="variant_filled" format="reference"></attr>
+    <attr name="variant_light" format="reference"></attr>
+    <attr name="variant_outline" format="reference"></attr>
+    <attr name="verifiedBadge" format="reference"></attr>
+    <attr name="verticalPadding" format="dimension"></attr>
+    <attr name="verticalSpacing" format="dimension"></attr>
+    <attr name="videoPlaysBlingBarBackground" format="reference"></attr>
+    <attr name="videoPlaysBlingBarTextColor" format="color"></attr>
+    <attr name="viewAspectRatio" format="float"></attr>
+    <attr name="viewInflaterClass" format="string"></attr>
+    <attr name="voiceIcon" format="reference"></attr>
+    <attr name="washColor" format="reference|color"></attr>
+    <attr name="wash_color" format="color"></attr>
+    <attr name="watchPartyHostBadge" format="reference"></attr>
+    <attr name="weekDayTextAppearance" format="reference"></attr>
+    <attr name="weekNumberColor" format="reference|color"></attr>
+    <attr name="weekSeparatorLineColor" format="reference|color"></attr>
+    <attr name="windowActionBar" format="boolean"></attr>
+    <attr name="windowActionBarOverlay" format="boolean"></attr>
+    <attr name="windowActionModeOverlay" format="boolean"></attr>
+    <attr name="windowFixedHeightMajor" format="dimension|fraction"></attr>
+    <attr name="windowFixedHeightMinor" format="dimension|fraction"></attr>
+    <attr name="windowFixedWidthMajor" format="dimension|fraction"></attr>
+    <attr name="windowFixedWidthMinor" format="dimension|fraction"></attr>
+    <attr name="windowMinWidthMajor" format="dimension|fraction"></attr>
+    <attr name="windowMinWidthMinor" format="dimension|fraction"></attr>
+    <attr name="windowNoTitle" format="boolean"></attr>
+    <attr name="workDndStatusBadge" format="reference"></attr>
+    <attr name="workMccExternalUserBadge" format="reference"></attr>
+</resources>

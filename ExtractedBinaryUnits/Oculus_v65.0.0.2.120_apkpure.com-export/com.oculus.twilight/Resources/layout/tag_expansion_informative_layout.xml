@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.fbui.widget.contentview.ContentView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:padding="@dimen/tag_expansion_informative_layout_padding" android:layout_width="-1" android:layout_height="-2" fb:maxLinesFromThumbnailSize="false" fb:subtitleMaxLines="@integer/tag_expansion_description_max_lines" fb:thumbnailPadding="@dimen/tag_expansion_informative_layout_padding" fb:titleMaxLines="@integer/tag_expansion_description_max_lines" fb:titleText="@string/tag_expansion_description" fb:titleTextAppearance="@style/tag_expansion_description_style">
+    <com.facebook.fbui.widget.glyph.GlyphView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/fb_ic_info_circle_24" fb:glyphColor="@color/fbui_bluegrey_30" fb:layout_useAsThumbnail="true"/>
+</com.facebook.fbui.widget.contentview.ContentView>

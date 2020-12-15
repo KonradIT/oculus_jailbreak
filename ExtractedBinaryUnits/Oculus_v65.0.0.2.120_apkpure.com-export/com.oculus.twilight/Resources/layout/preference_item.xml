@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x10" android:paddingLeft="8.0dp" android:paddingRight="16.0dp" android:layout_width="-1" android:layout_height="-2" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="8.0dp" android:paddingEnd="16.0dp">
+    <include layout="@layout/preference_item_content"/>
+</LinearLayout>

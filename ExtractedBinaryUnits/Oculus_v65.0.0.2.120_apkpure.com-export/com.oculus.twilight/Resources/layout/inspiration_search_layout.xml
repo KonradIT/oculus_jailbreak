@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="0.0dp" android:layout_height="-1" android:layout_weight="1.0" layout="@layout/inspiration_search_box_layout"/>
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fds_white" android:layout_gravity="0x11" android:id="@id/cancel_search" android:paddingLeft="@dimen/inspiration_search_cancel_padding_left" android:layout_width="-2" android:layout_height="-2" android:text="@string/cancel_search"/>
+</merge>

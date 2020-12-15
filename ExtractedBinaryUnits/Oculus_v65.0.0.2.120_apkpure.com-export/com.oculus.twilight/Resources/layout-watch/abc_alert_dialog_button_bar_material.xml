@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.appcompat.widget.ButtonBarLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x50" android:orientation="0" android:id="@id/buttonPanel" android:paddingLeft="12.0dp" android:paddingTop="4.0dp" android:paddingRight="12.0dp" android:paddingBottom="4.0dp" android:layout_width="-1" android:layout_height="-2" android:layoutDirection="3">
+    <Button android:id="@android:id/button3" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="?com.oculus.twilight:attr/buttonBarNeutralButtonStyle"/>
+    <Button android:id="@android:id/button2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="?com.oculus.twilight:attr/buttonBarNegativeButtonStyle"/>
+    <Button android:id="@android:id/button1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0" style="?com.oculus.twilight:attr/buttonBarPositiveButtonStyle"/>
+</androidx.appcompat.widget.ButtonBarLayout>

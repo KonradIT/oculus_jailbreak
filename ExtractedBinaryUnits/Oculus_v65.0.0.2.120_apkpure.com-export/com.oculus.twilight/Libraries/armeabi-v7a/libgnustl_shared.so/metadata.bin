@@ -1,0 +1,35 @@
+ELF metadata
+
+- Comment:
+
+  + GCC: (GNU) 4.9.x 20150123 (prerelease)
+
+- Notes:
+
+  + Owner: GNU
+    - type: NT_GNU_BUILD_ID (unique build ID)
+    - description: Build ID[sha1]=059AB3EA3D764339FE3CEEA2904F54637C89594E
+
+  + Owner: GNU
+    - type: NT_GNU_GOLD_VERSION (gold linker version)
+    - description: gold 1.11
+
+
+- ARM specific attributes:
+
+  + Vendor 'aeabi' (public attributes):
+    Tag_CPU_name: ARM v7
+    Tag_CPU_arch: v7
+    Tag_CPU_arch_profile: Application
+    Tag_ARM_ISA_use: Permitted
+    Tag_THUMB_ISA_use: Thumb-2
+    Tag_FP_arch: VFPv3-D16
+    Tag_ABI_PCS_wchar_t: 4-byte
+    Tag_ABI_FP_denormal: IEEE-754
+    Tag_ABI_FP_exceptions: IEEE-754
+    Tag_ABI_FP_number_model: IEEE-754
+    Tag_ABI_align_needed: 8-byte alignment
+    Tag_ABI_enum_size: Int32
+    Tag_ABI_HardFP_use: Tag_FP_arch (deprecated)
+    Tag_ABI_optimization_goals: Aggressive Speed
+    Tag_CPU_unaligned_access: v6-style

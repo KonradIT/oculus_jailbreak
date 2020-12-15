@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="1" android:clickable="true" android:layout_width="-1" android:layout_height="-2" style="@style/UpsellDialog">
+        <com.facebook.iorg.common.upsell.ui.UpsellDialogExtraTitleBarView android:id="@id/upsell_dialog_extra_title_bar" android:visibility="2" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.iorg.common.upsell.IorgTextView android:textSize="@dimen/upsell_interstitial_title_text_size" android:textColor="@color/upsell_interstitial_title_text_color" android:id="@id/upsell_dialog_title" android:paddingLeft="@dimen/upsell_interstitial_keyline_margin" android:paddingTop="@dimen/upsell_interstitial_title_padding" android:paddingRight="@dimen/upsell_interstitial_keyline_margin" android:paddingBottom="@dimen/upsell_interstitial_title_padding" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="4.0dp"/>
+        <ScrollView android:id="@id/upsell_scroll_view" android:layout_width="-1" android:layout_height="-1">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:orientation="1" android:id="@id/content_container" android:layout_width="-1" android:layout_height="-2">
+                    <com.facebook.iorg.common.upsell.IorgTextView android:id="@id/upsell_dialog_header" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@style/ZeroModalDialogTitle"/>
+                    <com.facebook.iorg.common.upsell.ui.UpsellDontShowAgainCheckbox android:id="@id/upsell_checkbox_container" android:paddingBottom="8.0dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2"/>
+                    <com.facebook.iorg.common.upsell.ui.UpsellDialogContentView android:id="@id/upsell_dialog_content" android:layout_width="-1" android:layout_height="-2"/>
+                    <ProgressBar android:layout_gravity="0x11" android:id="@id/upsell_progress_bar" android:paddingTop="@dimen/upsell_interstitial_progress_spacing" android:paddingBottom="@dimen/upsell_interstitial_progress_spacing" android:visibility="2" android:layout_width="32.0dp" android:layout_height="-2" android:indeterminate="true" style="@android:style/Widget.ProgressBar.Inverse"/>
+                </LinearLayout>
+                <com.facebook.iorg.common.upsell.IorgTextView android:id="@id/upsell_dialog_footer" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@style/ZeroModalDialogFooter"/>
+                <LinearLayout android:gravity="0x5" android:orientation="1" android:id="@id/upsell_button_container" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/upsell_interstitial_top_padding" android:layout_marginBottom="@dimen/upsell_interstitial_bottom_padding">
+                    <com.facebook.iorg.common.upsell.ui.UpsellDialogButton android:id="@id/upsell_primary_content_button" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+                    <com.facebook.iorg.common.upsell.ui.UpsellDialogButton android:id="@id/upsell_third_content_button" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+                    <com.facebook.iorg.common.upsell.ui.UpsellDialogButton android:id="@id/upsell_secondary_content_button" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</merge>

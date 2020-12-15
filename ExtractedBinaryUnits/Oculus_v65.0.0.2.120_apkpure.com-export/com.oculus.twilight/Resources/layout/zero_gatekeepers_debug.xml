@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:padding="4.0dp" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:gravity="0x11" android:layout_width="-2" android:layout_height="-1" android:text="Zero Rating Gatekeepers"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:id="@id/zero_gatekeepers" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="16.0sp" android:gravity="0x11" android:layout_width="-2" android:layout_height="-1" android:text="Zero Rating Sessionless Gatekeepers"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:id="@id/zero_sessionlesss_gatekeepers" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dp" android:layout_marginBottom="4.0dp"/>
+    </LinearLayout>
+</ScrollView>

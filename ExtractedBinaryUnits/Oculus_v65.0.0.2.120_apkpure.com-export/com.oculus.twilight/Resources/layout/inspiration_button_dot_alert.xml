@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.drawee.fbpipeline.FbDraweeView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/button_dot_alert" android:layout_width="@dimen/inspiration_instagram_cross_posting_button_dot_alert_size" android:layout_height="@dimen/inspiration_instagram_cross_posting_button_dot_alert_size"/>

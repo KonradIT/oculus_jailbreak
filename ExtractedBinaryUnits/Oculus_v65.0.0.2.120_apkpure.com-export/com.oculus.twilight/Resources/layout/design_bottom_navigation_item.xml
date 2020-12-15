@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="0x1" android:id="@id/icon" android:duplicateParentState="true" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="@dimen/design_bottom_navigation_margin" android:layout_marginBottom="@dimen/design_bottom_navigation_margin" android:contentDescription="@ResourceId_0x00000000"/>
+    <com.google.android.material.internal.BaselineLayout android:layout_gravity="0x51" android:paddingBottom="10.0dp" android:duplicateParentState="true" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="@dimen/design_bottom_navigation_text_size" android:id="@id/smallLabel" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/design_bottom_navigation_active_text_size" android:id="@id/largeLabel" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:visibility="1" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:maxLines="1"/>
+    </com.google.android.material.internal.BaselineLayout>
+</merge>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:enabled="false" android:gravity="0x10" android:background="?com.oculus.twilight:attr/actionBarItemBackground" android:layout_width="-2" android:layout_height="-1"/>

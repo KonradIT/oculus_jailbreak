@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:padding="5.0dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2">
+        <com.facebook.resources.ui.FbTextView android:textStyle="0x1" android:id="@id/currently_active" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/token_hash" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/fast_token_hash" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/first_updated" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/last_updated" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/next_update" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/ttl" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/campaign_id" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/zero_status" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/reg_status" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/carrier_name" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/mcc_mnc" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/unregistered_reason" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/mqtt_host" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/fbns_host" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp" android:text="Zero Traffic Enforcement Config:"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/torque_enabled" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/pass_rate" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/features" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:id="@id/rewrite_sample" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp" android:text="Url Re-writer"/>
+        <com.facebook.resources.ui.FbEditText android:textSize="10.0sp" android:id="@id/rewrite_edit_text" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Url"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="10.0sp" android:textColor="00f" android:id="@id/rewritten_test" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="9.0sp" android:id="@id/rewrite_rules" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp"/>
+        <com.facebook.resources.ui.FbTextView android:layout_width="-1" android:layout_height="-2" android:text="Backup Url Re-writer"/>
+        <com.facebook.resources.ui.FbEditText android:textSize="10.0sp" android:id="@id/backup_rewrite_edit_text" android:layout_width="-1" android:layout_height="-2" android:hint="Enter Url"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="10.0sp" android:textColor="00f" android:id="@id/backup_rewritten_test" android:layout_width="-1" android:layout_height="-2"/>
+        <com.facebook.resources.ui.FbTextView android:textSize="9.0sp" android:id="@id/backup_rewrite_rules" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.0dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.facebook.resources.ui.FbButton android:textSize="20.0sp" android:layout_gravity="0x1" android:id="@id/button" android:background="#ff66b2" android:padding="4.0dp" android:layout_width="-2" android:layout_height="-2" android:layout_margin="4.0dp"/>
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <HorizontalScrollView android:layout_width="-2" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:background="?com.oculus.twilight:attr/fds_usage_surface_background" android:padding="5.0dp" android:layout_width="-2" android:layout_height="-2">
+                <com.facebook.resources.ui.FbTextView android:layout_width="-2" android:layout_height="-2" android:text="Http Logs"/>
+                <com.facebook.resources.ui.FbTextView android:textSize="12.0sp" android:id="@id/rewrite_rules" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.0dp"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>

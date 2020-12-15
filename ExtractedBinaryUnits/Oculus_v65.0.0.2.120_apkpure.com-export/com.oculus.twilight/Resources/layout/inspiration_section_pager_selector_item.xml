@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:paddingTop="@dimen/fbui_drawable_padding" android:paddingBottom="@dimen/fbui_drawable_padding" android:layout_width="@dimen/inspiration_section_selector_item_container_size" android:layout_height="-1">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="0x11" android:id="@id/inspiration_section_pager_selector_icon" android:layout_width="@dimen/inspiration_section_selector_item_size" android:layout_height="-1" fb:placeholderImageScaleType="4"/>
+</com.facebook.resources.ui.FbFrameLayout>

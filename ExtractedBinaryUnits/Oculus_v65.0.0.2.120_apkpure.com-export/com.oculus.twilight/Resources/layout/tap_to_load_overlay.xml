@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/fbui_text_size_small_medium" android:textColor="@color/fds_white" android:gravity="0x11" android:id="@id/tap_to_load_text" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/semi_free_messenger_tap_overlay_text_margin_top"/>

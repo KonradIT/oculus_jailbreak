@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="0">
+            <solid android:color="@color/feed_feedback_e2e_background_pressed_color"/>
+        </shape>
+    </item>
+</selector>

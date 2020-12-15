@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">%1$d fénykép van még</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s és még egy másik</item>
+        <item quantity="other">%1$s és még %2$d egyéb</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 olvasatlan beszélgetés</item>
+        <item quantity="other">%1$s olvasatlan beszélgetés</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 tag</item>
+        <item quantity="other">%1$d tag</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Értékelés egy csillaggal</item>
+        <item quantity="other">Értékelés %1$d csillagosként</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="other">%1$d értesítés</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 új</item>
+        <item quantity="other">%1$s, %2$d új</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 nappal ezelőtt</item>
+        <item quantity="other">%1$d nappal ezelőtt</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 nap múlva</item>
+        <item quantity="other">%1$d nap múlva</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 nap</item>
+        <item quantity="other">%1$d nap</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 óra</item>
+        <item quantity="other">%1$d óra</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 perc</item>
+        <item quantity="other">%1$d perc</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 hónap</item>
+        <item quantity="other">%1$d hónap</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 másodperc</item>
+        <item quantity="other">%1$d másodperc</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 hét</item>
+        <item quantity="other">%1$d hét</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">további 1 nap</item>
+        <item quantity="other">további %1$d nap</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">további 1 óra</item>
+        <item quantity="other">további %1$d óra</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">további 1 perc</item>
+        <item quantity="other">további %1$d perc</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">további 1 hónap</item>
+        <item quantity="other">további %1$d hónap</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">további 1 másodperc</item>
+        <item quantity="other">további %1$d másodperc</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">további 1 hét</item>
+        <item quantity="other">további %1$d hét</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">további 1 év</item>
+        <item quantity="other">további %1$d év</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 éves</item>
+        <item quantity="other">%1$d év</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">1 órája</item>
+        <item quantity="other">%1$d órája</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 ó.</item>
+        <item quantity="other">%1$d órája</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1 ó.</item>
+        <item quantity="other">%1$d ó.</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 óra múlva</item>
+        <item quantity="other">%1$d óra múlva</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 órája</item>
+        <item quantity="other">%1$d órája</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">1 óra múlva</item>
+        <item quantity="other">%1$d óra múlva</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">1 perc múlva</item>
+        <item quantity="other">%1$d perc múlva</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 perce</item>
+        <item quantity="other">%1$d perce</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">1 perce</item>
+        <item quantity="other">%1$d perce</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 perce</item>
+        <item quantity="other">%1$d perce</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1 perc</item>
+        <item quantity="other">%1$d p.</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 hónapja</item>
+        <item quantity="other">%1$d hónapja</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 másodperce</item>
+        <item quantity="other">%1$d másodperce</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 hete</item>
+        <item quantity="other">%1$d hete</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">1 óra van hátra.</item>
+        <item quantity="other">%1$d óra van hátra.</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">1 perc van hátra.</item>
+        <item quantity="other">%1$d perc van hátra.</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 éve</item>
+        <item quantity="other">%1$d éve</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">A legutóbbi látogatásod: 1 napja</item>
+        <item quantity="other">A legutóbbi látogatásod: %1$d napja</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">A legutóbbi látogatásod: 1 órája</item>
+        <item quantity="other">A legutóbbi látogatásod: %1$d órája</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">A legutóbbi látogatásod: 1 perce</item>
+        <item quantity="other">A legutóbbi látogatásod: %1$d perce</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">A legutóbbi látogatásod: 1 hónapja</item>
+        <item quantity="other">A legutóbbi látogatásod: %1$d hónapja</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">A legutóbbi látogatásod: 1 hete</item>
+        <item quantity="other">A legutóbbi látogatásod: %1$d hete</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">A legutóbbi látogatásod: 1 éve</item>
+        <item quantity="other">A legutóbbi látogatásod: %1$d éve</item>
+    </plurals>
+</resources>

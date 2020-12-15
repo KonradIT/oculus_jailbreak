@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">%1$d članova</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d dan(a)</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d dan(a)</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d h</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">Prije %1$d min.</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d min.</item>
+    </plurals>
+</resources>

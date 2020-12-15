@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="other">Liko nuotraukų: %1$d</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="other">%1$s ir dar %2$d žm.</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="other">Neskaitytų pokalbių: %1$s</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="other">Narių: %1$d</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="other">Įvertinkite %1$d žvaigžd.</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="other">„%1$s“, naujų: %2$d</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="other">%1$d d.</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="other">%1$d d.</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="other">%1$d val.</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="other">%1$d min.</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="other">%1$d mėn.</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="other">%1$d sek.</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="other">%1$d sav.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="other">Dar %1$d d.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="other">dar %1$d val.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="other">Dar %1$d min.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="other">Dar %1$d mėn.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="other">Dar %1$d sek.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="other">Dar %1$d sav.</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="other">Dar %1$d m.</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="other">%1$d m.</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="other">prieš %1$d val.</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="other">%1$d val.</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="other">%1$d val.</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="other">prieš %1$d val.</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="other">%1$d val. nuo dabar</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="other">%1$d min. nuo dabar</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="other">prieš %1$d min.</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="other">prieš %1$d min.</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="other">%1$d min.</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="other">prieš %1$d mėn.</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="other">prieš %1$d sek.</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="other">prieš %1$d sav.</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="other">prieš %1$d m.</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="other">Lankėtės prieš %1$d d.</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="other">Lankėtės prieš %1$d val.</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="other">Lankėtės prieš %1$d min.</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="other">Lankėtės prieš %1$d mėn.</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="other">Lankėtės prieš %1$d sav.</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="other">Lankėtės prieš %1$d m.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">සාමාජිකයන් 1</item>
+        <item quantity="other">සාමාජිකයින් %1$d</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 day ago</item>
+        <item quantity="other">දින %1$dකට පෙර</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">දින 1ක්</item>
+        <item quantity="other">දින %1$dක්</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">දින 1</item>
+        <item quantity="other">දින %1$dක්</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">පැය 1</item>
+        <item quantity="other">පැය %1$d</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">මිනිත්තු 1</item>
+        <item quantity="other">මිනිත්තු %1$d</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">මාස 1</item>
+        <item quantity="other">මාස %1$d</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">තත්පර 1</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">සති 1</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">වසර 1</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">පැය 1කට පෙර</item>
+        <item quantity="other">පැය %1$d කට පෙර</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">පැය 1</item>
+        <item quantity="other">%1$d hrs</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1h</item>
+        <item quantity="other">පැය %1$d</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">පැය 1</item>
+        <item quantity="other">පැය %1$d</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">දැන් සිට පැය 1ක්</item>
+        <item quantity="other">%1$d hours from now</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">දැන් සිට මිනිත්තු 1</item>
+        <item quantity="other">%1$d minutes from now</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">මිනි %%1කට පෙර</item>
+        <item quantity="other">%1$d mins ago</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">මිනිත්තු 1කට පෙර</item>
+        <item quantity="other">මිනිත්තු %1$d කට පෙර</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">මිනි 1</item>
+        <item quantity="other">%1$d mins</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">මි1</item>
+        <item quantity="other">%1$dm</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">මාස 1ට පෙර</item>
+        <item quantity="other">මාස %1$dකට පෙර</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">තත්පර 1</item>
+        <item quantity="other">තත්පර %1$dකට පෙර</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">සති 1ට පෙර</item>
+        <item quantity="other">සති %1$dකට පෙර</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">වර්ෂ 1කට පෙර</item>
+        <item quantity="other">වසර %1$dකට පෙර</item>
+    </plurals>
+</resources>

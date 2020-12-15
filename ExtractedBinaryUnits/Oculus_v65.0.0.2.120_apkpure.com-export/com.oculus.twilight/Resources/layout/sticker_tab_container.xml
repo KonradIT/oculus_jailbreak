@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.widget.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/sticker_tab_container" android:layout_width="-1" android:layout_height="-2">
+    <com.facebook.widget.CustomViewPager android:id="@id/sticker_tray_pager" android:layout_width="-1" android:layout_height="-2"/>
+</com.facebook.widget.CustomLinearLayout>

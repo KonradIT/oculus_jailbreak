@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <style name="ComposerTitleLayoutStyle">
+        <enum name="android:attr/paddingLeft" value="14.0dp" />
+    </style>
+</resources>

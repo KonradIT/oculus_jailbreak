@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<androidx.viewpager.widget.ViewPager xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/pager" android:layout_width="-1" android:layout_height="-1">
+    <androidx.viewpager.widget.PagerTabStrip android:textSize="16.0sp" android:textColor="?com.oculus.twilight:attr/fds_usage_primary_button_text" android:layout_gravity="0x30" android:id="@id/pager_tab_strip" android:background="#33b5e5" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="-1" android:layout_height="-2"/>
+</androidx.viewpager.widget.ViewPager>

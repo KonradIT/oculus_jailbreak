@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.messaging.widget.toolbar.ThemeCompatToolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-2" app:navigationIcon="?com.oculus.twilight:attr/homeAsUpIndicator" app:toolbarCompatNavigationContentDescription="@string/navigate_up_content_description" app:toolbarCompatTheme="?com.oculus.twilight:attr/actionBarTheme" style="?com.oculus.twilight:attr/actionBarStyle"/>

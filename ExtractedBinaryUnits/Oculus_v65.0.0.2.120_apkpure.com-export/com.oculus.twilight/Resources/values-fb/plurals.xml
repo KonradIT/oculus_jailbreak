@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">[%1$d photo left#57e454b99b284a826991655e435136ec:1]</item>
+        <item quantity="other">[%1$d photos left#fd70883024b1cc040397fd68e8c29ebf:1]</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">[%1$s and 1 other#69f5490289411ea3ef92e18b09f1dffb:1]</item>
+        <item quantity="other">[%1$s and %2$d others#4b1aa34f18c441d03b9c302332b23979:1]</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">[1 unread conversation#5f5bfdc57da4a323fca9cae42fb4592d:1]</item>
+        <item quantity="other">[%1$s unread conversations#b95b195aefd788e61fffcd0052c860e0:1]</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">[1 member#527e817235c4d7acda5415ecfa409245:1]</item>
+        <item quantity="other">[%1$d members#4f9a3882e2fe32007b72a93aacc7b7c3:1]</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">[Rate one star#189efe967463c65eb0a107d676d9f371:1]</item>
+        <item quantity="other">[Rate with %1$d stars#c1fa412c9dfc7506d2d6fea737e5c844:1]</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">[%1$d Notification#e7141ad091f0e03002735574bbd68f35:1]</item>
+        <item quantity="other">[%1$d Notifications#5015c4225c67274e1d7d062b5064d666:1]</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">[%1$s, 1 new#8518277e8f6987bcce6aa89ccdbd8f16:1]</item>
+        <item quantity="other">[%1$s, %2$d new#49f4d1a0b1f631af907bce149f3ebd0f:1]</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">[1 day ago#8c310f670e4f70ccfcfa7a3e618d3789:1]</item>
+        <item quantity="other">[%1$d days ago#1665a2bc2ad1139018d0b71329efbbae:1]</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">[1 day#1fe0393355c80eced26c4ea2c43b988d:1]</item>
+        <item quantity="other">[%1$d days#bf200a333cbb8fea7e712f885edb046b:1]</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">[1 day#8169ded3bbf192bfbed843de7b8d6a21:1]</item>
+        <item quantity="other">[%1$d days#37541be6801f0a2346ebab6b39d4c52e:1]</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">[1 hour#d64f84715f7b3ab8d8efd5b861843785:1]</item>
+        <item quantity="other">[%1$d hours#0c486f8706925ea74b12d7d4b12b5664:1]</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">[1 minute#4eec5dc9d510507be62130e6d9e9f9f1:1]</item>
+        <item quantity="other">[%1$d minutes#1280ce7595577fe38ca4f44d7fe9f54d:1]</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">[1 month#c28ec642cba0f1b2c70e41e6d95a3a7f:1]</item>
+        <item quantity="other">[%1$d months#1f338faff34a3155918c167f5e76893e:1]</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">[1 second#6b805ab482329234d76483ef0c9b164d:1]</item>
+        <item quantity="other">[%1$d seconds#4c99a0c15a89b520f961bf98f40c7204:1]</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">[1 week#4f8c520eff05a06a9fadcefc70b44490:1]</item>
+        <item quantity="other">[%1$d weeks#89b1a5087eca6e34a84b3ac173729a97:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">[1 more day#a717df1fd34035d61687cee98e32781b:1]</item>
+        <item quantity="other">[%1$d more days#f110fd9a8a9c6deeb1c375e8639da579:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">[1 more hour#eb656b26b4d26986845f7a15d485c39e:1]</item>
+        <item quantity="other">[%1$d more hours#9e26c81a7ef9e1f71b166bf330cc72cc:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">[1 more minute#9225d629a78c294349edf55ffe2d4893:1]</item>
+        <item quantity="other">[%1$d more minutes#2f6893fd7173440ff997e9e8009afec9:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">[1 more month#73e2da5b05b2619525e3a45d46ff27b3:1]</item>
+        <item quantity="other">[%1$d more months#51c054e856708f9bccd9c88b85bce350:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">[1 more second#b4165cc7ba51d33e770a9c68de4db660:1]</item>
+        <item quantity="other">[%1$d more seconds#db87834b842daba624ac8d1695071ff0:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">[1 more week#86162759bda94f89e2d17733baf3c26a:1]</item>
+        <item quantity="other">[%1$d more weeks#9840cc2e9e9ad9216a6d764c81ca30e2:1]</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">[1 more year#61537ca26104416ef840f8a37644219d:1]</item>
+        <item quantity="other">[%1$d more years#c277b7cfb40c39206463570ef48796fe:1]</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">[1 year#c9a3168293fd73fb038df1571484aeae:1]</item>
+        <item quantity="other">[%1$d years#28f3c08e6f1b6a18193a5a974b51f32d:1]</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">[1 hour ago#1950e239b00371dbe854e8493610c744:1]</item>
+        <item quantity="other">[%1$d hours ago#d3a779b0c82a0680b8873133a20be5e8:1]</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">[1 hr#39adf1b7c176f3b765ee4eb311855b6f:1]</item>
+        <item quantity="other">[%1$d hrs#249f4d43e41624722a26f0cc0000bbf6:1]</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">[1h#06bab6f4cff4bce15bd37e6ceccee437:1]</item>
+        <item quantity="other">[%1$dh#0c40ebcf6cc3f22b75e386b8010cdaae:1]</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">[1 hr#6b86b7e0e7c072ccbbe25bf0f02ae9fb:1]</item>
+        <item quantity="other">[%1$d hrs#253be4db610d8db9b8d55ffdb6645a85:1]</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">[1 hr ago#42bc2741d0e2d90908a620bfde8059fd:1]</item>
+        <item quantity="other">[%1$d hrs ago#88e6c7726ef7a92e8abef510919418c2:1]</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">[1 hour from now#29811164424905a3a45678c837e55fb7:1]</item>
+        <item quantity="other">[%1$d hours from now#c435fa7d34e943a6f74a6a257659d4e8:1]</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">[1 minute from now#fb5a83217f0e432d1ea3235639336c1a:1]</item>
+        <item quantity="other">[%1$d minutes from now#bf778dada44946ca9ea7766493319f33:1]</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">[1 min ago#1054e74bb394912cb3d1fdfa82edf60b:1]</item>
+        <item quantity="other">[%1$d mins ago#f88b6644d4047842c20ccafba8123114:1]</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">[1 minute ago#0d7927c9c4eba09d6285f8c0a1d8b161:1]</item>
+        <item quantity="other">[%1$d minutes ago#bb71980604c700f0ca0ee5a8bee7f342:1]</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">[1 min#192e9bdad3b4c8de220dd506902922a1:1]</item>
+        <item quantity="other">[%1$d mins#ebf6cd9b24c2344505f697f29977c45c:1]</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">[1m#29ae326ecfaa231f3db018e9b4698f7a:1]</item>
+        <item quantity="other">[%1$dm#15f993a3ae5c3c85f7654517e971673e:1]</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">[1 month ago#f5efebf11d0306db15ee4ce811c76823:1]</item>
+        <item quantity="other">[%1$d months ago#c3bed48b3224abdf243dd96daf67c5b2:1]</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">[1 second#b456964bdd72dccd5d5d9ee5b8b0a0d4:1]</item>
+        <item quantity="other">[%1$d seconds ago#30af72ee51d0f54eea4c738fadabfe21:1]</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">[1 week ago#1cb94363ad10cbdec4bb4f020b896031:1]</item>
+        <item quantity="other">[%1$d weeks ago#8cbec2cece4ba997b1eb80f573352e8e:1]</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">[1 hr left#528107e4cbed9bd9c5bcee04c9c91172:1]</item>
+        <item quantity="other">[%1$d hrs left#e172f8b4d3974e78df62da6f3fda863e:1]</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">[1 min left#248d65d627214960694a2ecb6918b94e:1]</item>
+        <item quantity="other">[%1$d mins left#bee16ee7eeeba7f909c0b5028fb86f55:1]</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">[1 year ago#a09ffdf91c6f3f9bbd33051ed419c41d:1]</item>
+        <item quantity="other">[%1$d years ago#8367cbfe37e8d411791457046ee087e4:1]</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">[You visited 1 day ago#26106b1a387373adf1d70709a3f25dd0:1]</item>
+        <item quantity="other">[You visited %1$d days ago#01f7017b4be76e204c9c22419f54b9ff:1]</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">[You visited 1 hour ago#1212179778acd49efad150316ee6289a:1]</item>
+        <item quantity="other">[You visited %1$d hours ago#543435646633c84a0afaf07406ed8fa5:1]</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">[You visited 1 minute ago#87b646ddaf96863e6e39456c63cb675e:1]</item>
+        <item quantity="other">[You visited %1$d minutes ago#f7131078edeb0bfb9301bcc01454fdbc:1]</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">[You visited 1 month ago#b4dbc65aa2fa03b3106f11e6c8c8cb2f:1]</item>
+        <item quantity="other">[You visited %1$d months ago#ed3698a74730fad730decc80b26c3d42:1]</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">[You visited 1 week ago#56cdf5d7abc8cab17ad754ed33c40f2e:1]</item>
+        <item quantity="other">[You visited %1$d weeks ago#4cba44967d2a25facbb4545bcf1ac02f:1]</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">[You visited 1 year ago#8c6006fdee499ca8364ce9f05cc45ca6:1]</item>
+        <item quantity="other">[You visited %1$d years ago#8aa0487d2f4468427f7c874fa930a43a:1]</item>
+    </plurals>
+</resources>

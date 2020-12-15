@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/fbui_list_divider_padding" android:right="@dimen/fbui_list_divider_padding">
+        <shape>
+            <solid android:color="@color/fbui_bluegrey_5"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/fbui_list_divider_padding" android:right="@dimen/fbui_list_divider_padding" android:bottom="2.0dp">
+        <shape>
+            <solid android:color="#ffffffff"/>
+            <size android:height="2.0dp"/>
+        </shape>
+    </item>
+</layer-list>

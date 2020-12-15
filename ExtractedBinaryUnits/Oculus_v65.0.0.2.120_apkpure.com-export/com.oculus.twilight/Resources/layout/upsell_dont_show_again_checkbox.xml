@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="0x10" android:id="@id/upsell_do_not_show_again_checkbox" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/upsell_checkbox_left_padding" android:layout_marginStart="@dimen/upsell_checkbox_left_padding"/>
+    <com.facebook.iorg.common.upsell.IorgTextView android:textSize="@dimen/upsell_text_size_medium" android:textColor="@color/upsell_interstitial_light_text" android:layout_gravity="0x10" android:id="@id/upsell_do_not_show_again_textview" android:layout_width="0.0dp" android:layout_height="-2" android:text="@string/dialog_checkbox_dont_warn" android:layout_weight="1.0"/>
+</merge>

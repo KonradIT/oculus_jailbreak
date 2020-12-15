@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/secondary_action_button_divider" android:background="@drawable/button_bar_button_background" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:contentDescription="@string/generic_back">
+    <ImageView android:id="@id/secondary_action_button" android:background="@color/fds_transparent" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/composer_title_back" android:scaleType="5"/>
+    <ViewStub android:layout_gravity="0x10" android:id="@id/logo_image_stub" android:layout="@layout/logo_image" android:inflatedId="@id/logo_image" android:layout_width="-2" android:layout_height="-2"/>
+    <ViewStub android:layout_gravity="0x10" android:id="@id/profile_image_stub" android:layout="@layout/profile_image" android:inflatedId="@id/profile_image" android:layout_width="@dimen/composer_harrison_round_profile_width" android:layout_height="@dimen/composer_harrison_round_profile_height"/>
+</com.facebook.resources.ui.FbLinearLayout>

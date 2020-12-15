@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="1">
+            <stroke android:width="@dimen/selfie_effects_thumbnail_selected_stroke_width" android:color="@color/fds_white"/>
+        </shape>
+    </item>
+    <item>
+        <inset android:insetLeft="@dimen/selfie_effects_center_icon_padding" android:insetRight="@dimen/selfie_effects_center_icon_padding" android:insetTop="@dimen/selfie_effects_center_icon_padding" android:insetBottom="@dimen/selfie_effects_center_icon_padding">
+            <shape android:shape="1">
+                <solid android:color="@color/selfie_center_icon_default_color"/>
+            </shape>
+        </inset>
+    </item>
+</layer-list>

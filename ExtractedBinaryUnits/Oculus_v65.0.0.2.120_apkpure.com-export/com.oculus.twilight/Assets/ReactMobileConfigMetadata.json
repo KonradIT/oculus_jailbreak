@@ -1,0 +1,2477 @@
+{
+  "__signature": "@generated SignedSource<<32419de694e0e8daa745f335852a8f0c>>",
+  "schema": {
+    "ama_client_perf_run_status:enabled": {
+      "configId": 0,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 0,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_ctd:enabled": {
+      "configId": 1,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 1,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_delay_spend_bar:enabled": {
+      "configId": 2,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 2,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_delayed_fetch_lifetime_chart:enabled": {
+      "configId": 3,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 3,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_drafts_api_edit_pac:enabled": {
+      "configId": 4,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 4,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_drafts_api_edit_text:enabled": {
+      "configId": 5,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 5,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_fans_deprecation:default_audience": {
+      "configId": 6,
+      "defaultValue": "",
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 0,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_fans_deprecation:enabled": {
+      "configId": 6,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 6,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_home_screen_redesign:home": {
+      "configId": 7,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 7,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_image_prefetch:enabled": {
+      "configId": 8,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 8,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_level_navigation_v3:enabled": {
+      "configId": 9,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 9,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_political_ads:ads_interfaces_political_ads_ig_auth": {
+      "configId": 10,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 10,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_political_ads:ads_interfaces_political_ads_ig_auth_uk": {
+      "configId": 10,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 11,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_political_ads:political_ads_for_brazil": {
+      "configId": 10,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 12,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_post_prefetch:posts_count": {
+      "configId": 11,
+      "defaultValue": 10,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 0,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_special_ads_whitelist_gk:enabled": {
+      "configId": 12,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 13,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "ama_whatsapp_cta:enabled": {
+      "configId": 13,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 14,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "android_ad_interfaces:enable_autofill": {
+      "configId": 14,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 15,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "android_off_by_one_colors:enabled": {
+      "configId": 15,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 16,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "bads_creation_in_pma:test_group": {
+      "configId": 16,
+      "defaultValue": 0,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 1,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "bads_event_response_objective:enabled": {
+      "configId": 17,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 17,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "bads_exclude_pma:enabled": {
+      "configId": 18,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 18,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "bads_use_lwi_account_default:enabled": {
+      "configId": 19,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 19,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "billing_experience:show_name_on_card": {
+      "configId": 20,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 20,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "facebook_sonar:should_enable_rn_sonar_plugins": {
+      "configId": 21,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 21,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "facebook_sonar:should_enable_rn_sonar_relay_devtools_plugin": {
+      "configId": 21,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 22,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "fb_relay:enable_relay_containers_suspense": {
+      "configId": 22,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 23,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "fb_rn_scroll_logging:show_debug_dot": {
+      "configId": 23,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 24,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "js_stack_trace_quality_monitoring:fake_error_delay_seconds": {
+      "configId": 24,
+      "defaultValue": 15,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 0,
+      "type": "doubleValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "js_stack_trace_quality_monitoring:fake_error_enable": {
+      "configId": 24,
+      "defaultValue": true,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 25,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "js_stack_trace_quality_monitoring:fake_error_message": {
+      "configId": 24,
+      "defaultValue": "js_stack_trace_quality_monitoring fake error",
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 1,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "js_stack_trace_quality_monitoring:fake_error_random_salt_range": {
+      "configId": 24,
+      "defaultValue": 100,
+      "configKey": 0,
+      "paramId": 3,
+      "slotId": 2,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "js_stack_trace_quality_monitoring:fake_error_sampling_rate": {
+      "configId": 24,
+      "defaultValue": 0.000001,
+      "configKey": 0,
+      "paramId": 4,
+      "slotId": 1,
+      "type": "doubleValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "marketplace_pdp_photo_view_animation:show_open_animation": {
+      "configId": 25,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 26,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "mc_marketplace_pdp_photo_viewer_animations:show_tetra_animation": {
+      "configId": 26,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 27,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "mc_oculus_enterprise_mirage_mvp:enable_logging": {
+      "configId": 27,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 28,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_identity_link_facebook_upsell:test_text": {
+      "configId": 28,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 29,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:allow_changing_name": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 30,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:are_tab_titles_eliminated": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 31,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:autoplay_app_trailer": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 32,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:can_click_messaging_links": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 3,
+      "slotId": 33,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:can_see_referral_button_in_casting": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 4,
+      "slotId": 34,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:can_view_messaging_attachment_deeplink": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 5,
+      "slotId": 35,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:can_view_messaging_attachments": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 6,
+      "slotId": 36,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:can_view_post_purchase_referral_link": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 7,
+      "slotId": 37,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:can_view_referrals_link_in_friends": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 8,
+      "slotId": 38,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:casting_upsell_feed_tooltip_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 9,
+      "slotId": 39,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:claim_activation_bundles": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 10,
+      "slotId": 40,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:delay_startup_services_seconds": {
+      "configId": 29,
+      "defaultValue": 0,
+      "configKey": 0,
+      "paramId": 11,
+      "slotId": 3,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:demo_mode_passthrough_button_visible": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 12,
+      "slotId": 41,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:developer_license_sync_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 13,
+      "slotId": 42,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:devices_screen_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 14,
+      "slotId": 43,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:disable_progressive_image": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 15,
+      "slotId": 44,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:dogfood_background_nag": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 16,
+      "slotId": 45,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:dogfood_internal_app_redirect": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 17,
+      "slotId": 46,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:enable_phone_notifications": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 18,
+      "slotId": 47,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:enable_remote_launch_cta": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 19,
+      "slotId": 48,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:feed_image_sizes": {
+      "configId": 29,
+      "defaultValue": "[203, 405, 515, 720]",
+      "configKey": 0,
+      "paramId": 20,
+      "slotId": 2,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:genre_tags_max_number_of_lines": {
+      "configId": 29,
+      "defaultValue": 0,
+      "configKey": 0,
+      "paramId": 21,
+      "slotId": 4,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:has_live_event_join_in_vr": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 22,
+      "slotId": 49,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:install_after_purchase": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 23,
+      "slotId": 50,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_add_fb_friends_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 24,
+      "slotId": 51,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_add_on_content_improvement_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 25,
+      "slotId": 52,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_add_on_content_reviews_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 26,
+      "slotId": 53,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_casting_nux_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 27,
+      "slotId": 54,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_change_profile_photo_displayed": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 28,
+      "slotId": 55,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_chromecast_for_all_receivers_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 29,
+      "slotId": 56,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_chromecast_monterey_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 30,
+      "slotId": 57,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_chromecast_pacific_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 31,
+      "slotId": 58,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_create_event_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 32,
+      "slotId": 59,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_create_pc_event_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 33,
+      "slotId": 60,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_create_public_event_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 34,
+      "slotId": 61,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_deprecate_autosync_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 35,
+      "slotId": 62,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_devices_screen_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 36,
+      "slotId": 63,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_discovery_tab_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 37,
+      "slotId": 64,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_event_destinations_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 38,
+      "slotId": 65,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_event_user_list_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 39,
+      "slotId": 66,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_facebook_discoverability_privacy_setting_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 40,
+      "slotId": 67,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_fb_linking_confirmation_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 41,
+      "slotId": 68,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_feed_query_native_prefetched": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 42,
+      "slotId": 69,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_friend_list_recent_activity_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 43,
+      "slotId": 70,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_gear_vr_nux_step_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 44,
+      "slotId": 71,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_go_referrals_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 45,
+      "slotId": 72,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_guest_invite_to_events_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 46,
+      "slotId": 73,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_hidden_app_grouping_list_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 47,
+      "slotId": 74,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_in_vr_social_nux_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 48,
+      "slotId": 75,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_linked_profile_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 49,
+      "slotId": 76,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_messages_tab_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 50,
+      "slotId": 77,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_native_referral_sharing_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 51,
+      "slotId": 78,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_nux_unification_roadblock_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 52,
+      "slotId": 79,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_parties_2d_join_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 53,
+      "slotId": 80,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_add_friends_nux_screen_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 54,
+      "slotId": 81,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_full_length_hollywood_nux_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 55,
+      "slotId": 82,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_groups_view_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 56,
+      "slotId": 83,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_hollywood_nux_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 57,
+      "slotId": 84,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_profile_setting_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 58,
+      "slotId": 85,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_quest_headset_pin_screen_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 59,
+      "slotId": 86,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_oculus_twilight_shortened_hollywood_nux_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 60,
+      "slotId": 87,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_outbound_sharing_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 61,
+      "slotId": 88,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_override_megaphone_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 62,
+      "slotId": 89,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_payment_speedbump_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 63,
+      "slotId": 90,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_people_tab_revamp_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 64,
+      "slotId": 91,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_quest_payment_speedbump_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 65,
+      "slotId": 92,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_quest_referrals_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 66,
+      "slotId": 93,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_questions_section_visible": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 67,
+      "slotId": 94,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_referrals_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 68,
+      "slotId": 95,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_remote_keyboard_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 69,
+      "slotId": 96,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_remote_launch_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 70,
+      "slotId": 97,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_remote_launch_event_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 71,
+      "slotId": 98,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_retail_demo_user": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 72,
+      "slotId": 99,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_rift_referrals_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 73,
+      "slotId": 100,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_software_referrals_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 74,
+      "slotId": 101,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_store_app_gifting_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 75,
+      "slotId": 102,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_system_action_remote_launch_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 76,
+      "slotId": 103,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_tour_guide_v2_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 77,
+      "slotId": 104,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_trusted_user": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 78,
+      "slotId": 105,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_twilight_monterey_store_visible": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 79,
+      "slotId": 106,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_unlink_modal_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 80,
+      "slotId": 107,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_user_sharing_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 81,
+      "slotId": 108,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:is_using_new_hmd_connection_module": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 82,
+      "slotId": 109,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:min_hmd_build_number_system_action_remote_launch": {
+      "configId": 29,
+      "defaultValue": "",
+      "configKey": 0,
+      "paramId": 83,
+      "slotId": 3,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_3ds2_test_flow": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 84,
+      "slotId": 110,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_client_manage_rcs": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 85,
+      "slotId": 111,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_ota_fast_dogfooding": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 86,
+      "slotId": 112,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_ota_user_control_allowed": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 87,
+      "slotId": 113,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_store_disco_filtering_twilight": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 88,
+      "slotId": 114,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_store_disco_side_drawer_filtering_twilight": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 89,
+      "slotId": 115,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_store_pin_alternatives_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 90,
+      "slotId": 116,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_autodetect_quest": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 91,
+      "slotId": 117,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_enable_remote_keyboard_header_icon": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 92,
+      "slotId": 118,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_is_controller_bonding_skippable": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 93,
+      "slotId": 119,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_notification_user_controls": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 94,
+      "slotId": 120,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_remote_launch_and_install_revamp": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 95,
+      "slotId": 121,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_store_installed_some_buy_button": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 96,
+      "slotId": 122,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:oculus_twilight_twui_input": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 97,
+      "slotId": 123,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:pc_active_window_size": {
+      "configId": 29,
+      "defaultValue": -1,
+      "configKey": 0,
+      "paramId": 98,
+      "slotId": 5,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:ping_headset_on_install": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 99,
+      "slotId": 124,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:promo_codes_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 100,
+      "slotId": 125,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:prompt_chat_after_friend_accept": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 101,
+      "slotId": 126,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:purchase_referral_upsell_days_between_views": {
+      "configId": 29,
+      "defaultValue": 0,
+      "configKey": 0,
+      "paramId": 102,
+      "slotId": 6,
+      "type": "i64Value",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:require_fb_link_social_bundle": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 103,
+      "slotId": 127,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:search_type_filters": {
+      "configId": 29,
+      "defaultValue": "",
+      "configKey": 0,
+      "paramId": 104,
+      "slotId": 4,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:should_initialize_messenger_library": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 105,
+      "slotId": 128,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:should_messages_badge": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 106,
+      "slotId": 129,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:should_see_tooltip_icon": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 107,
+      "slotId": 130,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:should_show_invites_entry_point": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 108,
+      "slotId": 131,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:should_show_prepopulated_list": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 109,
+      "slotId": 132,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:should_show_twilight_pymk": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 110,
+      "slotId": 133,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_card_style_aoc_section_in_pdp": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 111,
+      "slotId": 134,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_credit_card_form_inline": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 112,
+      "slotId": 135,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_credit_card_form_inline_account_nux": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 113,
+      "slotId": 136,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_credit_card_form_inline_quest_nux": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 114,
+      "slotId": 137,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_fake_headset_in_prod": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 115,
+      "slotId": 138,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_featured_app_fb_embed": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 116,
+      "slotId": 139,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_featured_app_yt_embed": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 117,
+      "slotId": 140,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_feed_prime_video_v2": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 118,
+      "slotId": 141,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_hide_option": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 119,
+      "slotId": 142,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_hide_shelf_in_feed": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 120,
+      "slotId": 143,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_link_fb_account_screen": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 121,
+      "slotId": 144,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_pagination_dots": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 122,
+      "slotId": 145,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_pymk_twilight_chat": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 123,
+      "slotId": 146,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_refund_policy_upsell": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 124,
+      "slotId": 147,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_refund_policy_upsell_quest": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 125,
+      "slotId": 148,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_related_items": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 126,
+      "slotId": 149,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_store_pdp_dlc": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 127,
+      "slotId": 150,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:show_store_pdp_external_review_for_v27_and_after": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 128,
+      "slotId": 151,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:social_bundle_server_strings_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 129,
+      "slotId": 152,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:stranger_messaging_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 130,
+      "slotId": 153,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:twilight_always_true": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 131,
+      "slotId": 154,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:twilight_can_access_setting_voice_log": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 132,
+      "slotId": 155,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:twilight_can_access_setting_voice_log_v2": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 133,
+      "slotId": 156,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:twilight_dogfooding_employees_v2": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 134,
+      "slotId": 157,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:twilight_log_mobileconfigs": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 135,
+      "slotId": 158,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:twilight_mobileconfig_cache_is_corp_net": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 136,
+      "slotId": 159,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:use_improved_fb_embed": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 137,
+      "slotId": 160,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:use_shimmer_on_progressive_image": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 138,
+      "slotId": 161,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:user_credit_balance_message_enabled": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 139,
+      "slotId": 162,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_mobile_core:vr_camera_dev": {
+      "configId": 29,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 140,
+      "slotId": 163,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_store:auto_refund_policy": {
+      "configId": 30,
+      "defaultValue": "{}",
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 5,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_store:is_app_support_link_enabled_on_pdp": {
+      "configId": 30,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 164,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_store:mobile_wishlists_enabled": {
+      "configId": 30,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 165,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_store:oculus_cinema_in_store": {
+      "configId": 30,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 3,
+      "slotId": 166,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_store:oculus_store_genre_names_ranked_gk": {
+      "configId": 30,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 4,
+      "slotId": 167,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_store:twilight_remote_install_during_nux": {
+      "configId": 30,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 5,
+      "slotId": 168,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_twilight_dev_updates_universe:showing_dev_updates": {
+      "configId": 31,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 169,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_twilight_feed_aa_test_universe:test_group_1": {
+      "configId": 32,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 170,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_twilight_feed_aa_test_universe:test_group_2": {
+      "configId": 32,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 171,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "oculus_twilight_native_nav:use_native_nav_present_modal": {
+      "configId": 33,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 172,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "qe_ama_instant_policy_check_universe:is_enable": {
+      "configId": 34,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 173,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "qe_bsg_rn_message_button_universe:use_prominent_message_button": {
+      "configId": 35,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 174,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "qe_bsg_rn_message_button_universe:use_short_text": {
+      "configId": 35,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 175,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "qe_marketplace_pdp:use_fbphotoviewer_loading_state_optimization": {
+      "configId": 36,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 176,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "qe_marketplace_pdp:use_janky_photo_viewer_statusbar_fix": {
+      "configId": 36,
+      "defaultValue": true,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 177,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "qe_mp_bsg_pog_experiments:urgency_text_style": {
+      "configId": 37,
+      "defaultValue": "control",
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 6,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:disable_virtual_node_preallocation": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 178,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:disabled_view_preallocation_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 179,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_core": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 180,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_fabric_by_default_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 3,
+      "slotId": 181,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_fabric_by_default_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 4,
+      "slotId": 182,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_fabric_full_rollout_android_beta": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 5,
+      "slotId": 183,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_fabric_full_rollout_android_production": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 6,
+      "slotId": 184,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_fabric_full_rollout_ios_beta": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 7,
+      "slotId": 185,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_fabric_full_rollout_ios_production": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 8,
+      "slotId": 186,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_flex_sizing_in_bottom_sheet": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 9,
+      "slotId": 187,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_internal_indicator": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 10,
+      "slotId": 188,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_new_state_reconciliation_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 11,
+      "slotId": 189,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_new_state_reconciliation_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 12,
+      "slotId": 190,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_removedelete_collation_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 13,
+      "slotId": 191,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_run_loop_based_event_beat_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 14,
+      "slotId": 192,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enable_run_loop_based_event_beat_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 15,
+      "slotId": 193,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_android_fabric_logs": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 16,
+      "slotId": 194,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_collapse_delete_create_mounting_instructions": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 17,
+      "slotId": 195,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_fabric_facebook_app": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 18,
+      "slotId": 196,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_layout_animations_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 19,
+      "slotId": 197,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_layout_animations_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 20,
+      "slotId": 198,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_marketplace_home_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 21,
+      "slotId": 199,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_marketplace_home_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 22,
+      "slotId": 200,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_state_reconciliation_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 23,
+      "slotId": 201,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:enabled_state_reconciliation_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 24,
+      "slotId": 202,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:remove_outstanding_surfaces_on_destruction_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 25,
+      "slotId": 203,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:remove_outstanding_surfaces_on_destruction_ios": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 26,
+      "slotId": 204,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "react_fabric:use_shared_runtime_executor_android": {
+      "configId": 38,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 27,
+      "slotId": 205,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:deep_differ_migration_logging_sample_rate": {
+      "configId": 39,
+      "defaultValue": 0,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 2,
+      "type": "doubleValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:developer_mode_on_rc": {
+      "configId": 39,
+      "defaultValue": true,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 206,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:enable_android_chunked_prefetching": {
+      "configId": 39,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 207,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:enable_android_turbo_module": {
+      "configId": 39,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 3,
+      "slotId": 208,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:enable_ios_turbo_module": {
+      "configId": 39,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 4,
+      "slotId": 209,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:fill_rate_logging_sample_rate": {
+      "configId": 39,
+      "defaultValue": 0.1,
+      "configKey": 0,
+      "paramId": 5,
+      "slotId": 3,
+      "type": "doubleValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_core:frame_drop_stack_trace_sample_rate": {
+      "configId": 39,
+      "defaultValue": 0.01,
+      "configKey": 0,
+      "paramId": 6,
+      "slotId": 4,
+      "type": "doubleValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_ota:native_internal_ota_settings": {
+      "configId": 40,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 210,
+      "type": "boolValue",
+      "unitType": 1,
+      "paramKey": -1
+    },
+    "rn_photo_viewer:use_modernized_back_button": {
+      "configId": 41,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 211,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_reliability:report_console_error_as_exception": {
+      "configId": 42,
+      "defaultValue": true,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 212,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_theming:should_allow_dark_mode": {
+      "configId": 43,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 213,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_voice_switcher_core_mc:is_current_surface_viewer_enabled": {
+      "configId": 44,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 214,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_voice_switcher_core_mc:is_dynamic_actor_relay_env_enabled": {
+      "configId": 44,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 215,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "rn_voice_switcher_core_mc:is_rn_actor_indicator_enabled": {
+      "configId": 44,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 216,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "sessionless__oculus_recommendations_kudos_in_feed_universe:icon": {
+      "configId": 45,
+      "defaultValue": "",
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 7,
+      "type": "stringValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_casting:better_wifi_information_v3": {
+      "configId": 46,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 217,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_casting:new_connection_flow": {
+      "configId": 46,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 218,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_casting:new_error_msg": {
+      "configId": 46,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 2,
+      "slotId": 219,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_casting:search_device_button": {
+      "configId": 46,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 3,
+      "slotId": 220,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_casting:skip_privacy_dialog": {
+      "configId": 46,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 4,
+      "slotId": 221,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_casting:skip_privacy_dialog_v2": {
+      "configId": 46,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 5,
+      "slotId": 222,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "twilight_store_pdp_developer_apps:including_developer_apps": {
+      "configId": 47,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 223,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "uiwebview_deprecation:use_web_kit": {
+      "configId": 48,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 224,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "venice:venice_enabled_fb4a": {
+      "configId": 49,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 0,
+      "slotId": 225,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    },
+    "venice:venice_enabled_fbios": {
+      "configId": 49,
+      "defaultValue": false,
+      "configKey": 0,
+      "paramId": 1,
+      "slotId": 226,
+      "type": "boolValue",
+      "unitType": 2,
+      "paramKey": -1
+    }
+  },
+  "schemaDisabled": {},
+  "schemaHash": "51805fddf355d1d7f48466ea99692d77"
+}

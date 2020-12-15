@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+</resources>

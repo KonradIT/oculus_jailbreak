@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<com.facebook.resources.ui.FbFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:orientation="1" android:id="@id/composer_bar_zero_rating_snack_bar" android:layout_width="-1" android:layout_height="-2"/>

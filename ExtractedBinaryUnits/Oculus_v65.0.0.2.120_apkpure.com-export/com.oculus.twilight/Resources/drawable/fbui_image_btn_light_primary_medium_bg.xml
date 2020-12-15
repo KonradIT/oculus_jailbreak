@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="1">
+            <solid android:color="@color/fbui_btn_light_primary_bg_pressed"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_primary_stroke_pressed"/>
+            <size android:height="@dimen/fbui_image_button_size_medium" android:width="@dimen/fbui_image_button_size_medium"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="1">
+            <solid android:color="@color/fbui_btn_light_primary_bg_default"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_primary_stroke_enabled"/>
+            <size android:height="@dimen/fbui_image_button_size_medium" android:width="@dimen/fbui_image_button_size_medium"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="1">
+            <solid android:color="@color/fbui_btn_light_primary_bg_default"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_primary_stroke_disabled"/>
+            <size android:height="@dimen/fbui_image_button_size_medium" android:width="@dimen/fbui_image_button_size_medium"/>
+        </shape>
+    </item>
+</selector>

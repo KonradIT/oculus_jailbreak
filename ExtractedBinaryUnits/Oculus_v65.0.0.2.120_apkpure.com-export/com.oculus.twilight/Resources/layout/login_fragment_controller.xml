@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/login_fragment_controller_host" android:layout_width="-1" android:layout_height="-1"/>
+</FrameLayout>

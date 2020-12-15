@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false">
+    <item android:state_pressed="true">
+        <shape android:shape="1">
+            <solid android:color="@color/fbui_btn_light_regular_bg_pressed"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_regular_stroke_pressed"/>
+            <size android:height="@dimen/fbui_image_button_size_medium" android:width="@dimen/fbui_image_button_size_medium"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="1">
+            <solid android:color="@color/fbui_btn_light_regular_bg_default"/>
+            <stroke android:width="1.0dp" android:color="@color/fbui_btn_light_regular_stroke_default"/>
+            <size android:height="@dimen/fbui_image_button_size_medium" android:width="@dimen/fbui_image_button_size_medium"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-2" fb:glyphColor="@color/fbui_bluegrey_40">
+    <com.facebook.zero.cms.ZeroCmsTextView android:textSize="14.0sp" android:textStyle="0x1" android:textColor="@color/dialtone_messenger_placeholder_purple" android:layout_gravity="0x11" android:id="@id/receive_photo_textview" android:paddingTop="16.0dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/dialtone_messenger_use_data_to_view_all" android:drawableTop="@drawable/fb_ic_photo_16" android:drawablePadding="8.0dp" android:contentDescription="@string/dialtone_messenger_use_data_to_view_all"/>
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x1" android:visibility="2" android:layout_width="@dimen/inspiration_footer_button_size" android:layout_height="@dimen/inspiration_footer_button_size" android:layout_marginRight="@dimen/inspiration_footer_button_extra_dp" android:progressDrawable="@drawable/save_button_progress_spinner" android:layout_marginEnd="@dimen/inspiration_footer_button_extra_dp"/>

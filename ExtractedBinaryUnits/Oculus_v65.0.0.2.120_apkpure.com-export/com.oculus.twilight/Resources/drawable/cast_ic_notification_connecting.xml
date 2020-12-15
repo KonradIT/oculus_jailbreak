@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="500" android:drawable="@drawable/cast_ic_notification_0"/>
+    <item android:duration="500" android:drawable="@drawable/cast_ic_notification_1"/>
+    <item android:duration="500" android:drawable="@drawable/cast_ic_notification_2"/>
+    <item android:duration="500" android:drawable="@drawable/cast_ic_notification_1"/>
+</animation-list>

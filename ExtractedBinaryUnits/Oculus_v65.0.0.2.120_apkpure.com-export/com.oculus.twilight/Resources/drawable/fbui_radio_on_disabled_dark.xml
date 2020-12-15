@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <size android:height="@dimen/fbui_check_size" android:width="@dimen/fbui_check_size"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/fbui_check_outer_ring_inset" android:top="@dimen/fbui_check_outer_ring_inset" android:right="@dimen/fbui_check_outer_ring_inset" android:bottom="@dimen/fbui_check_outer_ring_inset">
+        <shape android:shape="1">
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:width="@dimen/fbui_check_outer_ring_stroke_size" android:color="@color/fbui_check_disabled_dark"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/fbui_check_inner_ring_inset" android:top="@dimen/fbui_check_inner_ring_inset" android:right="@dimen/fbui_check_inner_ring_inset" android:bottom="@dimen/fbui_check_inner_ring_inset">
+        <shape android:shape="1">
+            <solid android:color="@color/fbui_check_disabled_dark"/>
+        </shape>
+    </item>
+</layer-list>

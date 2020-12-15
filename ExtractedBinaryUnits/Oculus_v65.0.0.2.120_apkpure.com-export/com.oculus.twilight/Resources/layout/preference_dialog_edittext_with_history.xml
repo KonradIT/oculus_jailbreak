@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="5.0dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/pref_dialog_v_margin" android:layout_marginBottom="@dimen/pref_dialog_v_margin">
+    <FrameLayout android:id="@id/edittext_container" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="8.0dp" android:layout_marginTop="16.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="16.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp"/>
+    <com.facebook.resources.ui.FbTextView android:textColor="?android:attr/textColorPrimary" android:gravity="0x1" android:id="@id/message" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="16.0dp" style="?android:attr/textAppearanceMedium"/>
+    <ScrollView android:layout_width="-1" android:layout_height="-2" android:overScrollMode="1">
+        <LinearLayout android:orientation="1" android:id="@id/history_container" android:layout_width="-1" android:layout_height="-2"/>
+    </ScrollView>
+</LinearLayout>

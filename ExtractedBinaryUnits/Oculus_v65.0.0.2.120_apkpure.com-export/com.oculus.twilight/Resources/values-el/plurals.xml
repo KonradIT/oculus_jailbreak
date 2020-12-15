@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <plurals name="dialtone_photo_cap_toast">
+        <item quantity="one">Απομένει %1$d φωτογραφία</item>
+        <item quantity="other">Απομένουν %1$d φωτογραφίες</item>
+    </plurals>
+    <plurals name="i18n_list_joiner_and_n_others">
+        <item quantity="one">%1$s και 1 ακόμη</item>
+        <item quantity="other">%1$s και %2$d ακόμη</item>
+    </plurals>
+    <plurals name="message_inbox_unread">
+        <item quantity="one">1 μη αναγνωσμένη συζήτηση</item>
+        <item quantity="other">%1$s μη αναγνωσμένες συζητήσεις</item>
+    </plurals>
+    <plurals name="post_chaining_followers">
+        <item quantity="one">1 μέλος</item>
+        <item quantity="other">%1$d μέλη</item>
+    </plurals>
+    <plurals name="rating_bar_accessibility_text">
+        <item quantity="one">Αξιολόγηση με 1 αστέρι</item>
+        <item quantity="other">Αξιολόγηση με %1$d αστέρια</item>
+    </plurals>
+    <plurals name="tab_notifications">
+        <item quantity="one">%1$d ειδοποίηση</item>
+        <item quantity="other">%1$d ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="tab_title_unread">
+        <item quantity="one">%1$s, 1 νέο</item>
+        <item quantity="other">%1$s, %2$d νέα</item>
+    </plurals>
+    <plurals name="time_days_ago">
+        <item quantity="one">1 ημέρα πριν</item>
+        <item quantity="other">%1$d ημέρες πριν</item>
+    </plurals>
+    <plurals name="time_days_from_now">
+        <item quantity="one">1 ημέρα</item>
+        <item quantity="other">%1$d ημέρες</item>
+    </plurals>
+    <plurals name="time_duration_days">
+        <item quantity="one">1 ημέρα</item>
+        <item quantity="other">%1$d ημέρες</item>
+    </plurals>
+    <plurals name="time_duration_hours">
+        <item quantity="one">1 ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="time_duration_minutes">
+        <item quantity="one">1 λεπτό</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="time_duration_months">
+        <item quantity="one">1 μήνας</item>
+        <item quantity="other">%1$d μήνες</item>
+    </plurals>
+    <plurals name="time_duration_seconds">
+        <item quantity="one">1 δευτερόλεπτο</item>
+        <item quantity="other">%1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="time_duration_weeks">
+        <item quantity="one">1 εβδομάδα</item>
+        <item quantity="other">%1$d εβδομάδες</item>
+    </plurals>
+    <plurals name="time_duration_x_more_days">
+        <item quantity="one">1 ημέρα ακόμη</item>
+        <item quantity="other">%1$d ακόμη ημέρες</item>
+    </plurals>
+    <plurals name="time_duration_x_more_hours">
+        <item quantity="one">1 ώρα ακόμη</item>
+        <item quantity="other">%1$d ακόμη ώρες</item>
+    </plurals>
+    <plurals name="time_duration_x_more_minutes">
+        <item quantity="one">1 λεπτό ακόμη</item>
+        <item quantity="other">%1$d λεπτά ακόμη</item>
+    </plurals>
+    <plurals name="time_duration_x_more_months">
+        <item quantity="one">1 μήνας ακόμη</item>
+        <item quantity="other">%1$d μήνες ακόμη</item>
+    </plurals>
+    <plurals name="time_duration_x_more_seconds">
+        <item quantity="one">1 δευτερόλεπτο ακόμη</item>
+        <item quantity="other">%1$d δευτερόλεπτα ακόμη</item>
+    </plurals>
+    <plurals name="time_duration_x_more_weeks">
+        <item quantity="one">1 εβδομάδα ακόμη</item>
+        <item quantity="other">%1$d εβδομάδες ακόμη</item>
+    </plurals>
+    <plurals name="time_duration_x_more_years">
+        <item quantity="one">1 έτος ακόμη</item>
+        <item quantity="other">%1$d έτη ακόμη</item>
+    </plurals>
+    <plurals name="time_duration_years">
+        <item quantity="one">1 χρόνος</item>
+        <item quantity="other">%1$d χρόνια</item>
+    </plurals>
+    <plurals name="time_hours_ago">
+        <item quantity="one">πριν από 1 ώρα</item>
+        <item quantity="other">πριν από %1$d ώρες</item>
+    </plurals>
+    <plurals name="time_hours_ago_short">
+        <item quantity="one">1 ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="time_hours_ago_short_stories_style">
+        <item quantity="one">1 ώ.</item>
+        <item quantity="other">%1$d ώ.</item>
+    </plurals>
+    <plurals name="time_hours_from_now_short">
+        <item quantity="one">1 ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="time_hrs_ago_short">
+        <item quantity="one">1 ώρα πριν</item>
+        <item quantity="other">%1$d ώρες πριν</item>
+    </plurals>
+    <plurals name="time_in_x_hours">
+        <item quantity="one">σε 1 ώρα</item>
+        <item quantity="other">σε %1$d ώρες</item>
+    </plurals>
+    <plurals name="time_in_x_minutes">
+        <item quantity="one">σε 1 λεπτό</item>
+        <item quantity="other">σε %1$d λεπτά</item>
+    </plurals>
+    <plurals name="time_mins_ago_short">
+        <item quantity="one">1 λεπτό πριν</item>
+        <item quantity="other">%1$d λεπτά πριν</item>
+    </plurals>
+    <plurals name="time_minutes_ago">
+        <item quantity="one">πριν από 1 λεπτό</item>
+        <item quantity="other">πριν από %1$d λεπτά</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short">
+        <item quantity="one">1 λεπτό</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="time_minutes_ago_short_stories_style">
+        <item quantity="one">1 λ.</item>
+        <item quantity="other">%1$d λ.</item>
+    </plurals>
+    <plurals name="time_months_ago">
+        <item quantity="one">1 μήνα πριν</item>
+        <item quantity="other">%1$d μήνες πριν</item>
+    </plurals>
+    <plurals name="time_seconds_ago">
+        <item quantity="one">1 δευτερόλεπτο</item>
+        <item quantity="other">πριν από %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="time_weeks_ago">
+        <item quantity="one">1 εβδομάδα πριν</item>
+        <item quantity="other">%1$d εβδομάδες πριν</item>
+    </plurals>
+    <plurals name="time_x_hours_left">
+        <item quantity="one">Απομένει 1 ώρα</item>
+        <item quantity="other">Απομένουν %1$d ώρες</item>
+    </plurals>
+    <plurals name="time_x_minutes_left">
+        <item quantity="one">Απομένει 1 λεπτό</item>
+        <item quantity="other">Απομένουν %1$d λεπτά</item>
+    </plurals>
+    <plurals name="time_years_ago">
+        <item quantity="one">1 χρόνο πριν</item>
+        <item quantity="other">%1$d χρόνια πριν</item>
+    </plurals>
+    <plurals name="visited_days_ago">
+        <item quantity="one">Τελευταία επίσκεψη πριν από 1 ημέρα</item>
+        <item quantity="other">Τελευταία επίσκεψη πριν από %1$d ημέρες</item>
+    </plurals>
+    <plurals name="visited_hours_ago">
+        <item quantity="one">Τελευταία επίσκεψη πριν από 1 ώρα</item>
+        <item quantity="other">Τελευταία επίσκεψη πριν από %1$d ώρες</item>
+    </plurals>
+    <plurals name="visited_minutes_ago">
+        <item quantity="one">Τελευταία επίσκεψη πριν από 1 λεπτό</item>
+        <item quantity="other">Τελευταία επίσκεψη πριν από %1$d λεπτά</item>
+    </plurals>
+    <plurals name="visited_months_ago">
+        <item quantity="one">Τελευταία επίσκεψη πριν από 1 μήνα</item>
+        <item quantity="other">Τελευταία επίσκεψη πριν από %1$d μήνες</item>
+    </plurals>
+    <plurals name="visited_weeks_ago">
+        <item quantity="one">Τελευταία επίσκεψη πριν από 1 εβδομάδα</item>
+        <item quantity="other">Τελευταία επίσκεψη πριν από %1$d εβδομάδες</item>
+    </plurals>
+    <plurals name="visited_years_ago">
+        <item quantity="one">Τελευταία επίσκεψη πριν από 1 έτος</item>
+        <item quantity="other">Τελευταία επίσκεψη πριν από %1$d έτη</item>
+    </plurals>
+</resources>

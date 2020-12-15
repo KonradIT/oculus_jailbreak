@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="?com.oculus.twilight:attr/fds_usage_disabled_button_text"/>
+    <item android:state_pressed="true" android:color="?com.oculus.twilight:attr/fds_usage_always_white"/>
+    <item android:color="?com.oculus.twilight:attr/fds_usage_always_white"/>
+</selector>

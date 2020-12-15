@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<resources>
+    <dimen name="new_lightswitch_optin_button_group_margin_top">30.0dp</dimen>
+    <dimen name="new_lightswitch_optin_button_padding">14.0dp</dimen>
+    <dimen name="new_lightswitch_optin_desc_margin_top">16.0dp</dimen>
+    <dimen name="new_lightswitch_optin_header_margin_top">20.0dp</dimen>
+    <dimen name="new_lightswitch_optin_header_padding_top">12.0dp</dimen>
+    <dimen name="new_lightswitch_optin_text_line_spacing">2.0dp</dimen>
+    <dimen name="new_lightswitch_optin_title_margin_top">20.0dp</dimen>
+    <dimen name="new_lightswitch_optin_title_text_size">@com.oculus.twilight:dimen/fbui_text_size_xxxlarge_3</dimen>
+    <dimen name="new_lightswitch_optin_wordmark_margin_top">12.0dp</dimen>
+</resources>
