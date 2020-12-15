@@ -80,3 +80,26 @@ Refrences to enabling ADB can be found in the decompiled TwilightBundle
 The CompanionServer on the Oculus Quest 2 is responsible for handling this request over Bluetooth BLE. 
 You'll find detail in com/oculus/companion/server/Protocol*.java if you decompile CompanionServer. 
 
+### Myths and Lore
+
+"I’m still offering $5000 for a Quest 2 jailbreak! Jailbreakers, dm me. Let’s break free of FB’s anti-competitive, anti-privacy ecosystem!"
+https://twitter.com/arobertlong/status/1316177057085177857?lang=en
+
+"My offer of $5000 to jailbreak the Quest still stands. I’m moving the target to Quest 2 though seeing as Quest 1 is no longer in production."
+https://twitter.com/arobertlong/status/1306422159594549248
+
+"Also, if anyone is working on a project to jailbreak the Quest and boot to Oculus Browser or Firefox Reality without a FB login, I will donate $1000 to your project."
+https://twitter.com/arobertlong/status/1295791549238788096
+
+"I’ll up my donation from $1000 to $5000 if a project can get around the FB login. I’m 100% serious, someone needs to do this. Start recruiting people from the Android jailbreaking scene."
+https://twitter.com/arobertlong/status/1295912254970318848
+
+"At this time I've postponed organizing a crowdfunding campaign. I'm still committed to paying out my bounty and I hope members of the community will as well when we get this figured out."
+https://twitter.com/arobertlong/status/1320782261747216384
+
+"Here's the update on the Oculus Quest 2 jailbreak efforts. You can read more at "
+https://twitter.com/arobertlong/status/1320782260753199104
+
+"Sources suggest the first reported Oculus Quest 2 jailbreak is almost certainly not real."
+https://twitter.com/UploadVR/status/1326933213701345282
+
