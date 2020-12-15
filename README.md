@@ -80,6 +80,9 @@ Refrences to enabling ADB can be found in the decompiled TwilightBundle
 The CompanionServer on the Oculus Quest 2 is responsible for handling this request over Bluetooth BLE. 
 You'll find detail in com/oculus/companion/server/Protocol*.java if you decompile CompanionServer. 
 
+We should be able to enable adb mode over BLE using the adb_mode_set() function in https://github.com/QuestEscape/research/blob/master/ble_companion_client.py#L410. 
+This tool appears to have been created by reverse engineering the Companion Server. Sadly the pyobjc implementation requires specific versions of OSX+Python
+
 ### Myths and Lore
 
 "I’m still offering $5000 for a Quest 2 jailbreak! Jailbreakers, dm me. Let’s break free of FB’s anti-competitive, anti-privacy ecosystem!"
